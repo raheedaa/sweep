@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-03T22:07:52.801Z",
-  "_enrichment": "off (no key)",
+  "updatedAt": "2026-07-03T22:14:51.813Z",
+  "_enrichment": "failed: HTTP 400",
   "feed": [
     {
       "id": "s0",
@@ -96,7 +96,7 @@
       "mustRead": false,
       "headline": "Four killed, farmers fled as armed men attack Benue communities",
       "source": "BusinessDay NG",
-      "time": "2h",
+      "time": "3h",
       "peek": "Farmers in Anyiase and Ikyoawen in the Moon Council Ward of the Kwande Local Government Area of Benue State have read more Four killed, farmers fled as armed men attack Benue communities",
       "summary": [
         "Farmers in Anyiase and Ikyoawen in the Moon Council Ward of the Kwande Local Government Area of Benue State have read more Four killed, farmers fled as armed men attack Benue communities"
@@ -118,7 +118,7 @@
       "mustRead": false,
       "headline": "FG inaugurates BOA board, charges members to drive food security, job creation",
       "source": "BusinessDay NG",
-      "time": "2h",
+      "time": "3h",
       "peek": "The Federal Government has inaugurated a new Board of Directors for the Bank of Agriculture (BOA) to reinforce corporate governance read more FG inaugurates BOA board, charges members to drive food security, job creation",
       "summary": [
         "The Federal Government has inaugurated a new Board of Directors for the Bank of Agriculture (BOA) to reinforce corporate governance read more FG inaugurates BOA board, charges members to drive food security, job creation"
@@ -448,7 +448,7 @@
       "mustRead": false,
       "headline": "Polish PM warns critical months ahead in face of Russian threat",
       "source": "BBC World",
-      "time": "5h",
+      "time": "6h",
       "peek": "Tusk says Poland is preparing for \"various\" scenarios after media reports of a planned Russian attack.",
       "summary": [
         "Tusk says Poland is preparing for \"various\" scenarios after media reports of a planned Russian attack."
@@ -470,7 +470,7 @@
       "mustRead": false,
       "headline": "Zuma showing South Africa 'middle finger' by meeting Gupta brother - minister",
       "source": "BBC World",
-      "time": "5h",
+      "time": "6h",
       "peek": "Former President Zuma's trip to India reignites anger over a decade-old corruption scandal.",
       "summary": [
         "Former President Zuma's trip to India reignites anger over a decade-old corruption scandal."
