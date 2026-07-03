@@ -8,6 +8,7 @@ import { writeFile } from 'node:fs/promises';
 
 const API_KEY = process.env.ANTHROPIC_API_KEY || '';
 const MODEL = process.env.MODEL || 'claude-haiku-4-5-20251001';
+let ENRICH = 'off (no key)';   // diagnostic written into feed.json
 
 /* ---------- baked-in settings (edit here anytime) ---------- */
 const CONFIG = {
@@ -51,7 +52,8 @@ const SOURCES = [
 
 /* ---------- tiny built-in RSS/Atom parser (no libraries) ---------- */
 function decodeEntities(s){return s.replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"').replace(/&apos;/g,"'").replace(/&nbsp;/g,' ').replace(/&#x([0-9a-f]+);/gi,(_,h)=>String.fromCodePoint(parseInt(h,16))).replace(/&#(\d+);/g,(_,n)=>String.fromCodePoint(+n));}
-function clean(s){if(!s)return '';s=s.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g,'$1').replace(/<[^>]+>/g,' ');return decodeEntities(s).replace(/\s+/g,' ').trim();}
+// strip tags, decode entities, then strip AGAIN (Google News hides encoded <a> tags inside descriptions)
+function clean(s){if(!s)return '';s=s.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g,'$1');s=s.replace(/<[^>]+>/g,' ');s=decodeEntities(s);s=s.replace(/<[^>]+>/g,' ');s=decodeEntities(s);return s.replace(/\s+/g,' ').trim();}
 function firstTag(b,names){for(const n of names){const m=b.match(new RegExp(`<${n}(?:\\s[^>]*)?>([\\s\\S]*?)<\\/${n}>`,'i'));if(m)return m[1];}return '';}
 function getLink(b){let m=b.match(/<link>([\s\S]*?)<\/link>/i);if(m&&m[1].trim())return clean(m[1]);let best=null;for(const l of (b.match(/<link\b[^>]*>/gi)||[])){const href=(l.match(/href="([^"]+)"/i)||[])[1];if(!href)continue;const rel=(l.match(/rel="([^"]+)"/i)||[])[1];if(!rel||rel==='alternate'){best=href;break;}if(!best)best=href;}return best?decodeEntities(best):'';}
 function parseItems(xml){
@@ -104,28 +106,30 @@ async function main(){
     return {feed,brief:{clusters},signals:[],progress:[]};
   }
   async function enrich(){
-    if(!API_KEY){console.log('No ANTHROPIC_API_KEY — clean headlines only.');return fallback();}
+    if(!API_KEY){ENRICH='off (no key)';console.log('No ANTHROPIC_API_KEY — clean headlines only.');return fallback();}
     if(!top.length)return fallback();
     try{
       const list=top.map((it,i)=>`[${i}] (${it.category}) ${it.title} — ${it.source}${it.snippet?' :: '+it.snippet:''}`).join('\n');
-      const prompt=`You are the editor of a personal morning intelligence brief for ${CONFIG.greetingName}, whose interests are: ${CONFIG.interests.join('; ')}.\n\nCurate today's cleaned items into JSON. Accurate, neutral, concise; never invent facts beyond the snippets.\n\nITEMS:\n${list}\n\nReturn ONLY valid JSON (no markdown) shaped exactly:\n{"feed":[{"id":"s0","category":"<item category>","mustRead":true,"headline":"<headline>","source":"<source>","time":"","peek":"<1 sentence>","summary":["<3 short points>"],"why":"<1-2 sentences why it matters to ${CONFIG.greetingName}>","simple":"<explain like I'm 5, 1 sentence>","spectrum":{"left":0,"center":0,"right":0},"sources":[{"name":"<source>","url":"","lean":"center"}]}],"brief":{"clusters":[{"title":"<theme>","bullets":["<3-4 lines>"],"why":"<1 sentence>","highlights":[0],"sources":[{"name":"<source>","url":""}]}]},"signals":[{"text":"<1 line>","tag":"<tag>","dir":"up","url":""}],"progress":[{"tag":"Opportunity","title":"<short>","body":"<1 sentence>","url":""}]}\n\nUse the index order of ITEMS for "feed". Mark ${CONFIG.mustReadCount} as mustRead. 3-4 clusters, 3 signals, 3 progress. spectrum ~sums to 100.`;
-      const r=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'content-type':'application/json','x-api-key':API_KEY,'anthropic-version':'2023-06-01'},body:JSON.stringify({model:MODEL,max_tokens:6000,messages:[{role:'user',content:prompt}]})});
-      if(!r.ok){console.log('Claude call failed:',r.status,(await r.text()).slice(0,300));return fallback();}
+      const prompt=`You are the editor of a personal morning intelligence brief for ${CONFIG.greetingName}, whose interests are: ${CONFIG.interests.join('; ')}.\n\nCurate today's cleaned items into JSON. Accurate, neutral, concise; never invent facts beyond the snippets.\n\nITEMS:\n${list}\n\nReturn ONLY valid JSON (no markdown, no prose before or after) shaped exactly:\n{"feed":[{"id":"s0","category":"<item category>","mustRead":true,"headline":"<headline>","source":"<source>","time":"","peek":"<1 sentence>","summary":["<3 short points>"],"why":"<1-2 sentences why it matters to ${CONFIG.greetingName}>","simple":"<explain like I'm 5, 1 sentence>","spectrum":{"left":0,"center":0,"right":0},"sources":[{"name":"<source>","url":"","lean":"center"}]}],"brief":{"clusters":[{"title":"<theme>","bullets":["<3-4 lines>"],"why":"<1 sentence>","highlights":[0],"sources":[{"name":"<source>","url":""}]}]},"signals":[{"text":"<1 line>","tag":"<tag>","dir":"up","url":""}],"progress":[{"tag":"Opportunity","title":"<short>","body":"<1 sentence>","url":""}]}\n\nUse the index order of ITEMS for "feed". Mark ${CONFIG.mustReadCount} as mustRead. 3-4 clusters, 3 signals, 3 progress. spectrum ~sums to 100.`;
+      const r=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'content-type':'application/json','x-api-key':API_KEY,'anthropic-version':'2023-06-01'},body:JSON.stringify({model:MODEL,max_tokens:5000,messages:[{role:'user',content:prompt}]})});
+      if(!r.ok){ENRICH='failed: HTTP '+r.status;console.log('Claude call failed:',r.status,(await r.text()).slice(0,300));return fallback();}
       const j=await r.json();let text=(j.content||[]).filter(b=>b.type==='text').map(b=>b.text).join('').trim();
-      text=text.replace(/^```(json)?/i,'').replace(/```$/,'').trim();
-      const parsed=JSON.parse(text);
+      const brace=text.match(/\{[\s\S]*\}/);          // pull the JSON object even if wrapped in prose/fences
+      if(!brace){ENRICH='failed: no JSON in reply';console.log('No JSON found in Claude reply');return fallback();}
+      const parsed=JSON.parse(brace[0]);
       parsed.feed=(parsed.feed||[]).map((f,i)=>{const s=top[i]||{};return {...f,time:hoursAgo(s.date),sources:(f.sources&&f.sources.length&&f.sources[0].url)?f.sources:[{name:s.source,url:s.url,lean:'center'}]};});
+      ENRICH='on';console.log('Enrichment: ON');
       return parsed;
-    }catch(e){console.log('Enrich error, fallback:',e.message);return fallback();}
+    }catch(e){ENRICH='failed: '+e.message;console.log('Enrich error, fallback:',e.message);return fallback();}
   }
   const enriched=await enrich();
   /* 5. WRITE */
-  const out={updatedAt:new Date().toISOString(),feed:enriched.feed||[],
+  const out={updatedAt:new Date().toISOString(),_enrichment:ENRICH,feed:enriched.feed||[],
     brief:{date:new Date().toLocaleDateString('en-GB',{weekday:'long',month:'long',day:'numeric'}),greeting:`Good morning, ${CONFIG.greetingName}`,clusters:enriched.brief?.clusters||[]},
     monitor:{economy:econ,signals:enriched.signals||[],progress:enriched.progress||[]},learn:CONFIG.learn};
   await writeFile('feed.json',JSON.stringify(out,null,2));
-  console.log(`\nWrote feed.json — ${out.feed.length} stories, ${out.brief.clusters.length} clusters, ${econ.length} economies.`);
+  console.log(`\nWrote feed.json — enrichment ${ENRICH}, ${out.feed.length} stories, ${out.brief.clusters.length} clusters, ${econ.length} economies.`);
 }
 main().catch(async(e)=>{console.error('Sweep error (publishing empty feed so the job still succeeds):',e.message);
-  try{await writeFile('feed.json',JSON.stringify({updatedAt:new Date().toISOString(),feed:[],brief:{date:new Date().toDateString(),greeting:'Good morning',clusters:[]},monitor:{economy:[],signals:[],progress:[]},learn:[]},null,2));}catch{}
+  try{await writeFile('feed.json',JSON.stringify({updatedAt:new Date().toISOString(),_enrichment:'failed: '+e.message,feed:[],brief:{date:new Date().toDateString(),greeting:'Good morning',clusters:[]},monitor:{economy:[],signals:[],progress:[]},learn:[]},null,2));}catch{}
   process.exit(0);});
