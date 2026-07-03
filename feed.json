@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T21:57:50.357Z",
+  "updatedAt": "2026-07-03T22:07:52.801Z",
   "_enrichment": "off (no key)",
   "feed": [
     {
@@ -140,7 +140,7 @@
       "mustRead": false,
       "headline": "Oyetola seeks stronger state, private sector partnership to unlock blue economy potential - Realnews Magazine",
       "source": "Nigeria economy",
-      "time": "2h",
+      "time": "3h",
       "peek": "Oyetola seeks stronger state, private sector partnership to unlock blue economy potential Realnews Magazine",
       "summary": [
         "Oyetola seeks stronger state, private sector partnership to unlock blue economy potential Realnews Magazine"
@@ -228,7 +228,7 @@
       "mustRead": false,
       "headline": "NECLive & Frontyard Group Release New Report on the State of Nigeria's Creative Economy - BellaNaija",
       "source": "Nigeria economy",
-      "time": "3h",
+      "time": "4h",
       "peek": "NECLive & Frontyard Group Release New Report on the State of Nigeria's Creative Economy BellaNaija",
       "summary": [
         "NECLive & Frontyard Group Release New Report on the State of Nigeria's Creative Economy BellaNaija"
@@ -250,7 +250,7 @@
       "mustRead": false,
       "headline": "Taylor Swift and Travis Kelce Donate $26 Million to Charities in Honor of Their Wedding",
       "source": "Good News Network",
-      "time": "3h",
+      "time": "4h",
       "peek": "A representative for America’s favorite showgirl said that Taylor Swift and Travis Kelce have made donations totaling $26 million to over a dozen nonprofit organizations and charities. Though it’s not entirely clear when and where the couple will have their wedding, some sleuthing from the Guardian ",
       "summary": [
         "A representative for America’s favorite showgirl said that Taylor Swift and Travis Kelce have made donations totaling $26 million to over a dozen nonprofit organizations and charities. Though it’s not entirely clear when and where the couple will have their wedding, some sleuthing from the Guardian "
@@ -272,7 +272,7 @@
       "mustRead": false,
       "headline": "Air Peace completes 3rd South Africa evacuation, brings home 268 Nigerians",
       "source": "BusinessDay NG",
-      "time": "3h",
+      "time": "4h",
       "peek": "Air Peace has successfully completed its third humanitarian evacuation mission from South Africa, safely airlifting 268 Nigerian nationals back home read more Air Peace completes 3rd South Africa evacuation, brings home 268 Nigerians",
       "summary": [
         "Air Peace has successfully completed its third humanitarian evacuation mission from South Africa, safely airlifting 268 Nigerian nationals back home read more Air Peace completes 3rd South Africa evacuation, brings home 268 Nigerians"
@@ -312,28 +312,6 @@
     },
     {
       "id": "s14",
-      "category": "Progress",
-      "mustRead": false,
-      "headline": "Beyond technology: Why institutions will determine the future economy - weeklyblitz.net",
-      "source": "Breakthroughs",
-      "time": "4h",
-      "peek": "Beyond technology: Why institutions will determine the future economy weeklyblitz.net",
-      "summary": [
-        "Beyond technology: Why institutions will determine the future economy weeklyblitz.net"
-      ],
-      "why": "",
-      "simple": "",
-      "spectrum": null,
-      "sources": [
-        {
-          "name": "Breakthroughs",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTkphYmg0YjJxQlZCRk5BNldhVUtEdlIxcWxQWF9YSHZIQ2x6aElGWXhSbVVSY1lSTmJIbGVZWGEtM2dWc0syVE5tMnZ3dFNLajV4aU11RmtFeUhxd1VkSWxTcjBsMEMzRFZRRVZEMVhWRE1jSGRtRVpQS1l3NHdyWEZNdDBFZm9MOUpOb01qb3JoR2N0WGgxYTRWZ0dxdk9pVGZscFJvSQ?oc=5",
-          "lean": "center"
-        }
-      ]
-    },
-    {
-      "id": "s15",
       "category": "Nigeria",
       "mustRead": false,
       "headline": "Dangote Cement shareholders approve secondary listing on London Stock Exchange",
@@ -355,12 +333,12 @@
       ]
     },
     {
-      "id": "s16",
+      "id": "s15",
       "category": "Tech & AI",
       "mustRead": false,
       "headline": "A device that revives eyeballs from dead donors could make eye transplants possible",
       "source": "MIT Tech Review",
-      "time": "4h",
+      "time": "5h",
       "peek": "It’s not easy to transplant a whole human eye. The surgery is difficult. And the eyes themselves start to degenerate as soon as they’ve left the body. When surgeons attempted it a few years ago, the newly-transplanted eye wasn’t able to see. But researchers believe they might have a solution: a devi",
       "summary": [
         "It’s not easy to transplant a whole human eye. The surgery is difficult. And the eyes themselves start to degenerate as soon as they’ve left the body. When surgeons attempted it a few years ago, the newly-transplanted eye wasn’t able to see. But researchers believe they might have a solution: a devi"
@@ -377,12 +355,12 @@
       ]
     },
     {
-      "id": "s17",
+      "id": "s16",
       "category": "Tech & AI",
       "mustRead": false,
       "headline": "Amazon updated 2023’s Fire HD 10 tablet with 4GB of RAM",
       "source": "The Verge",
-      "time": "4h",
+      "time": "5h",
       "peek": "The Fire HD 8 that launched in 2024 was the last new addition to Amazon's budget-minded tablet lineup, but the company has quietly updated the Fire HD 10 that debuted the year before. In 2023 it was offered with multiple storage configurations that each came with 3GB of RAM, but the 32GB version now",
       "summary": [
         "The Fire HD 8 that launched in 2024 was the last new addition to Amazon's budget-minded tablet lineup, but the company has quietly updated the Fire HD 10 that debuted the year before. In 2023 it was offered with multiple storage configurations that each came with 3GB of RAM, but the 32GB version now"
@@ -399,7 +377,7 @@
       ]
     },
     {
-      "id": "s18",
+      "id": "s17",
       "category": "Your industries",
       "mustRead": false,
       "headline": "Three things to learn from PZ Cussons’ profit run - Business News Nigeria",
@@ -421,7 +399,7 @@
       ]
     },
     {
-      "id": "s19",
+      "id": "s18",
       "category": "Your industries",
       "mustRead": false,
       "headline": "Seattle airport expansion features massive timber-clad \"tree\"",
@@ -443,7 +421,7 @@
       ]
     },
     {
-      "id": "s20",
+      "id": "s19",
       "category": "Global",
       "mustRead": false,
       "headline": "Americans disgusted at Trump earning $1bn from crypto as president: ‘Obviously a grift’",
@@ -465,7 +443,7 @@
       ]
     },
     {
-      "id": "s21",
+      "id": "s20",
       "category": "Global",
       "mustRead": false,
       "headline": "Polish PM warns critical months ahead in face of Russian threat",
@@ -482,6 +460,28 @@
         {
           "name": "BBC World",
           "url": "https://www.bbc.co.uk/news/articles/cj0gp88q4l4o?at_medium=RSS&at_campaign=rss",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "category": "Global",
+      "mustRead": false,
+      "headline": "Zuma showing South Africa 'middle finger' by meeting Gupta brother - minister",
+      "source": "BBC World",
+      "time": "5h",
+      "peek": "Former President Zuma's trip to India reignites anger over a decade-old corruption scandal.",
+      "summary": [
+        "Former President Zuma's trip to India reignites anger over a decade-old corruption scandal."
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cvge0gd6lnqo?at_medium=RSS&at_campaign=rss",
           "lean": "center"
         }
       ]
@@ -542,8 +542,7 @@
       {
         "title": "Progress",
         "bullets": [
-          "Taylor Swift and Travis Kelce Donate $26 Million to Charities in Honor of Their Wedding",
-          "Beyond technology: Why institutions will determine the future economy - weeklyblitz.net"
+          "Taylor Swift and Travis Kelce Donate $26 Million to Charities in Honor of Their Wedding"
         ],
         "why": "",
         "highlights": [],
@@ -551,10 +550,6 @@
           {
             "name": "Good News Network",
             "url": "https://www.goodnewsnetwork.org/taylor-swift-and-travis-kelce-donate-26-million-to-charities-ahead-of-blockbuster-wedding/"
-          },
-          {
-            "name": "Breakthroughs",
-            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTkphYmg0YjJxQlZCRk5BNldhVUtEdlIxcWxQWF9YSHZIQ2x6aElGWXhSbVVSY1lSTmJIbGVZWGEtM2dWc0syVE5tMnZ3dFNLajV4aU11RmtFeUhxd1VkSWxTcjBsMEMzRFZRRVZEMVhWRE1jSGRtRVpQS1l3NHdyWEZNdDBFZm9MOUpOb01qb3JoR2N0WGgxYTRWZ0dxdk9pVGZscFJvSQ?oc=5"
           }
         ]
       },
