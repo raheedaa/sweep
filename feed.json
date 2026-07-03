@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T23:22:45.024Z",
+  "updatedAt": "2026-07-03T23:33:43.747Z",
   "_enrichment": "on",
   "feed": [
     {
@@ -9,18 +9,18 @@
       "headline": "EBRD targets $1.5bn Nigeria investment as reform momentum draws capital",
       "source": "BusinessDay NG",
       "time": "1h",
-      "peek": "European Bank for Reconstruction and Development signals confidence in Nigeria's economic reforms with substantial capital commitment.",
+      "peek": "European Bank for Reconstruction and Development signals major capital inflow confidence in Nigeria's reform trajectory.",
       "summary": [
-        "EBRD targeting minimum $1.5bn investment into Nigeria",
-        "Capital inflows driven by visible reform momentum",
-        "Positions Nigeria as emerging investment destination"
+        "EBRD aiming for $1.5bn investment in Nigeria",
+        "Reflects confidence in ongoing economic reforms",
+        "Part of broader international capital attraction to Nigerian market"
       ],
-      "why": "Direct indicator of international confidence in Nigeria's macroeconomic trajectory and reform agenda—critical context for family office and business expansion decisions.",
-      "simple": "Big European bank wants to invest lots of money in Nigeria because the country is improving.",
+      "why": "Direct signal of foreign institutional confidence in Nigeria's macroeconomic direction, affecting investment climate and currency stability relevant to Raheeda's business operations.",
+      "simple": "A big European bank wants to invest a lot of money in Nigeria because things are getting better there.",
       "spectrum": {
-        "left": 5,
-        "center": 90,
-        "right": 5
+        "left": 0,
+        "center": 100,
+        "right": 0
       },
       "sources": [
         {
@@ -37,18 +37,18 @@
       "headline": "South Africa tightens crackdown on undocumented migrants, Cabinet steps up border security",
       "source": "BusinessDay NG",
       "time": "1h",
-      "peek": "South Africa's Cabinet announces stricter migration enforcement including enhanced workplace inspections and border controls.",
+      "peek": "South Africa implementing stricter migration enforcement with expanded workplace inspections and accelerated border controls.",
       "summary": [
-        "Cabinet reaffirms hard line on undocumented migration",
-        "Tougher border controls and faster processing",
-        "Wider workplace inspections underway"
+        "South Africa Cabinet reaffirming hard-line migration policy",
+        "Broader workplace inspections and faster border controls announced",
+        "Impacts regional labor mobility and business operations"
       ],
-      "why": "Regional policy shift affecting labour mobility and supply chain operations across Southern Africa; relevant for Eleganza and Revelle manufacturing and sourcing strategies.",
-      "simple": "South Africa is making it harder for people without papers to live and work there.",
+      "why": "Regional policy shift affecting supply chains, labor availability, and cross-border business operations for companies operating in Southern Africa.",
+      "simple": "South Africa is making it much harder for people without proper papers to enter or work there.",
       "spectrum": {
-        "left": 15,
-        "center": 70,
-        "right": 15
+        "left": 20,
+        "center": 60,
+        "right": 20
       },
       "sources": [
         {
@@ -65,18 +65,18 @@
       "headline": "Lagos, UNDP move to position fashion, leather MSMEs for African, global markets",
       "source": "BusinessDay NG",
       "time": "1h",
-      "peek": "Lagos State Government and UNDP launch two-day initiative to scale fashion and leather micro-enterprises across African and global markets.",
+      "peek": "Lagos State and UNDP launching initiative to scale fashion and leather MSMEs for continental and international export markets.",
       "summary": [
-        "Lagos State + UNDP partnership launching fashion/leather enterprise initiative",
-        "Targets MSME positioning for continental and international markets",
-        "Two-day programme for market access and capability building"
+        "Two-day Fashion, Leather and Creative Enterprise program launched",
+        "Focus on MSME capacity-building for African and global market access",
+        "Lagos State government partnering with UN development agency"
       ],
-      "why": "Direct alignment with Eleganza's consumer goods ecosystem and Nigeria's creative manufacturing potential; MSME development critical to supply chain and market expansion.",
-      "simple": "Lagos is helping small fashion and leather businesses get ready to sell to Africa and the world.",
+      "why": "Direct opportunity for Eleganza supply chain development, artisan partnerships, and market expansion across Africa; aligns with premium positioning of Revelle brand.",
+      "simple": "Lagos is helping small fashion and leather makers get ready to sell their stuff all over Africa and the world.",
       "spectrum": {
-        "left": 10,
-        "center": 80,
-        "right": 10
+        "left": 0,
+        "center": 100,
+        "right": 0
       },
       "sources": [
         {
@@ -88,23 +88,23 @@
     },
     {
       "id": "s3",
-      "category": "Progress",
+      "category": "Innovation & Opportunity",
       "mustRead": false,
       "headline": "Meet Geraldine Ekor, MiVA's trailblazer with a perfect 5.0 CGPA",
       "source": "BusinessDay NG",
       "time": "2h",
-      "peek": "Profile of high-achieving student exemplifying determination and consistency in pursuit of excellence.",
+      "peek": "Profile of exceptional achiever in manufacturing/vocational education space.",
       "summary": [
-        "Geraldine Ekor achieves perfect 5.0 CGPA at MiVA",
-        "Story centred on determination, sacrifice, consistency",
-        "Represents emerging talent in Nigerian education"
+        "Perfect 5.0 CGPA achievement story in MiVA program",
+        "Represents determination and consistency in skill development",
+        "Inspiration for talent pipeline in manufacturing sector"
       ],
-      "why": "Illustrates human capital development and excellence culture emerging in Nigeria; relevant to understanding workforce quality and future talent pipeline.",
-      "simple": "A student got the perfect grade because she worked really hard.",
+      "why": "Highlights emerging talent in Nigerian manufacturing and vocational sectors; relevant for Eleganza's human capital strategy and industry talent scouting.",
+      "simple": "A really smart student got perfect grades in manufacturing training—that's the kind of talent companies need.",
       "spectrum": {
         "left": 0,
-        "center": 95,
-        "right": 5
+        "center": 100,
+        "right": 0
       },
       "sources": [
         {
@@ -121,14 +121,14 @@
       "headline": "Dollar to Naira Exchange Rate Today, July 3, 2026: Nigerian Naira depreciates across FX markets",
       "source": "Daily Post Nigeria",
       "time": "2h",
-      "peek": "Nigerian Naira showing depreciation pressure across foreign exchange markets.",
+      "peek": "Nigerian Naira experiencing depreciation pressure across foreign exchange markets.",
       "summary": [
-        "Naira depreciating across FX markets",
-        "Current rate update for July 3, 2026",
-        "Signals continued currency headwinds"
+        "Naira depreciation reported across FX markets",
+        "Currency pressure continues in Nigerian economy",
+        "Impacts import costs and pricing strategies"
       ],
-      "why": "Essential daily macro intelligence for import/export cost planning, pricing strategy for Eleganza, and cross-border transaction hedging.",
-      "simple": "The Nigerian money is getting weaker compared to the US dollar.",
+      "why": "Critical for Eleganza's import-dependent supply chain and Revelle's pricing in global premium markets; directly affects profitability and cash flow.",
+      "simple": "Nigerian money is worth less compared to dollars, which makes buying things from outside Nigeria more expensive.",
       "spectrum": {
         "left": 0,
         "center": 100,
@@ -148,19 +148,19 @@
       "mustRead": false,
       "headline": "Anguished families left to identify Venezuela quake victims at makeshift morgue",
       "source": "BBC World",
-      "time": "2h",
-      "peek": "Venezuela earthquake overwhelms local services with bodies requiring identification at temporary facilities.",
+      "time": "3h",
+      "peek": "Venezuelan earthquake overwhelms local services, forcing makeshift morgue operations for victim identification.",
       "summary": [
-        "Venezuelan earthquake creates identification crisis",
-        "Local services overwhelmed by disaster",
-        "Bodies stored in tents and outdoor facilities"
+        "Major earthquake in Venezuela",
+        "Local disaster response capacity exceeded",
+        "Bodies processed in temporary facilities"
       ],
-      "why": "Regional humanitarian crisis with potential supply chain and market disruption implications for Latin American operations and sourcing.",
-      "simple": "An earthquake in Venezuela hurt many people and overwhelmed hospitals.",
+      "why": "Global economic impact limited; included for situational awareness of regional stability and supply chain risks.",
+      "simple": "A big earthquake happened in Venezuela and the hospitals can't handle all the people hurt.",
       "spectrum": {
         "left": 0,
-        "center": 95,
-        "right": 5
+        "center": 100,
+        "right": 0
       },
       "sources": [
         {
@@ -177,18 +177,18 @@
       "headline": "Security staff strikes averted at Aberdeen Airport",
       "source": "BBC Business",
       "time": "3h",
-      "peek": "Unite union's threatened baggage screening staff strikes at Aberdeen Airport averted, avoiding significant operational delays.",
+      "peek": "Baggage screening staff strike scheduled for Monday averted through negotiations.",
       "summary": [
-        "Strikes by baggage screening staff averted",
-        "Unite union had warned of significant delays",
-        "Scheduled to begin Monday before resolution"
+        "Unite union strike threat averted at Aberdeen Airport",
+        "Baggage screening staff labor dispute resolved",
+        "Would have caused significant airport delays"
       ],
-      "why": "Labour relations and supply chain resilience signal; relevant to monitoring European logistics and transport infrastructure stability.",
-      "simple": "Workers at a Scottish airport were going to strike but the problem got solved.",
+      "why": "Tangential relevance to global logistics and supply chain stability; demonstrates labor market pressures in developed markets.",
+      "simple": "Workers at a British airport were going to stop working but they made a deal instead.",
       "spectrum": {
-        "left": 20,
-        "center": 70,
-        "right": 10
+        "left": 0,
+        "center": 100,
+        "right": 0
       },
       "sources": [
         {
@@ -200,23 +200,51 @@
     },
     {
       "id": "s7",
+      "category": "Premium Design & Branding",
+      "mustRead": true,
+      "headline": "Brick Award 2026 winners create 'a sense of wonder and beauty'",
+      "source": "Dezeen",
+      "time": "4h",
+      "peek": "Brick Award 2026 celebrates eclectic global architecture winners including Vietnamese temple, Mexican tequila factory, and Belgian housing.",
+      "summary": [
+        "Six international winners announced for Brick Award 2026",
+        "Projects span temples, factories, residential infill, and student work",
+        "Demonstrates global design excellence and material innovation"
+      ],
+      "why": "Directly relevant to Revelle's premium design positioning and creative inspiration; showcases international design trends in materials and branding through architecture.",
+      "simple": "A famous design award gave prizes to six amazing buildings from around the world that look really beautiful.",
+      "spectrum": {
+        "left": 0,
+        "center": 100,
+        "right": 0
+      },
+      "sources": [
+        {
+          "name": "Dezeen",
+          "url": "https://www.dezeen.com/2026/07/03/brick-award-26/",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s8",
       "category": "Nigerian Macroeconomy",
       "mustRead": false,
       "headline": "Four killed, farmers fled as armed men attack Benue communities",
       "source": "BusinessDay NG",
       "time": "4h",
-      "peek": "Armed attacks in Benue State's Kwande Local Government Area result in deaths and farmer displacement.",
+      "peek": "Armed attacks in Benue State result in fatalities and displacement of farming communities.",
       "summary": [
-        "Four killed in Benue State attacks",
-        "Farmers in Anyiase and Ikyoawen flee communities",
-        "Incident in Kwande Local Government Area"
+        "Armed attack on Anyiase and Ikyoawen communities in Kwande LGA",
+        "Four deaths reported, farmers displaced",
+        "Regional security concern affecting agricultural productivity"
       ],
-      "why": "Agricultural sector disruption and security risk assessment for supply chain resilience, particularly for raw materials sourcing in Nigeria's Middle Belt.",
-      "simple": "Armed people attacked farmers in Nigeria and made them leave their homes.",
+      "why": "Reflects ongoing security challenges affecting agricultural supply chains and rural economy stability in Nigeria.",
+      "simple": "Armed people attacked farming villages in Nigeria and people got hurt.",
       "spectrum": {
-        "left": 5,
-        "center": 85,
-        "right": 10
+        "left": 0,
+        "center": 100,
+        "right": 0
       },
       "sources": [
         {
@@ -227,24 +255,24 @@
       ]
     },
     {
-      "id": "s8",
+      "id": "s9",
       "category": "Nigerian Macroeconomy",
-      "mustRead": true,
+      "mustRead": false,
       "headline": "Oyetola seeks stronger state, private sector partnership to unlock blue economy potential",
       "source": "Realnews Magazine",
       "time": "4h",
-      "peek": "State government pursuing strategic public-private partnership framework to develop Nigeria's blue economy sector.",
+      "peek": "State leadership pursuing public-private partnerships to develop Nigeria's maritime and blue economy sectors.",
       "summary": [
-        "Oyetola advocating state-private sector partnership",
-        "Focus on unlocking blue economy potential",
-        "New economic sector development strategy"
+        "Oyetola advocating for state-private sector collaboration",
+        "Blue economy sector development focus",
+        "Partnership model to unlock maritime economic potential"
       ],
-      "why": "Emerging opportunity area for diversified manufacturing, logistics, and consumer goods expansion; signals government commitment to non-oil economic sectors.",
-      "simple": "A Nigerian leader wants businesses and government to work together to use the ocean and water for money and jobs.",
+      "why": "Signals emerging sector opportunities in maritime and blue economy; relevant for long-term diversification strategies and new market entry possibilities.",
+      "simple": "A Nigerian leader wants businesses and government to work together to make money from the ocean and sea resources.",
       "spectrum": {
-        "left": 10,
-        "center": 80,
-        "right": 10
+        "left": 0,
+        "center": 100,
+        "right": 0
       },
       "sources": [
         {
@@ -255,20 +283,20 @@
       ]
     },
     {
-      "id": "s9",
+      "id": "s10",
       "category": "Global Economy",
       "mustRead": false,
       "headline": "David S. Doty, Judge Who Helped Shape the Modern N.F.L., Dies at 96",
       "source": "NYT Business",
       "time": "4h",
-      "peek": "Influential judge presiding over 1993 free agency agreement and salary cap dies at 96, leaving legacy in sports industry structure.",
+      "peek": "Influential judge who presided over 1993 N.F.L. free agency agreement and salary cap framework dies.",
       "summary": [
-        "Judge David S. Doty dies at age 96",
-        "Oversaw 1993 NFL free agency and salary cap agreement",
-        "Managed league disputes with players for years"
+        "Judge David S. Doty shaped modern NFL economic structure",
+        "Oversaw 1993 agreement establishing free agency and salary cap",
+        "Managed league labor disputes for decades"
       ],
-      "why": "Legacy insight into institutional design and labour-capital frameworks; relevant understanding of how transformative sector agreements are structured and enforced.",
-      "simple": "An important judge who helped make rules for American football died.",
+      "why": "Limited relevance; historical note on sports business governance and labor relations in major leagues.",
+      "simple": "A very important judge who made big decisions about how sports teams pay their players passed away.",
       "spectrum": {
         "left": 0,
         "center": 100,
@@ -283,24 +311,24 @@
       ]
     },
     {
-      "id": "s10",
+      "id": "s11",
       "category": "Global Economy",
       "mustRead": false,
       "headline": "Iran begins public mourning for Ayatollah killed in February",
       "source": "BBC World",
       "time": "4h",
-      "peek": "Iran observes public mourning period with body lying in state at Tehran's Grand Mosalla ahead of multi-day funeral ceremonies.",
+      "peek": "Iran holding state funeral events for Ayatollah with body lying in state at Grand Mosalla in Tehran.",
       "summary": [
-        "Iran's Ayatollah's body lies in state in Tehran",
-        "Public mourning period at Grand Mosalla begins Friday",
-        "Multi-day funeral events scheduled"
+        "Public mourning period for deceased Ayatollah begins",
+        "Multi-day funeral events scheduled in Tehran",
+        "Body lying in state at Grand Mosalla"
       ],
-      "why": "Geopolitical stability assessment for Middle East operations and market access; signals potential policy continuity or shifts in Iran's governance.",
-      "simple": "Iran is having a big funeral for an important religious leader.",
+      "why": "Geopolitical awareness; limited direct business impact unless operating in Iranian markets.",
+      "simple": "Iran is having a big funeral ceremony for an important religious leader.",
       "spectrum": {
         "left": 0,
-        "center": 90,
-        "right": 10
+        "center": 100,
+        "right": 0
       },
       "sources": [
         {
@@ -311,24 +339,24 @@
       ]
     },
     {
-      "id": "s11",
-      "category": "Technology & AI for Creative and Manufacturing Businesses",
+      "id": "s12",
+      "category": "Technology & Innovation",
       "mustRead": true,
       "headline": "Qoray Mobility & Energies formally introduces its founding executive team",
       "source": "Nairametrics",
       "time": "5h",
-      "peek": "Qoray Mobility & Energies, Nigeria-based clean energy and sustainable mobility company, unveils founding leadership team driving Africa's energy transition.",
+      "peek": "Nigerian clean energy and sustainable mobility company announces founding leadership team driving Africa's green transition.",
       "summary": [
-        "Qoray Mobility & Energies names founding Executive Leadership Team",
-        "Operating across Nigeria in clean energy and sustainable mobility",
-        "Positioned as driver of Africa's sustainable future"
+        "Qoray Mobility & Energies launches leadership team",
+        "Focus on clean energy and sustainable mobility across Nigeria",
+        "Positions company as driver of African sustainable future"
       ],
-      "why": "Signals emerging sustainable manufacturing and mobility ecosystem in Nigeria; relevant for technology integration, supply chain innovation, and ESG-aligned business models.",
-      "simple": "A Nigerian company focused on clean energy and electric vehicles announced its leadership team.",
+      "why": "Emerging opportunity in Nigeria's energy and sustainability sector; relevant for technology partnerships, innovation trends, and ESG-aligned business models.",
+      "simple": "A new Nigerian company focused on clean energy and electric cars just announced who's leading it.",
       "spectrum": {
-        "left": 5,
-        "center": 80,
-        "right": 15
+        "left": 0,
+        "center": 100,
+        "right": 0
       },
       "sources": [
         {
@@ -339,57 +367,29 @@
       ]
     },
     {
-      "id": "s12",
-      "category": "Consumer Goods & Manufacturing",
+      "id": "s13",
+      "category": "Nigerian Macroeconomy",
       "mustRead": false,
       "headline": "NECLive & Frontyard Group Release New Report on the State of Nigeria's Creative Economy",
       "source": "BellaNaija",
       "time": "5h",
-      "peek": "Comprehensive report on Nigeria's creative economy state released by NECLive and Frontyard Group, mapping sector performance and opportunities.",
+      "peek": "Comprehensive report released on Nigerian creative economy status and trends.",
       "summary": [
-        "NECLive and Frontyard Group release creative economy report",
-        "Assesses current state of Nigeria's creative sector",
-        "Maps opportunities and sector performance"
+        "NECLive and Frontyard Group publish creative economy research",
+        "Covers state of Nigeria's creative sector",
+        "Provides market insights and trend analysis"
       ],
-      "why": "Strategic intelligence on creative economy market size, dynamics, and opportunities; foundational for Revelle's premium design positioning and Eleganza's brand innovation.",
-      "simple": "A report came out showing how well Nigeria's creative businesses are doing.",
+      "why": "Direct relevance to Revelle's premium branding and Eleganza's manufacturing intersection with creative industries; informs market strategy and sector positioning.",
+      "simple": "A new report came out about Nigeria's fashion, music, art, and design business scene.",
       "spectrum": {
-        "left": 5,
-        "center": 90,
-        "right": 5
+        "left": 0,
+        "center": 100,
+        "right": 0
       },
       "sources": [
         {
           "name": "Nigeria economy",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWkVaTWNlc0dLWTRXa2NTb0FnOGphWUw1ZF9hSU80Nnd1ZFktSXJKRXJyS1RjRl81cXI3enhkZkdoaVFzcnZseHhzU2JpcWUzd3o1azdOdjE3TFdkY2wwVGRZT0pBenp4dGpCQ0ZUdFBqbU4xTUxnVF8tUkpyamVSaGZ0ZjExM09WVjhCUkFBa1VkOWxKM1h4eGd6UEJycldV?oc=5",
-          "lean": "center"
-        }
-      ]
-    },
-    {
-      "id": "s13",
-      "category": "Progress",
-      "mustRead": false,
-      "headline": "Taylor Swift and Travis Kelce Donate $26 Million to Charities in Honor of Their Wedding",
-      "source": "Good News Network",
-      "time": "5h",
-      "peek": "Celebrity couple pledges $26 million in philanthropic donations to over a dozen nonprofit organizations and charities.",
-      "summary": [
-        "Taylor Swift and Travis Kelce donate $26 million total",
-        "Donations distributed across dozen+ nonprofits and charities",
-        "Gift framed as wedding honour to multiple organizations"
-      ],
-      "why": "Illustrates wealth deployment, impact investing patterns, and philanthropic models among high-net-worth individuals—relevant to private wealth structuring and ESG positioning.",
-      "simple": "Two famous rich people gave $26 million to charity groups as a wedding gift.",
-      "spectrum": {
-        "left": 5,
-        "center": 85,
-        "right": 10
-      },
-      "sources": [
-        {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/taylor-swift-and-travis-kelce-donate-26-million-to-charities-ahead-of-blockbuster-wedding/",
           "lean": "center"
         }
       ]
@@ -400,17 +400,16 @@
     "greeting": "Good morning, Raheeda",
     "clusters": [
       {
-        "title": "Nigeria's Macroeconomic Momentum & Capital Inflows",
+        "title": "Capital Flows & Macroeconomic Signals",
         "bullets": [
-          "EBRD targeting $1.5bn Nigeria investment signals international confidence in reform trajectory",
-          "Naira depreciation pressures pricing and import costs across supply chains",
-          "Blue economy partnership initiative opens new sector diversification opportunities"
+          "EBRD targeting $1.5bn Nigeria investment signals international confidence in reform momentum and currency stability outlook",
+          "Naira depreciation pressure across FX markets increases import costs and affects Eleganza supply chain pricing",
+          "Combination reflects mixed signals: positive investment inflow vs. currency headwinds requiring hedging strategies"
         ],
-        "why": "Capital inflows and currency dynamics directly shape investment returns and operational costs for Eleganza and family business portfolios.",
+        "why": "Direct impact on financing costs, operational margins, and long-term business planning for both Eleganza and Revelle.",
         "highlights": [
           0,
-          4,
-          8
+          4
         ],
         "sources": [
           {
@@ -424,25 +423,25 @@
         ]
       },
       {
-        "title": "Creative & Manufacturing Ecosystem Expansion",
+        "title": "Creative Economy & Design Excellence",
         "bullets": [
-          "Lagos-UNDP fashion/leather MSME initiative positions Nigeria for continental market scale",
-          "NECLive creative economy report provides strategic intelligence on sector dynamics",
-          "Qoray Mobility & Energies leadership team signals clean tech manufacturing emergence in Nigeria"
+          "Brick Award 2026 showcases global design trends emphasizing material innovation and aesthetic excellence—inspiration for Revelle premium positioning",
+          "NECLive report on Nigerian creative economy provides sector data for market strategy and competitive positioning",
+          "Fashion/leather MSME initiative in Lagos creates artisan partnership and supply chain opportunities for Eleganza sourcing"
         ],
-        "why": "Consumer goods manufacturing and creative design sectors showing government support and institutional backing—aligned with Eleganza and Revelle growth vectors.",
+        "why": "Convergence of premium design inspiration, creative sector growth, and manufacturing supply chain development across Raheeda's portfolio.",
         "highlights": [
           2,
-          11,
-          12
+          7,
+          13
         ],
         "sources": [
           {
-            "name": "BusinessDay NG",
+            "name": "Dezeen",
             "url": ""
           },
           {
-            "name": "Nairametrics",
+            "name": "BusinessDay NG",
             "url": ""
           },
           {
@@ -452,48 +451,24 @@
         ]
       },
       {
-        "title": "Supply Chain & Security Risk Landscape",
+        "title": "Emerging Opportunities in Green & Blue Economy",
         "bullets": [
-          "Benue State agricultural attacks disrupt farming communities and raw material sourcing",
-          "South Africa migration crackdown affects regional labour mobility and logistics chains",
-          "Aberdeen airport strike averted—demonstrates labour relations volatility in European logistics hubs"
+          "Qoray Mobility & Energies launch signals growing clean energy and sustainable mobility sector with leadership structure now in place",
+          "Blue economy development initiative in coastal states creates new sector diversification opportunities for private investment",
+          "Sustainability focus aligns with global ESG trends affecting consumer goods branding and manufacturing practices"
         ],
-        "why": "Operational resilience requires active monitoring of supply chain disruptions, security risks, and labour stability across sourcing and distribution networks.",
+        "why": "Future-facing opportunities for innovation partnerships, ESG-aligned product development, and new market entry in high-growth sectors.",
         "highlights": [
-          1,
-          6,
-          7
+          9,
+          12
         ],
         "sources": [
-          {
-            "name": "BusinessDay NG",
-            "url": ""
-          },
-          {
-            "name": "BBC Business",
-            "url": ""
-          }
-        ]
-      },
-      {
-        "title": "Wealth Deployment & ESG Frameworks",
-        "bullets": [
-          "High-net-worth individuals deploying capital toward impact investing and philanthropic structuring",
-          "Sustainable mobility and energy sector emergence signals ESG-aligned business model opportunities",
-          "Educational excellence indicators (perfect CGPA achiever) reflect talent pipeline quality for family offices"
-        ],
-        "why": "Private wealth management increasingly tied to impact frameworks and ESG positioning; relevant for family business capital allocation and succession planning.",
-        "highlights": [
-          11,
-          13
-        ],
-        "sources": [
-          {
-            "name": "Good News Network",
-            "url": ""
-          },
           {
             "name": "Nairametrics",
+            "url": ""
+          },
+          {
+            "name": "Realnews Magazine",
             "url": ""
           }
         ]
@@ -504,20 +479,20 @@
     "economy": [],
     "signals": [
       {
-        "text": "EBRD's $1.5bn Nigeria commitment validates reform credibility with institutional capital.",
+        "text": "EBRD $1.5bn Nigeria target signals international institutional confidence in reform trajectory despite naira depreciation.",
         "tag": "Capital Inflow",
         "dir": "up",
         "url": ""
       },
       {
-        "text": "Fashion/leather MSME scaling initiative creates supply-chain and distribution opportunities for Eleganza ecosystem.",
-        "tag": "Market Expansion",
+        "text": "Fashion/leather MSME initiative in Lagos creates direct artisan partnership and premium supply chain opportunities.",
+        "tag": "Supply Chain Opportunity",
         "dir": "up",
         "url": ""
       },
       {
-        "text": "Benue farm attacks and South Africa migration crackdown elevate supply chain disruption risk across West/Southern Africa.",
-        "tag": "Risk Alert",
+        "text": "Qoray Mobility & Energies launch marks consolidation of Nigeria's clean energy sector with formal leadership structure.",
+        "tag": "Sector Formation",
         "dir": "up",
         "url": ""
       }
@@ -525,20 +500,20 @@
     "progress": [
       {
         "tag": "Opportunity",
-        "title": "Blue Economy Public-Private Partnership",
-        "body": "Nigeria's announced state-private sector collaboration on blue economy development opens new sectors for diversified manufacturing, logistics, and export-oriented businesses.",
+        "title": "Lagos Fashion/Leather MSME Program",
+        "body": "UNDP partnership positioning local artisans for African and global market access; immediate sourcing and partnership potential for Eleganza.",
         "url": ""
       },
       {
         "tag": "Opportunity",
-        "title": "Creative Economy Sector Intelligence",
-        "body": "NECLive and Frontyard Group report on Nigeria's creative economy provides strategic mapping for Revelle's premium design positioning and Eleganza's brand innovation pipeline.",
+        "title": "Qoray Clean Energy Ecosystem",
+        "body": "Founding team announced for sustainable mobility company; explore technology partnerships and operational efficiency innovations.",
         "url": ""
       },
       {
-        "tag": "Opportunity",
-        "title": "Clean Energy & Sustainable Mobility Ecosystem",
-        "body": "Qoray Mobility & Energies' formal leadership announcement signals emerging manufacturing innovation potential in sustainable tech—aligned with ESG-driven business model opportunities.",
+        "tag": "Challenge",
+        "title": "Naira Currency Pressure",
+        "body": "Ongoing depreciation requires review of import hedging strategies and pricing models for Eleganza supply chain and Revelle positioning.",
         "url": ""
       }
     ]
