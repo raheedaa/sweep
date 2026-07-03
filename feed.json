@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-03T23:07:42.697Z",
-  "_enrichment": "failed: HTTP 404",
+  "updatedAt": "2026-07-03T23:13:48.329Z",
+  "_enrichment": "failed: Expected ',' or ']' after array element in JSON at position 18539 (line 506 column 6)",
   "feed": [
     {
       "id": "s0",
@@ -118,7 +118,7 @@
       "mustRead": false,
       "headline": "FG inaugurates BOA board, charges members to drive food security, job creation",
       "source": "BusinessDay NG",
-      "time": "3h",
+      "time": "4h",
       "peek": "The Federal Government has inaugurated a new Board of Directors for the Bank of Agriculture (BOA) to reinforce corporate governance read more FG inaugurates BOA board, charges members to drive food security, job creation",
       "summary": [
         "The Federal Government has inaugurated a new Board of Directors for the Bank of Agriculture (BOA) to reinforce corporate governance read more FG inaugurates BOA board, charges members to drive food security, job creation"
@@ -448,7 +448,7 @@
       "mustRead": false,
       "headline": "Polish PM warns critical months ahead in face of Russian threat",
       "source": "BBC World",
-      "time": "6h",
+      "time": "7h",
       "peek": "Tusk says Poland is preparing for \"various\" scenarios after media reports of a planned Russian attack.",
       "summary": [
         "Tusk says Poland is preparing for \"various\" scenarios after media reports of a planned Russian attack."
@@ -470,7 +470,7 @@
       "mustRead": false,
       "headline": "Zuma showing South Africa 'middle finger' by meeting Gupta brother - minister",
       "source": "BBC World",
-      "time": "6h",
+      "time": "7h",
       "peek": "Former President Zuma's trip to India reignites anger over a decade-old corruption scandal.",
       "summary": [
         "Former President Zuma's trip to India reignites anger over a decade-old corruption scandal."
