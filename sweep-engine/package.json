@@ -1,0 +1,13 @@
+{
+  "name": "sweep-engine",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "The morning engine for The Sweep — fetches, curates and publishes feed.json.",
+  "scripts": {
+    "build": "node build-feed.js"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}

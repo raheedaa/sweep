@@ -1,0 +1,25 @@
+{
+  "greetingName": "Raheeda",
+  "interests": [
+    "consumer goods & manufacturing (Eleganza)",
+    "premium design & branding (Revelle)",
+    "furniture & design objects",
+    "private wealth & family business",
+    "Nigerian macroeconomy",
+    "global economy",
+    "technology & AI for creative and manufacturing businesses",
+    "revolutionary ideas, discoveries and opportunities"
+  ],
+  "economy": [
+    { "scope": "Nigeria", "code": "NGA", "flag": "🇳🇬" },
+    { "scope": "Global", "code": "WLD", "flag": "🌍" }
+  ],
+  "maxItemsToEnrich": 22,
+  "mustReadCount": 3,
+  "learn": [
+    { "tag": "Strategy", "title": "Concentrate your forces", "body": "Greene's Law 23: spreading thin dilutes power. Pick the one prospect, one venture, one deliverable that moves the most, and pour in until it's inevitable." },
+    { "tag": "Leverage", "title": "Play long-term games with long-term people", "body": "Naval's rule: compounding trust and equity beats one-off wins. Choose partners and clients you'd want to be building with in ten years." },
+    { "tag": "Negotiation", "title": "Anchor, then go quiet", "body": "State your number clearly and stop talking. Silence transfers pressure to the other side and protects your position without argument." },
+    { "tag": "Craft", "title": "Ship the finished thing", "body": "A deployable draft beats a perfect plan. Reduce the loop between idea and artifact — momentum is a moat." }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "_comment": "Add or remove feeds freely. category must match a Sweep chip. Google News search feeds are the easiest way to hone on a niche — just change the q= text.",
+  "feeds": [
+    { "name": "Nairametrics", "category": "Nigeria", "url": "https://nairametrics.com/feed/" },
+    { "name": "BusinessDay NG", "category": "Nigeria", "url": "https://businessday.ng/feed/" },
+    { "name": "Guardian Nigeria", "category": "Nigeria", "url": "https://guardian.ng/feed/" },
+    { "name": "Nigeria economy (Google News)", "category": "Nigeria", "url": "https://news.google.com/rss/search?q=Nigeria+economy+OR+naira+OR+inflation+when:3d&hl=en-NG&gl=NG&ceid=NG:en" },
+
+    { "name": "BBC Business", "category": "Global", "url": "https://feeds.bbci.co.uk/news/business/rss.xml" },
+    { "name": "Guardian Business", "category": "Global", "url": "https://www.theguardian.com/uk/business/rss" },
+    { "name": "NYT Business", "category": "Global", "url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml" },
+    { "name": "Economist Finance", "category": "Global", "url": "https://www.economist.com/finance-and-economics/rss.xml" },
+    { "name": "BBC World", "category": "Global", "url": "https://feeds.bbci.co.uk/news/world/rss.xml" },
+
+    { "name": "Consumer goods (Google News)", "category": "Your industries", "url": "https://news.google.com/rss/search?q=(consumer+goods+OR+FMCG+OR+manufacturing)+Nigeria+OR+Africa+when:5d&hl=en&gl=US&ceid=US:en" },
+    { "name": "Luxury & branding (Google News)", "category": "Your industries", "url": "https://news.google.com/rss/search?q=(luxury+branding+OR+brand+identity+OR+design+studio)+when:5d&hl=en&gl=US&ceid=US:en" },
+    { "name": "Dezeen", "category": "Your industries", "url": "https://www.dezeen.com/feed/" },
+    { "name": "It's Nice That", "category": "Your industries", "url": "https://www.itsnicethat.com/feed" },
+
+    { "name": "The Verge", "category": "Tech & AI", "url": "https://www.theverge.com/rss/index.xml" },
+    { "name": "Ars Technica", "category": "Tech & AI", "url": "https://feeds.arstechnica.com/arstechnica/index" },
+    { "name": "Rest of World", "category": "Tech & AI", "url": "https://restofworld.org/feed/latest/" },
+    { "name": "MIT Tech Review", "category": "Tech & AI", "url": "https://www.technologyreview.com/feed/" },
+
+    { "name": "Good News Network", "category": "Progress", "url": "https://www.goodnewsnetwork.org/feed/" },
+    { "name": "Breakthroughs (Google News)", "category": "Progress", "url": "https://news.google.com/rss/search?q=(scientific+breakthrough+OR+new+discovery+OR+clean+energy+OR+medical+advance)+when:5d&hl=en&gl=US&ceid=US:en" }
+  ]
+}
