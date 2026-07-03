@@ -20,7 +20,8 @@ jobs:
           node-version: '22'
       - name: Build the feed
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY_SWEEP }}
+          ANTHROPIC_API_KEY_SWEEP: ${{ secrets.ANTHROPIC_API_KEY_SWEEP }}
           MODEL: ${{ vars.MODEL }}
         run: node build-feed.js
       - name: Publish feed.json
