@@ -6,7 +6,7 @@
    ============================================================ */
 import { writeFile } from 'node:fs/promises';
 
-const API_KEY = process.env.ANTHROPIC_API_KEY || '';
+const API_KEY = process.env.ANTHROPIC_API_KEY_SWEEP || '';
 const MODEL = process.env.MODEL || 'claude-haiku-4-5-20251001';
 let ENRICH = 'off (no key)';   // diagnostic written into feed.json
 
