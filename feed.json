@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-07-03T21:27:24.254Z",
+  "updatedAt": "2026-07-03T21:57:50.357Z",
+  "_enrichment": "off (no key)",
   "feed": [
     {
       "id": "s0",
@@ -7,10 +8,10 @@
       "mustRead": true,
       "headline": "Dollar to Naira Exchange Rate Today, July 3, 2026: Nigerian Naira depreciates across FX markets - Daily Post Nigeria",
       "source": "Nigeria economy",
-      "time": "now",
-      "peek": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMjV1TUpGVm1vWlBONHc1YzhCbnpPclJUMGtqZ05VR0JtV2xoN1E0bEpsQkRIZ2NsU0F0ZUEtcFZOc3Y0N2xpaGNuT3RreGxURzh5Y3hkak1PZGdwdTdtNWxRbV9icE8yMnlzY05Lc3dzSTlYNVk2M0NuN0ctNGVRLVFTdDQyMEV3c0FmRGliYkdoWW1pQTJLT3NoMUFSUHFjZlk2eUFmSUNZd0FOZDhYSnVFTjIzelRSc1",
+      "time": "1h",
+      "peek": "Dollar to Naira Exchange Rate Today, July 3, 2026: Nigerian Naira depreciates across FX markets Daily Post Nigeria",
       "summary": [
-        "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMjV1TUpGVm1vWlBONHc1YzhCbnpPclJUMGtqZ05VR0JtV2xoN1E0bEpsQkRIZ2NsU0F0ZUEtcFZOc3Y0N2xpaGNuT3RreGxURzh5Y3hkak1PZGdwdTdtNWxRbV9icE8yMnlzY05Lc3dzSTlYNVk2M0NuN0ctNGVRLVFTdDQyMEV3c0FmRGliYkdoWW1pQTJLT3NoMUFSUHFjZlk2eUFmSUNZd0FOZDhYSnVFTjIzelRSc1"
+        "Dollar to Naira Exchange Rate Today, July 3, 2026: Nigerian Naira depreciates across FX markets Daily Post Nigeria"
       ],
       "why": "",
       "simple": "",
@@ -25,11 +26,33 @@
     },
     {
       "id": "s1",
+      "category": "Nigeria",
+      "mustRead": true,
+      "headline": "Meet Geraldine Ekor, MiVA’s trailblazer with a perfect 5.0 CGPA",
+      "source": "BusinessDay NG",
+      "time": "1h",
+      "peek": "Behind every outstanding achievement is a story of determination, sacrifice, and consistency. For Geraldine Ekor, that story culminated read more Meet Geraldine Ekor, MiVA’s trailblazer with a perfect 5.0 CGPA",
+      "summary": [
+        "Behind every outstanding achievement is a story of determination, sacrifice, and consistency. For Geraldine Ekor, that story culminated read more Meet Geraldine Ekor, MiVA’s trailblazer with a perfect 5.0 CGPA"
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "BusinessDay NG",
+          "url": "https://businessday.ng/education/article/meet-geraldine-ekor-mivas-trailblazer-with-a-perfect-5-0-cgpa/",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s2",
       "category": "Global",
       "mustRead": true,
       "headline": "Anguished families left to identify Venezuela quake victims at makeshift morgue",
       "source": "BBC World",
-      "time": "now",
+      "time": "1h",
       "peek": "The disaster has overwhelmed local services, with bodies put outside or in tents for identification.",
       "summary": [
         "The disaster has overwhelmed local services, with bodies put outside or in tents for identification."
@@ -46,9 +69,9 @@
       ]
     },
     {
-      "id": "s2",
+      "id": "s3",
       "category": "Global",
-      "mustRead": true,
+      "mustRead": false,
       "headline": "Security staff strikes averted at Aberdeen Airport",
       "source": "BBC Business",
       "time": "1h",
@@ -68,7 +91,7 @@
       ]
     },
     {
-      "id": "s3",
+      "id": "s4",
       "category": "Nigeria",
       "mustRead": false,
       "headline": "Four killed, farmers fled as armed men attack Benue communities",
@@ -90,7 +113,7 @@
       ]
     },
     {
-      "id": "s4",
+      "id": "s5",
       "category": "Nigeria",
       "mustRead": false,
       "headline": "FG inaugurates BOA board, charges members to drive food security, job creation",
@@ -112,15 +135,15 @@
       ]
     },
     {
-      "id": "s5",
+      "id": "s6",
       "category": "Nigeria",
       "mustRead": false,
       "headline": "Oyetola seeks stronger state, private sector partnership to unlock blue economy potential - Realnews Magazine",
       "source": "Nigeria economy",
       "time": "2h",
-      "peek": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQZXVCUVVmam9hQnhNY0tXWWVuT0x4cUhrWVdOVmh0d2U5dVdyV3d5RFJsQ3k0UEVMQTZUTGpPZmZMYW1FYk5pYmVYNXhZYjEwcWV3MVlLeXJ4dHZMZUhSc3dIMnRidEU5cE9zaFlyNDFKeEVVSnNnSXdxelUtNkZOSzlDSGlwZVlTcFNfX0Jfc19zdXl4QU5mZlBFalhXWE9LV0U5YXBzME9oS09Gcm02aVZHZjJvVHZoZE",
+      "peek": "Oyetola seeks stronger state, private sector partnership to unlock blue economy potential Realnews Magazine",
       "summary": [
-        "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQZXVCUVVmam9hQnhNY0tXWWVuT0x4cUhrWVdOVmh0d2U5dVdyV3d5RFJsQ3k0UEVMQTZUTGpPZmZMYW1FYk5pYmVYNXhZYjEwcWV3MVlLeXJ4dHZMZUhSc3dIMnRidEU5cE9zaFlyNDFKeEVVSnNnSXdxelUtNkZOSzlDSGlwZVlTcFNfX0Jfc19zdXl4QU5mZlBFalhXWE9LV0U5YXBzME9oS09Gcm02aVZHZjJvVHZoZE"
+        "Oyetola seeks stronger state, private sector partnership to unlock blue economy potential Realnews Magazine"
       ],
       "why": "",
       "simple": "",
@@ -134,12 +157,12 @@
       ]
     },
     {
-      "id": "s6",
+      "id": "s7",
       "category": "Global",
       "mustRead": false,
       "headline": "David S. Doty, Judge Who Helped Shape the Modern N.F.L., Dies at 96",
       "source": "NYT Business",
-      "time": "2h",
+      "time": "3h",
       "peek": "He presided over the 1993 agreement that led to free agency and the salary cap, and for years oversaw the league’s disputes with its players.",
       "summary": [
         "He presided over the 1993 agreement that led to free agency and the salary cap, and for years oversaw the league’s disputes with its players."
@@ -156,12 +179,12 @@
       ]
     },
     {
-      "id": "s7",
+      "id": "s8",
       "category": "Global",
       "mustRead": false,
       "headline": "Iran begins public mourning for Ayatollah killed in February",
       "source": "BBC World",
-      "time": "2h",
+      "time": "3h",
       "peek": "Ali Khamenei's body will lie in state in Tehran's Grand Mosalla from Friday ahead of days-long funeral events.",
       "summary": [
         "Ali Khamenei's body will lie in state in Tehran's Grand Mosalla from Friday ahead of days-long funeral events."
@@ -178,7 +201,7 @@
       ]
     },
     {
-      "id": "s8",
+      "id": "s9",
       "category": "Nigeria",
       "mustRead": false,
       "headline": "Qoray Mobility & Energies formally introduces its founding executive team",
@@ -200,15 +223,15 @@
       ]
     },
     {
-      "id": "s9",
+      "id": "s10",
       "category": "Nigeria",
       "mustRead": false,
       "headline": "NECLive & Frontyard Group Release New Report on the State of Nigeria's Creative Economy - BellaNaija",
       "source": "Nigeria economy",
       "time": "3h",
-      "peek": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNWkVaTWNlc0dLWTRXa2NTb0FnOGphWUw1ZF9hSU80Nnd1ZFktSXJKRXJyS1RjRl81cXI3enhkZkdoaVFzcnZseHhzU2JpcWUzd3o1azdOdjE3TFdkY2wwVGRZT0pBenp4dGpCQ0ZUdFBqbU4xTUxnVF8tUkpyamVSaGZ0ZjExM09WVjhCUkFBa1VkOWxKM1h4eGd6UEJycldV?oc=5\" target=\"_blank\">NECLive & F",
+      "peek": "NECLive & Frontyard Group Release New Report on the State of Nigeria's Creative Economy BellaNaija",
       "summary": [
-        "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNWkVaTWNlc0dLWTRXa2NTb0FnOGphWUw1ZF9hSU80Nnd1ZFktSXJKRXJyS1RjRl81cXI3enhkZkdoaVFzcnZseHhzU2JpcWUzd3o1azdOdjE3TFdkY2wwVGRZT0pBenp4dGpCQ0ZUdFBqbU4xTUxnVF8tUkpyamVSaGZ0ZjExM09WVjhCUkFBa1VkOWxKM1h4eGd6UEJycldV?oc=5\" target=\"_blank\">NECLive & F"
+        "NECLive & Frontyard Group Release New Report on the State of Nigeria's Creative Economy BellaNaija"
       ],
       "why": "",
       "simple": "",
@@ -222,7 +245,7 @@
       ]
     },
     {
-      "id": "s10",
+      "id": "s11",
       "category": "Progress",
       "mustRead": false,
       "headline": "Taylor Swift and Travis Kelce Donate $26 Million to Charities in Honor of Their Wedding",
@@ -244,7 +267,7 @@
       ]
     },
     {
-      "id": "s11",
+      "id": "s12",
       "category": "Nigeria",
       "mustRead": false,
       "headline": "Air Peace completes 3rd South Africa evacuation, brings home 268 Nigerians",
@@ -266,12 +289,12 @@
       ]
     },
     {
-      "id": "s12",
+      "id": "s13",
       "category": "Nigeria",
       "mustRead": false,
       "headline": "The Nigerian SME Growth Playbook: How Digital Tools Are Turning Ambition into Reality",
       "source": "BusinessDay NG",
-      "time": "3h",
+      "time": "4h",
       "peek": "By Dr Folasade Femi-Lawal, country manager, West Africa, Mastercard Across Africa, micro, small and medium-sized enterprises (MSMEs) are proving remarkably read more The Nigerian SME Growth Playbook: How Digital Tools Are Turning Ambition into Reality",
       "summary": [
         "By Dr Folasade Femi-Lawal, country manager, West Africa, Mastercard Across Africa, micro, small and medium-sized enterprises (MSMEs) are proving remarkably read more The Nigerian SME Growth Playbook: How Digital Tools Are Turning Ambition into Reality"
@@ -288,7 +311,29 @@
       ]
     },
     {
-      "id": "s13",
+      "id": "s14",
+      "category": "Progress",
+      "mustRead": false,
+      "headline": "Beyond technology: Why institutions will determine the future economy - weeklyblitz.net",
+      "source": "Breakthroughs",
+      "time": "4h",
+      "peek": "Beyond technology: Why institutions will determine the future economy weeklyblitz.net",
+      "summary": [
+        "Beyond technology: Why institutions will determine the future economy weeklyblitz.net"
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "Breakthroughs",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTkphYmg0YjJxQlZCRk5BNldhVUtEdlIxcWxQWF9YSHZIQ2x6aElGWXhSbVVSY1lSTmJIbGVZWGEtM2dWc0syVE5tMnZ3dFNLajV4aU11RmtFeUhxd1VkSWxTcjBsMEMzRFZRRVZEMVhWRE1jSGRtRVpQS1l3NHdyWEZNdDBFZm9MOUpOb01qb3JoR2N0WGgxYTRWZ0dxdk9pVGZscFJvSQ?oc=5",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s15",
       "category": "Nigeria",
       "mustRead": false,
       "headline": "Dangote Cement shareholders approve secondary listing on London Stock Exchange",
@@ -310,29 +355,7 @@
       ]
     },
     {
-      "id": "s14",
-      "category": "Nigeria",
-      "mustRead": false,
-      "headline": "Afreximbank chief pushes PAPSS adoption to cut Africa’s dollar dependence",
-      "source": "BusinessDay NG",
-      "time": "4h",
-      "peek": "…says expansion hinges on central banks’ support George Elombi, president of the African Export-Import Bank (Afreximbank), has called on African read more Afreximbank chief pushes PAPSS adoption to cut Africa’s dollar dependence",
-      "summary": [
-        "…says expansion hinges on central banks’ support George Elombi, president of the African Export-Import Bank (Afreximbank), has called on African read more Afreximbank chief pushes PAPSS adoption to cut Africa’s dollar dependence"
-      ],
-      "why": "",
-      "simple": "",
-      "spectrum": null,
-      "sources": [
-        {
-          "name": "BusinessDay NG",
-          "url": "https://businessday.ng/news/article/afreximbank-chief-pushes-papss-adoption-to-cut-africas-dollar-dependence/",
-          "lean": "center"
-        }
-      ]
-    },
-    {
-      "id": "s15",
+      "id": "s16",
       "category": "Tech & AI",
       "mustRead": false,
       "headline": "A device that revives eyeballs from dead donors could make eye transplants possible",
@@ -354,7 +377,7 @@
       ]
     },
     {
-      "id": "s16",
+      "id": "s17",
       "category": "Tech & AI",
       "mustRead": false,
       "headline": "Amazon updated 2023’s Fire HD 10 tablet with 4GB of RAM",
@@ -376,15 +399,15 @@
       ]
     },
     {
-      "id": "s17",
+      "id": "s18",
       "category": "Your industries",
       "mustRead": false,
       "headline": "Three things to learn from PZ Cussons’ profit run - Business News Nigeria",
       "source": "Consumer goods",
-      "time": "4h",
-      "peek": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxONkgxdTRpeU9aVzV0VVQxVHVNajRvZlZ6ZmZYS0hnLWVNOFdQeEJPTWhyMWkwcTlWYlp1VVlBU0I2WWJPYjd6ZV85MEVEOS1UaWxPc0xtRXNWWFhUWnlyVUtuZUFTaVRtb096SWxaMXVZUExTTW1qUmFMcFA5TDNXZ0Rya3dtb1NuRi02NXNYeGNIV2pKTk9wcE5n?oc=5\" target=\"_blank\">Three things to lea",
+      "time": "5h",
+      "peek": "Three things to learn from PZ Cussons’ profit run Business News Nigeria",
       "summary": [
-        "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxONkgxdTRpeU9aVzV0VVQxVHVNajRvZlZ6ZmZYS0hnLWVNOFdQeEJPTWhyMWkwcTlWYlp1VVlBU0I2WWJPYjd6ZV85MEVEOS1UaWxPc0xtRXNWWFhUWnlyVUtuZUFTaVRtb096SWxaMXVZUExTTW1qUmFMcFA5TDNXZ0Rya3dtb1NuRi02NXNYeGNIV2pKTk9wcE5n?oc=5\" target=\"_blank\">Three things to lea"
+        "Three things to learn from PZ Cussons’ profit run Business News Nigeria"
       ],
       "why": "",
       "simple": "",
@@ -398,12 +421,12 @@
       ]
     },
     {
-      "id": "s18",
+      "id": "s19",
       "category": "Your industries",
       "mustRead": false,
       "headline": "Seattle airport expansion features massive timber-clad \"tree\"",
       "source": "Dezeen",
-      "time": "4h",
+      "time": "5h",
       "peek": "Architecture studios The Miller Hull Partnership and Woods Bagot have completed an extension to Concourse C at Seattle-Tacoma International Airport, integrating a large timber-clad \"tree\" that arches over a gathering space. In collaboration with the Port of Seattle, the C Concourse Expansion (CCE) i",
       "summary": [
         "Architecture studios The Miller Hull Partnership and Woods Bagot have completed an extension to Concourse C at Seattle-Tacoma International Airport, integrating a large timber-clad \"tree\" that arches over a gathering space. In collaboration with the Port of Seattle, the C Concourse Expansion (CCE) i"
@@ -420,15 +443,15 @@
       ]
     },
     {
-      "id": "s19",
+      "id": "s20",
       "category": "Global",
       "mustRead": false,
       "headline": "Americans disgusted at Trump earning $1bn from crypto as president: ‘Obviously a grift’",
       "source": "Guardian Business",
       "time": "5h",
-      "peek": "<p>Hundreds of Guardian readers expressed concerns over greed in the White House and a billionaire president unconcerned with high gas and grocery prices</p><p><a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> has earned more than $1bn from his crypto businesses since return",
+      "peek": "Hundreds of Guardian readers expressed concerns over greed in the White House and a billionaire president unconcerned with high gas and grocery prices Donald Trump has earned more than $1bn from his crypto businesses since returning to the White House, according to recent financial disclosures. Amid",
       "summary": [
-        "<p>Hundreds of Guardian readers expressed concerns over greed in the White House and a billionaire president unconcerned with high gas and grocery prices</p><p><a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> has earned more than $1bn from his crypto businesses since return"
+        "Hundreds of Guardian readers expressed concerns over greed in the White House and a billionaire president unconcerned with high gas and grocery prices Donald Trump has earned more than $1bn from his crypto businesses since returning to the White House, according to recent financial disclosures. Amid"
       ],
       "why": "",
       "simple": "",
@@ -442,7 +465,7 @@
       ]
     },
     {
-      "id": "s20",
+      "id": "s21",
       "category": "Global",
       "mustRead": false,
       "headline": "Polish PM warns critical months ahead in face of Russian threat",
@@ -462,28 +485,6 @@
           "lean": "center"
         }
       ]
-    },
-    {
-      "id": "s21",
-      "category": "Global",
-      "mustRead": false,
-      "headline": "Zuma showing South Africa 'middle finger' by meeting Gupta brother - minister",
-      "source": "BBC World",
-      "time": "5h",
-      "peek": "Former President Zuma's trip to India reignites anger over a decade-old corruption scandal.",
-      "summary": [
-        "Former President Zuma's trip to India reignites anger over a decade-old corruption scandal."
-      ],
-      "why": "",
-      "simple": "",
-      "spectrum": null,
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cvge0gd6lnqo?at_medium=RSS&at_campaign=rss",
-          "lean": "center"
-        }
-      ]
     }
   ],
   "brief": {
@@ -494,8 +495,8 @@
         "title": "Nigeria",
         "bullets": [
           "Dollar to Naira Exchange Rate Today, July 3, 2026: Nigerian Naira depreciates across FX markets - Daily Post Nigeria",
-          "Four killed, farmers fled as armed men attack Benue communities",
-          "FG inaugurates BOA board, charges members to drive food security, job creation"
+          "Meet Geraldine Ekor, MiVA’s trailblazer with a perfect 5.0 CGPA",
+          "Four killed, farmers fled as armed men attack Benue communities"
         ],
         "why": "",
         "highlights": [],
@@ -506,11 +507,11 @@
           },
           {
             "name": "BusinessDay NG",
-            "url": "https://businessday.ng/uncategorized/article/four-killed-farmers-fled-as-armed-men-attack-benue-communities/"
+            "url": "https://businessday.ng/education/article/meet-geraldine-ekor-mivas-trailblazer-with-a-perfect-5-0-cgpa/"
           },
           {
             "name": "BusinessDay NG",
-            "url": "https://businessday.ng/news/article/fg-inaugurates-boa-board-charges-members-to-drive-food-security-job-creation/"
+            "url": "https://businessday.ng/uncategorized/article/four-killed-farmers-fled-as-armed-men-attack-benue-communities/"
           }
         ]
       },
@@ -541,7 +542,8 @@
       {
         "title": "Progress",
         "bullets": [
-          "Taylor Swift and Travis Kelce Donate $26 Million to Charities in Honor of Their Wedding"
+          "Taylor Swift and Travis Kelce Donate $26 Million to Charities in Honor of Their Wedding",
+          "Beyond technology: Why institutions will determine the future economy - weeklyblitz.net"
         ],
         "why": "",
         "highlights": [],
@@ -549,6 +551,10 @@
           {
             "name": "Good News Network",
             "url": "https://www.goodnewsnetwork.org/taylor-swift-and-travis-kelce-donate-26-million-to-charities-ahead-of-blockbuster-wedding/"
+          },
+          {
+            "name": "Breakthroughs",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTkphYmg0YjJxQlZCRk5BNldhVUtEdlIxcWxQWF9YSHZIQ2x6aElGWXhSbVVSY1lSTmJIbGVZWGEtM2dWc0syVE5tMnZ3dFNLajV4aU11RmtFeUhxd1VkSWxTcjBsMEMzRFZRRVZEMVhWRE1jSGRtRVpQS1l3NHdyWEZNdDBFZm9MOUpOb01qb3JoR2N0WGgxYTRWZ0dxdk9pVGZscFJvSQ?oc=5"
           }
         ]
       },
