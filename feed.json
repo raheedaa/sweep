@@ -1,0 +1,603 @@
+{
+  "updatedAt": "2026-07-03T21:27:24.254Z",
+  "feed": [
+    {
+      "id": "s0",
+      "category": "Nigeria",
+      "mustRead": true,
+      "headline": "Dollar to Naira Exchange Rate Today, July 3, 2026: Nigerian Naira depreciates across FX markets - Daily Post Nigeria",
+      "source": "Nigeria economy",
+      "time": "now",
+      "peek": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMjV1TUpGVm1vWlBONHc1YzhCbnpPclJUMGtqZ05VR0JtV2xoN1E0bEpsQkRIZ2NsU0F0ZUEtcFZOc3Y0N2xpaGNuT3RreGxURzh5Y3hkak1PZGdwdTdtNWxRbV9icE8yMnlzY05Lc3dzSTlYNVk2M0NuN0ctNGVRLVFTdDQyMEV3c0FmRGliYkdoWW1pQTJLT3NoMUFSUHFjZlk2eUFmSUNZd0FOZDhYSnVFTjIzelRSc1",
+      "summary": [
+        "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMjV1TUpGVm1vWlBONHc1YzhCbnpPclJUMGtqZ05VR0JtV2xoN1E0bEpsQkRIZ2NsU0F0ZUEtcFZOc3Y0N2xpaGNuT3RreGxURzh5Y3hkak1PZGdwdTdtNWxRbV9icE8yMnlzY05Lc3dzSTlYNVk2M0NuN0ctNGVRLVFTdDQyMEV3c0FmRGliYkdoWW1pQTJLT3NoMUFSUHFjZlk2eUFmSUNZd0FOZDhYSnVFTjIzelRSc1"
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "Nigeria economy",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMjV1TUpGVm1vWlBONHc1YzhCbnpPclJUMGtqZ05VR0JtV2xoN1E0bEpsQkRIZ2NsU0F0ZUEtcFZOc3Y0N2xpaGNuT3RreGxURzh5Y3hkak1PZGdwdTdtNWxRbV9icE8yMnlzY05Lc3dzSTlYNVk2M0NuN0ctNGVRLVFTdDQyMEV3c0FmRGliYkdoWW1pQTJLT3NoMUFSUHFjZlk2eUFmSUNZd0FOZDhYSnVFTjIzelRSc1JiVVpEb0UwVGc?oc=5",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "category": "Global",
+      "mustRead": true,
+      "headline": "Anguished families left to identify Venezuela quake victims at makeshift morgue",
+      "source": "BBC World",
+      "time": "now",
+      "peek": "The disaster has overwhelmed local services, with bodies put outside or in tents for identification.",
+      "summary": [
+        "The disaster has overwhelmed local services, with bodies put outside or in tents for identification."
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c20y2p9qqqko?at_medium=RSS&at_campaign=rss",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "category": "Global",
+      "mustRead": true,
+      "headline": "Security staff strikes averted at Aberdeen Airport",
+      "source": "BBC Business",
+      "time": "1h",
+      "peek": "The strikes, involving baggage screening staff, were due begin on Monday with the Unite union warning of \"significant delays\".",
+      "summary": [
+        "The strikes, involving baggage screening staff, were due begin on Monday with the Unite union warning of \"significant delays\"."
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "BBC Business",
+          "url": "https://www.bbc.co.uk/news/articles/c39y3expgk3o?at_medium=RSS&at_campaign=rss",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "category": "Nigeria",
+      "mustRead": false,
+      "headline": "Four killed, farmers fled as armed men attack Benue communities",
+      "source": "BusinessDay NG",
+      "time": "2h",
+      "peek": "Farmers in Anyiase and Ikyoawen in the Moon Council Ward of the Kwande Local Government Area of Benue State have read more Four killed, farmers fled as armed men attack Benue communities",
+      "summary": [
+        "Farmers in Anyiase and Ikyoawen in the Moon Council Ward of the Kwande Local Government Area of Benue State have read more Four killed, farmers fled as armed men attack Benue communities"
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "BusinessDay NG",
+          "url": "https://businessday.ng/uncategorized/article/four-killed-farmers-fled-as-armed-men-attack-benue-communities/",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "category": "Nigeria",
+      "mustRead": false,
+      "headline": "FG inaugurates BOA board, charges members to drive food security, job creation",
+      "source": "BusinessDay NG",
+      "time": "2h",
+      "peek": "The Federal Government has inaugurated a new Board of Directors for the Bank of Agriculture (BOA) to reinforce corporate governance read more FG inaugurates BOA board, charges members to drive food security, job creation",
+      "summary": [
+        "The Federal Government has inaugurated a new Board of Directors for the Bank of Agriculture (BOA) to reinforce corporate governance read more FG inaugurates BOA board, charges members to drive food security, job creation"
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "BusinessDay NG",
+          "url": "https://businessday.ng/news/article/fg-inaugurates-boa-board-charges-members-to-drive-food-security-job-creation/",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "category": "Nigeria",
+      "mustRead": false,
+      "headline": "Oyetola seeks stronger state, private sector partnership to unlock blue economy potential - Realnews Magazine",
+      "source": "Nigeria economy",
+      "time": "2h",
+      "peek": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQZXVCUVVmam9hQnhNY0tXWWVuT0x4cUhrWVdOVmh0d2U5dVdyV3d5RFJsQ3k0UEVMQTZUTGpPZmZMYW1FYk5pYmVYNXhZYjEwcWV3MVlLeXJ4dHZMZUhSc3dIMnRidEU5cE9zaFlyNDFKeEVVSnNnSXdxelUtNkZOSzlDSGlwZVlTcFNfX0Jfc19zdXl4QU5mZlBFalhXWE9LV0U5YXBzME9oS09Gcm02aVZHZjJvVHZoZE",
+      "summary": [
+        "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQZXVCUVVmam9hQnhNY0tXWWVuT0x4cUhrWVdOVmh0d2U5dVdyV3d5RFJsQ3k0UEVMQTZUTGpPZmZMYW1FYk5pYmVYNXhZYjEwcWV3MVlLeXJ4dHZMZUhSc3dIMnRidEU5cE9zaFlyNDFKeEVVSnNnSXdxelUtNkZOSzlDSGlwZVlTcFNfX0Jfc19zdXl4QU5mZlBFalhXWE9LV0U5YXBzME9oS09Gcm02aVZHZjJvVHZoZE"
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "Nigeria economy",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZXVCUVVmam9hQnhNY0tXWWVuT0x4cUhrWVdOVmh0d2U5dVdyV3d5RFJsQ3k0UEVMQTZUTGpPZmZMYW1FYk5pYmVYNXhZYjEwcWV3MVlLeXJ4dHZMZUhSc3dIMnRidEU5cE9zaFlyNDFKeEVVSnNnSXdxelUtNkZOSzlDSGlwZVlTcFNfX0Jfc19zdXl4QU5mZlBFalhXWE9LV0U5YXBzME9oS09Gcm02aVZHZjJvVHZoZEE?oc=5",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "category": "Global",
+      "mustRead": false,
+      "headline": "David S. Doty, Judge Who Helped Shape the Modern N.F.L., Dies at 96",
+      "source": "NYT Business",
+      "time": "2h",
+      "peek": "He presided over the 1993 agreement that led to free agency and the salary cap, and for years oversaw the league’s disputes with its players.",
+      "summary": [
+        "He presided over the 1993 agreement that led to free agency and the salary cap, and for years oversaw the league’s disputes with its players."
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "NYT Business",
+          "url": "https://www.nytimes.com/2026/07/03/sports/football/david-s-doty-dead.html",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "category": "Global",
+      "mustRead": false,
+      "headline": "Iran begins public mourning for Ayatollah killed in February",
+      "source": "BBC World",
+      "time": "2h",
+      "peek": "Ali Khamenei's body will lie in state in Tehran's Grand Mosalla from Friday ahead of days-long funeral events.",
+      "summary": [
+        "Ali Khamenei's body will lie in state in Tehran's Grand Mosalla from Friday ahead of days-long funeral events."
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cx2k4k7jqeno?at_medium=RSS&at_campaign=rss",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "category": "Nigeria",
+      "mustRead": false,
+      "headline": "Qoray Mobility & Energies formally introduces its founding executive team",
+      "source": "Nairametrics",
+      "time": "3h",
+      "peek": "Nigeria’s clean energy and mobility company names the leadership driving Africa’s sustainable future Qoray Mobility & Energies Ltd (QORAY), a clean energy and sustainable mobility company operating across Nigeria, today formally introduced its founding Executive Leadership Team. Led by Founder and C",
+      "summary": [
+        "Nigeria’s clean energy and mobility company names the leadership driving Africa’s sustainable future Qoray Mobility & Energies Ltd (QORAY), a clean energy and sustainable mobility company operating across Nigeria, today formally introduced its founding Executive Leadership Team. Led by Founder and C"
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "Nairametrics",
+          "url": "https://nairametrics.com/2026/07/03/qoray-mobility-energies-formally-introduces-its-founding-executive-team/",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "category": "Nigeria",
+      "mustRead": false,
+      "headline": "NECLive & Frontyard Group Release New Report on the State of Nigeria's Creative Economy - BellaNaija",
+      "source": "Nigeria economy",
+      "time": "3h",
+      "peek": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNWkVaTWNlc0dLWTRXa2NTb0FnOGphWUw1ZF9hSU80Nnd1ZFktSXJKRXJyS1RjRl81cXI3enhkZkdoaVFzcnZseHhzU2JpcWUzd3o1azdOdjE3TFdkY2wwVGRZT0pBenp4dGpCQ0ZUdFBqbU4xTUxnVF8tUkpyamVSaGZ0ZjExM09WVjhCUkFBa1VkOWxKM1h4eGd6UEJycldV?oc=5\" target=\"_blank\">NECLive & F",
+      "summary": [
+        "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNWkVaTWNlc0dLWTRXa2NTb0FnOGphWUw1ZF9hSU80Nnd1ZFktSXJKRXJyS1RjRl81cXI3enhkZkdoaVFzcnZseHhzU2JpcWUzd3o1azdOdjE3TFdkY2wwVGRZT0pBenp4dGpCQ0ZUdFBqbU4xTUxnVF8tUkpyamVSaGZ0ZjExM09WVjhCUkFBa1VkOWxKM1h4eGd6UEJycldV?oc=5\" target=\"_blank\">NECLive & F"
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "Nigeria economy",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWkVaTWNlc0dLWTRXa2NTb0FnOGphWUw1ZF9hSU80Nnd1ZFktSXJKRXJyS1RjRl81cXI3enhkZkdoaVFzcnZseHhzU2JpcWUzd3o1azdOdjE3TFdkY2wwVGRZT0pBenp4dGpCQ0ZUdFBqbU4xTUxnVF8tUkpyamVSaGZ0ZjExM09WVjhCUkFBa1VkOWxKM1h4eGd6UEJycldV?oc=5",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "category": "Progress",
+      "mustRead": false,
+      "headline": "Taylor Swift and Travis Kelce Donate $26 Million to Charities in Honor of Their Wedding",
+      "source": "Good News Network",
+      "time": "3h",
+      "peek": "A representative for America’s favorite showgirl said that Taylor Swift and Travis Kelce have made donations totaling $26 million to over a dozen nonprofit organizations and charities. Though it’s not entirely clear when and where the couple will have their wedding, some sleuthing from the Guardian ",
+      "summary": [
+        "A representative for America’s favorite showgirl said that Taylor Swift and Travis Kelce have made donations totaling $26 million to over a dozen nonprofit organizations and charities. Though it’s not entirely clear when and where the couple will have their wedding, some sleuthing from the Guardian "
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/taylor-swift-and-travis-kelce-donate-26-million-to-charities-ahead-of-blockbuster-wedding/",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "category": "Nigeria",
+      "mustRead": false,
+      "headline": "Air Peace completes 3rd South Africa evacuation, brings home 268 Nigerians",
+      "source": "BusinessDay NG",
+      "time": "3h",
+      "peek": "Air Peace has successfully completed its third humanitarian evacuation mission from South Africa, safely airlifting 268 Nigerian nationals back home read more Air Peace completes 3rd South Africa evacuation, brings home 268 Nigerians",
+      "summary": [
+        "Air Peace has successfully completed its third humanitarian evacuation mission from South Africa, safely airlifting 268 Nigerian nationals back home read more Air Peace completes 3rd South Africa evacuation, brings home 268 Nigerians"
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "BusinessDay NG",
+          "url": "https://businessday.ng/aviation/article/air-peace-completes-3rd-south-africa-evacuation-brings-home-268-nigerians/",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "category": "Nigeria",
+      "mustRead": false,
+      "headline": "The Nigerian SME Growth Playbook: How Digital Tools Are Turning Ambition into Reality",
+      "source": "BusinessDay NG",
+      "time": "3h",
+      "peek": "By Dr Folasade Femi-Lawal, country manager, West Africa, Mastercard Across Africa, micro, small and medium-sized enterprises (MSMEs) are proving remarkably read more The Nigerian SME Growth Playbook: How Digital Tools Are Turning Ambition into Reality",
+      "summary": [
+        "By Dr Folasade Femi-Lawal, country manager, West Africa, Mastercard Across Africa, micro, small and medium-sized enterprises (MSMEs) are proving remarkably read more The Nigerian SME Growth Playbook: How Digital Tools Are Turning Ambition into Reality"
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "BusinessDay NG",
+          "url": "https://businessday.ng/brands-advertising/article/the-nigerian-sme-growth-playbook-how-digital-tools-are-turning-ambition-into-reality/",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "category": "Nigeria",
+      "mustRead": false,
+      "headline": "Dangote Cement shareholders approve secondary listing on London Stock Exchange",
+      "source": "Nairametrics",
+      "time": "4h",
+      "peek": "Shareholders of Dangote Cement Plc have approved plans for a secondary listing of the company’s shares on the London Stock Exchange, paving the way for the cement giant to expand its presence in international capital markets. The post Dangote Cement shareholders approve secondary listing on London S",
+      "summary": [
+        "Shareholders of Dangote Cement Plc have approved plans for a secondary listing of the company’s shares on the London Stock Exchange, paving the way for the cement giant to expand its presence in international capital markets. The post Dangote Cement shareholders approve secondary listing on London S"
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "Nairametrics",
+          "url": "https://nairametrics.com/2026/07/03/dangote-cement-shareholders-approve-secondary-listing-on-london-stock-exchange/",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "category": "Nigeria",
+      "mustRead": false,
+      "headline": "Afreximbank chief pushes PAPSS adoption to cut Africa’s dollar dependence",
+      "source": "BusinessDay NG",
+      "time": "4h",
+      "peek": "…says expansion hinges on central banks’ support George Elombi, president of the African Export-Import Bank (Afreximbank), has called on African read more Afreximbank chief pushes PAPSS adoption to cut Africa’s dollar dependence",
+      "summary": [
+        "…says expansion hinges on central banks’ support George Elombi, president of the African Export-Import Bank (Afreximbank), has called on African read more Afreximbank chief pushes PAPSS adoption to cut Africa’s dollar dependence"
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "BusinessDay NG",
+          "url": "https://businessday.ng/news/article/afreximbank-chief-pushes-papss-adoption-to-cut-africas-dollar-dependence/",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "category": "Tech & AI",
+      "mustRead": false,
+      "headline": "A device that revives eyeballs from dead donors could make eye transplants possible",
+      "source": "MIT Tech Review",
+      "time": "4h",
+      "peek": "It’s not easy to transplant a whole human eye. The surgery is difficult. And the eyes themselves start to degenerate as soon as they’ve left the body. When surgeons attempted it a few years ago, the newly-transplanted eye wasn’t able to see. But researchers believe they might have a solution: a devi",
+      "summary": [
+        "It’s not easy to transplant a whole human eye. The surgery is difficult. And the eyes themselves start to degenerate as soon as they’ve left the body. When surgeons attempted it a few years ago, the newly-transplanted eye wasn’t able to see. But researchers believe they might have a solution: a devi"
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "MIT Tech Review",
+          "url": "https://www.technologyreview.com/2026/07/03/1140148/a-device-that-revives-eyeballs-from-dead-donors-could-make-eye-transplants-possible/",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "category": "Tech & AI",
+      "mustRead": false,
+      "headline": "Amazon updated 2023’s Fire HD 10 tablet with 4GB of RAM",
+      "source": "The Verge",
+      "time": "4h",
+      "peek": "The Fire HD 8 that launched in 2024 was the last new addition to Amazon's budget-minded tablet lineup, but the company has quietly updated the Fire HD 10 that debuted the year before. In 2023 it was offered with multiple storage configurations that each came with 3GB of RAM, but the 32GB version now",
+      "summary": [
+        "The Fire HD 8 that launched in 2024 was the last new addition to Amazon's budget-minded tablet lineup, but the company has quietly updated the Fire HD 10 that debuted the year before. In 2023 it was offered with multiple storage configurations that each came with 3GB of RAM, but the 32GB version now"
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/961387/amazon-2023-fire-hd-10-tablet-4gb-update",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "category": "Your industries",
+      "mustRead": false,
+      "headline": "Three things to learn from PZ Cussons’ profit run - Business News Nigeria",
+      "source": "Consumer goods",
+      "time": "4h",
+      "peek": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxONkgxdTRpeU9aVzV0VVQxVHVNajRvZlZ6ZmZYS0hnLWVNOFdQeEJPTWhyMWkwcTlWYlp1VVlBU0I2WWJPYjd6ZV85MEVEOS1UaWxPc0xtRXNWWFhUWnlyVUtuZUFTaVRtb096SWxaMXVZUExTTW1qUmFMcFA5TDNXZ0Rya3dtb1NuRi02NXNYeGNIV2pKTk9wcE5n?oc=5\" target=\"_blank\">Three things to lea",
+      "summary": [
+        "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxONkgxdTRpeU9aVzV0VVQxVHVNajRvZlZ6ZmZYS0hnLWVNOFdQeEJPTWhyMWkwcTlWYlp1VVlBU0I2WWJPYjd6ZV85MEVEOS1UaWxPc0xtRXNWWFhUWnlyVUtuZUFTaVRtb096SWxaMXVZUExTTW1qUmFMcFA5TDNXZ0Rya3dtb1NuRi02NXNYeGNIV2pKTk9wcE5n?oc=5\" target=\"_blank\">Three things to lea"
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "Consumer goods",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONkgxdTRpeU9aVzV0VVQxVHVNajRvZlZ6ZmZYS0hnLWVNOFdQeEJPTWhyMWkwcTlWYlp1VVlBU0I2WWJPYjd6ZV85MEVEOS1UaWxPc0xtRXNWWFhUWnlyVUtuZUFTaVRtb096SWxaMXVZUExTTW1qUmFMcFA5TDNXZ0Rya3dtb1NuRi02NXNYeGNIV2pKTk9wcE5n?oc=5",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "category": "Your industries",
+      "mustRead": false,
+      "headline": "Seattle airport expansion features massive timber-clad \"tree\"",
+      "source": "Dezeen",
+      "time": "4h",
+      "peek": "Architecture studios The Miller Hull Partnership and Woods Bagot have completed an extension to Concourse C at Seattle-Tacoma International Airport, integrating a large timber-clad \"tree\" that arches over a gathering space. In collaboration with the Port of Seattle, the C Concourse Expansion (CCE) i",
+      "summary": [
+        "Architecture studios The Miller Hull Partnership and Woods Bagot have completed an extension to Concourse C at Seattle-Tacoma International Airport, integrating a large timber-clad \"tree\" that arches over a gathering space. In collaboration with the Port of Seattle, the C Concourse Expansion (CCE) i"
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "Dezeen",
+          "url": "https://www.dezeen.com/2026/07/03/miller-hull-partnership-woods-bagot-timber-expansion-sea-tac/",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "category": "Global",
+      "mustRead": false,
+      "headline": "Americans disgusted at Trump earning $1bn from crypto as president: ‘Obviously a grift’",
+      "source": "Guardian Business",
+      "time": "5h",
+      "peek": "<p>Hundreds of Guardian readers expressed concerns over greed in the White House and a billionaire president unconcerned with high gas and grocery prices</p><p><a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> has earned more than $1bn from his crypto businesses since return",
+      "summary": [
+        "<p>Hundreds of Guardian readers expressed concerns over greed in the White House and a billionaire president unconcerned with high gas and grocery prices</p><p><a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> has earned more than $1bn from his crypto businesses since return"
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "Guardian Business",
+          "url": "https://www.theguardian.com/us-news/2026/jul/03/americans-disgusted-trump-crypto",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "category": "Global",
+      "mustRead": false,
+      "headline": "Polish PM warns critical months ahead in face of Russian threat",
+      "source": "BBC World",
+      "time": "5h",
+      "peek": "Tusk says Poland is preparing for \"various\" scenarios after media reports of a planned Russian attack.",
+      "summary": [
+        "Tusk says Poland is preparing for \"various\" scenarios after media reports of a planned Russian attack."
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cj0gp88q4l4o?at_medium=RSS&at_campaign=rss",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "category": "Global",
+      "mustRead": false,
+      "headline": "Zuma showing South Africa 'middle finger' by meeting Gupta brother - minister",
+      "source": "BBC World",
+      "time": "5h",
+      "peek": "Former President Zuma's trip to India reignites anger over a decade-old corruption scandal.",
+      "summary": [
+        "Former President Zuma's trip to India reignites anger over a decade-old corruption scandal."
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cvge0gd6lnqo?at_medium=RSS&at_campaign=rss",
+          "lean": "center"
+        }
+      ]
+    }
+  ],
+  "brief": {
+    "date": "Friday 3 July",
+    "greeting": "Good morning, Raheeda",
+    "clusters": [
+      {
+        "title": "Nigeria",
+        "bullets": [
+          "Dollar to Naira Exchange Rate Today, July 3, 2026: Nigerian Naira depreciates across FX markets - Daily Post Nigeria",
+          "Four killed, farmers fled as armed men attack Benue communities",
+          "FG inaugurates BOA board, charges members to drive food security, job creation"
+        ],
+        "why": "",
+        "highlights": [],
+        "sources": [
+          {
+            "name": "Nigeria economy",
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMjV1TUpGVm1vWlBONHc1YzhCbnpPclJUMGtqZ05VR0JtV2xoN1E0bEpsQkRIZ2NsU0F0ZUEtcFZOc3Y0N2xpaGNuT3RreGxURzh5Y3hkak1PZGdwdTdtNWxRbV9icE8yMnlzY05Lc3dzSTlYNVk2M0NuN0ctNGVRLVFTdDQyMEV3c0FmRGliYkdoWW1pQTJLT3NoMUFSUHFjZlk2eUFmSUNZd0FOZDhYSnVFTjIzelRSc1JiVVpEb0UwVGc?oc=5"
+          },
+          {
+            "name": "BusinessDay NG",
+            "url": "https://businessday.ng/uncategorized/article/four-killed-farmers-fled-as-armed-men-attack-benue-communities/"
+          },
+          {
+            "name": "BusinessDay NG",
+            "url": "https://businessday.ng/news/article/fg-inaugurates-boa-board-charges-members-to-drive-food-security-job-creation/"
+          }
+        ]
+      },
+      {
+        "title": "Global",
+        "bullets": [
+          "Anguished families left to identify Venezuela quake victims at makeshift morgue",
+          "Security staff strikes averted at Aberdeen Airport",
+          "David S. Doty, Judge Who Helped Shape the Modern N.F.L., Dies at 96"
+        ],
+        "why": "",
+        "highlights": [],
+        "sources": [
+          {
+            "name": "BBC World",
+            "url": "https://www.bbc.co.uk/news/articles/c20y2p9qqqko?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "name": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/c39y3expgk3o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "name": "NYT Business",
+            "url": "https://www.nytimes.com/2026/07/03/sports/football/david-s-doty-dead.html"
+          }
+        ]
+      },
+      {
+        "title": "Progress",
+        "bullets": [
+          "Taylor Swift and Travis Kelce Donate $26 Million to Charities in Honor of Their Wedding"
+        ],
+        "why": "",
+        "highlights": [],
+        "sources": [
+          {
+            "name": "Good News Network",
+            "url": "https://www.goodnewsnetwork.org/taylor-swift-and-travis-kelce-donate-26-million-to-charities-ahead-of-blockbuster-wedding/"
+          }
+        ]
+      },
+      {
+        "title": "Tech & AI",
+        "bullets": [
+          "A device that revives eyeballs from dead donors could make eye transplants possible",
+          "Amazon updated 2023’s Fire HD 10 tablet with 4GB of RAM"
+        ],
+        "why": "",
+        "highlights": [],
+        "sources": [
+          {
+            "name": "MIT Tech Review",
+            "url": "https://www.technologyreview.com/2026/07/03/1140148/a-device-that-revives-eyeballs-from-dead-donors-could-make-eye-transplants-possible/"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com/tech/961387/amazon-2023-fire-hd-10-tablet-4gb-update"
+          }
+        ]
+      }
+    ]
+  },
+  "monitor": {
+    "economy": [],
+    "signals": [],
+    "progress": []
+  },
+  "learn": [
+    {
+      "tag": "Strategy",
+      "title": "Concentrate your forces",
+      "body": "Greene's Law 23: spreading thin dilutes power. Pick the one prospect, one venture, one deliverable that moves the most, and pour in until it's inevitable."
+    },
+    {
+      "tag": "Leverage",
+      "title": "Play long-term games with long-term people",
+      "body": "Naval's rule: compounding trust and equity beats one-off wins. Choose partners and clients you'd want to be building with in ten years."
+    },
+    {
+      "tag": "Negotiation",
+      "title": "Anchor, then go quiet",
+      "body": "State your number clearly and stop talking. Silence transfers pressure to the other side and protects your position without argument."
+    },
+    {
+      "tag": "Craft",
+      "title": "Ship the finished thing",
+      "body": "A deployable draft beats a perfect plan. Reduce the loop between idea and artifact — momentum is a moat."
+    }
+  ]
+}
