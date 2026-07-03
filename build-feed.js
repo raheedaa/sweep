@@ -6,7 +6,7 @@
    ============================================================ */
 import { writeFile } from 'node:fs/promises';
 
-const API_KEY = process.env.ANTHROPIC_API_KEY_SWEEP || '';
+const API_KEY = process.env.ANTHROPIC_API_KEY || '';
 const MODEL = process.env.MODEL || 'claude-haiku-4-5-20251001';
 let ENRICH = 'off (no key)';   // diagnostic written into feed.json
 
@@ -20,7 +20,7 @@ const CONFIG = {
     'revolutionary ideas, discoveries and opportunities'
   ],
   economy: [ { scope: 'Nigeria', code: 'NGA', flag: '\uD83C\uDDF3\uD83C\uDDEC' }, { scope: 'Global', code: 'WLD', flag: '\uD83C\uDF0D' } ],
-  maxItems: 22, mustReadCount: 3,
+  maxItems: 14, mustReadCount: 3,
   learn: [
     { tag: 'Strategy', title: 'Concentrate your forces', body: "Greene's Law 23: spreading thin dilutes power. Pick the one prospect, one venture, one deliverable that moves the most, and pour in until it's inevitable." },
     { tag: 'Leverage', title: 'Play long-term games with long-term people', body: "Naval's rule: compounding trust and equity beats one-off wins. Choose partners and clients you'd want to be building with in ten years." },
@@ -74,6 +74,21 @@ async function fetchText(url,ms=12000){const c=new AbortController();const t=set
 function cleanUrl(u=''){try{const url=new URL(u);['utm_source','utm_medium','utm_campaign','utm_term','utm_content','fbclid','gclid'].forEach(p=>url.searchParams.delete(p));return url.toString();}catch{return u;}}
 function hoursAgo(iso){if(!iso)return '';const d=new Date(iso);if(isNaN(d))return '';const h=Math.round((Date.now()-d.getTime())/3600000);if(h<1)return 'now';if(h<24)return h+'h';return Math.round(h/24)+'d';}
 function normTitle(t=''){return t.toLowerCase().replace(/[^a-z0-9 ]/g,'').replace(/\s+/g,' ').trim();}
+// best-effort repair for a JSON string that got cut off mid-reply
+function repairJson(s){s=s.trim();let inStr=false,esc=false;const stack=[];
+  for(let i=0;i<s.length;i++){const c=s[i];
+    if(inStr){if(esc)esc=false;else if(c==='\\')esc=true;else if(c==='"')inStr=false;continue;}
+    if(c==='"'){inStr=true;continue;}
+    if(c==='{'||c==='[')stack.push(c);else if(c==='}'||c===']')stack.pop();}
+  if(inStr){const q=s.lastIndexOf('"');if(q>0)s=s.slice(0,q);}
+  s=s.replace(/[,\s]+$/,'');
+  // drop a dangling "key": or "key" that has no value yet
+  s=s.replace(/,\s*"[^"]*"\s*:?\s*$/,'');
+  s=s.replace(/\{\s*"[^"]*"\s*:?\s*$/,'{');
+  s=s.replace(/:\s*$/,'');
+  s=s.replace(/[,\s]+$/,'');
+  let close='';for(let i=stack.length-1;i>=0;i--)close+=stack[i]==='{'?'}':']';
+  return s+close;}
 
 async function main(){
   /* 1. FETCH */
@@ -111,12 +126,14 @@ async function main(){
     try{
       const list=top.map((it,i)=>`[${i}] (${it.category}) ${it.title} — ${it.source}${it.snippet?' :: '+it.snippet:''}`).join('\n');
       const prompt=`You are the editor of a personal morning intelligence brief for ${CONFIG.greetingName}, whose interests are: ${CONFIG.interests.join('; ')}.\n\nCurate today's cleaned items into JSON. Accurate, neutral, concise; never invent facts beyond the snippets.\n\nITEMS:\n${list}\n\nReturn ONLY valid JSON (no markdown, no prose before or after) shaped exactly:\n{"feed":[{"id":"s0","category":"<item category>","mustRead":true,"headline":"<headline>","source":"<source>","time":"","peek":"<1 sentence>","summary":["<3 short points>"],"why":"<1-2 sentences why it matters to ${CONFIG.greetingName}>","simple":"<explain like I'm 5, 1 sentence>","spectrum":{"left":0,"center":0,"right":0},"sources":[{"name":"<source>","url":"","lean":"center"}]}],"brief":{"clusters":[{"title":"<theme>","bullets":["<3-4 lines>"],"why":"<1 sentence>","highlights":[0],"sources":[{"name":"<source>","url":""}]}]},"signals":[{"text":"<1 line>","tag":"<tag>","dir":"up","url":""}],"progress":[{"tag":"Opportunity","title":"<short>","body":"<1 sentence>","url":""}]}\n\nUse the index order of ITEMS for "feed". Mark ${CONFIG.mustReadCount} as mustRead. 3-4 clusters, 3 signals, 3 progress. spectrum ~sums to 100.`;
-      const r=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'content-type':'application/json','x-api-key':API_KEY,'anthropic-version':'2023-06-01'},body:JSON.stringify({model:MODEL,max_tokens:5000,messages:[{role:'user',content:prompt}]})});
+      const r=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'content-type':'application/json','x-api-key':API_KEY,'anthropic-version':'2023-06-01'},body:JSON.stringify({model:MODEL,max_tokens:8000,messages:[{role:'user',content:prompt}]})});
       if(!r.ok){ENRICH='failed: HTTP '+r.status;console.log('Claude call failed:',r.status,(await r.text()).slice(0,300));return fallback();}
       const j=await r.json();let text=(j.content||[]).filter(b=>b.type==='text').map(b=>b.text).join('').trim();
       const brace=text.match(/\{[\s\S]*\}/);          // pull the JSON object even if wrapped in prose/fences
       if(!brace){ENRICH='failed: no JSON in reply';console.log('No JSON found in Claude reply');return fallback();}
-      const parsed=JSON.parse(brace[0]);
+      let parsed;
+      try{parsed=JSON.parse(brace[0]);}
+      catch(pe){console.log('JSON clipped, repairing…');parsed=JSON.parse(repairJson(brace[0]));}
       parsed.feed=(parsed.feed||[]).map((f,i)=>{const s=top[i]||{};return {...f,time:hoursAgo(s.date),sources:(f.sources&&f.sources.length&&f.sources[0].url)?f.sources:[{name:s.source,url:s.url,lean:'center'}]};});
       ENRICH='on';console.log('Enrichment: ON');
       return parsed;
