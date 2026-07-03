@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-03T22:31:08.748Z",
-  "_enrichment": "failed: HTTP 400",
+  "updatedAt": "2026-07-03T23:07:42.697Z",
+  "_enrichment": "failed: HTTP 404",
   "feed": [
     {
       "id": "s0",
@@ -8,7 +8,7 @@
       "mustRead": true,
       "headline": "Dollar to Naira Exchange Rate Today, July 3, 2026: Nigerian Naira depreciates across FX markets - Daily Post Nigeria",
       "source": "Nigeria economy",
-      "time": "1h",
+      "time": "2h",
       "peek": "Dollar to Naira Exchange Rate Today, July 3, 2026: Nigerian Naira depreciates across FX markets Daily Post Nigeria",
       "summary": [
         "Dollar to Naira Exchange Rate Today, July 3, 2026: Nigerian Naira depreciates across FX markets Daily Post Nigeria"
@@ -30,7 +30,7 @@
       "mustRead": true,
       "headline": "Meet Geraldine Ekor, MiVA’s trailblazer with a perfect 5.0 CGPA",
       "source": "BusinessDay NG",
-      "time": "1h",
+      "time": "2h",
       "peek": "Behind every outstanding achievement is a story of determination, sacrifice, and consistency. For Geraldine Ekor, that story culminated read more Meet Geraldine Ekor, MiVA’s trailblazer with a perfect 5.0 CGPA",
       "summary": [
         "Behind every outstanding achievement is a story of determination, sacrifice, and consistency. For Geraldine Ekor, that story culminated read more Meet Geraldine Ekor, MiVA’s trailblazer with a perfect 5.0 CGPA"
@@ -140,7 +140,7 @@
       "mustRead": false,
       "headline": "Oyetola seeks stronger state, private sector partnership to unlock blue economy potential - Realnews Magazine",
       "source": "Nigeria economy",
-      "time": "3h",
+      "time": "4h",
       "peek": "Oyetola seeks stronger state, private sector partnership to unlock blue economy potential Realnews Magazine",
       "summary": [
         "Oyetola seeks stronger state, private sector partnership to unlock blue economy potential Realnews Magazine"
@@ -162,7 +162,7 @@
       "mustRead": false,
       "headline": "David S. Doty, Judge Who Helped Shape the Modern N.F.L., Dies at 96",
       "source": "NYT Business",
-      "time": "3h",
+      "time": "4h",
       "peek": "He presided over the 1993 agreement that led to free agency and the salary cap, and for years oversaw the league’s disputes with its players.",
       "summary": [
         "He presided over the 1993 agreement that led to free agency and the salary cap, and for years oversaw the league’s disputes with its players."
@@ -184,7 +184,7 @@
       "mustRead": false,
       "headline": "Iran begins public mourning for Ayatollah killed in February",
       "source": "BBC World",
-      "time": "3h",
+      "time": "4h",
       "peek": "Ali Khamenei's body will lie in state in Tehran's Grand Mosalla from Friday ahead of days-long funeral events.",
       "summary": [
         "Ali Khamenei's body will lie in state in Tehran's Grand Mosalla from Friday ahead of days-long funeral events."
@@ -228,7 +228,7 @@
       "mustRead": false,
       "headline": "NECLive & Frontyard Group Release New Report on the State of Nigeria's Creative Economy - BellaNaija",
       "source": "Nigeria economy",
-      "time": "4h",
+      "time": "5h",
       "peek": "NECLive & Frontyard Group Release New Report on the State of Nigeria's Creative Economy BellaNaija",
       "summary": [
         "NECLive & Frontyard Group Release New Report on the State of Nigeria's Creative Economy BellaNaija"
@@ -250,7 +250,7 @@
       "mustRead": false,
       "headline": "Taylor Swift and Travis Kelce Donate $26 Million to Charities in Honor of Their Wedding",
       "source": "Good News Network",
-      "time": "4h",
+      "time": "5h",
       "peek": "A representative for America’s favorite showgirl said that Taylor Swift and Travis Kelce have made donations totaling $26 million to over a dozen nonprofit organizations and charities. Though it’s not entirely clear when and where the couple will have their wedding, some sleuthing from the Guardian ",
       "summary": [
         "A representative for America’s favorite showgirl said that Taylor Swift and Travis Kelce have made donations totaling $26 million to over a dozen nonprofit organizations and charities. Though it’s not entirely clear when and where the couple will have their wedding, some sleuthing from the Guardian "
@@ -272,7 +272,7 @@
       "mustRead": false,
       "headline": "Air Peace completes 3rd South Africa evacuation, brings home 268 Nigerians",
       "source": "BusinessDay NG",
-      "time": "4h",
+      "time": "5h",
       "peek": "Air Peace has successfully completed its third humanitarian evacuation mission from South Africa, safely airlifting 268 Nigerian nationals back home read more Air Peace completes 3rd South Africa evacuation, brings home 268 Nigerians",
       "summary": [
         "Air Peace has successfully completed its third humanitarian evacuation mission from South Africa, safely airlifting 268 Nigerian nationals back home read more Air Peace completes 3rd South Africa evacuation, brings home 268 Nigerians"
@@ -294,7 +294,7 @@
       "mustRead": false,
       "headline": "The Nigerian SME Growth Playbook: How Digital Tools Are Turning Ambition into Reality",
       "source": "BusinessDay NG",
-      "time": "4h",
+      "time": "5h",
       "peek": "By Dr Folasade Femi-Lawal, country manager, West Africa, Mastercard Across Africa, micro, small and medium-sized enterprises (MSMEs) are proving remarkably read more The Nigerian SME Growth Playbook: How Digital Tools Are Turning Ambition into Reality",
       "summary": [
         "By Dr Folasade Femi-Lawal, country manager, West Africa, Mastercard Across Africa, micro, small and medium-sized enterprises (MSMEs) are proving remarkably read more The Nigerian SME Growth Playbook: How Digital Tools Are Turning Ambition into Reality"
@@ -338,7 +338,7 @@
       "mustRead": false,
       "headline": "A device that revives eyeballs from dead donors could make eye transplants possible",
       "source": "MIT Tech Review",
-      "time": "5h",
+      "time": "6h",
       "peek": "It’s not easy to transplant a whole human eye. The surgery is difficult. And the eyes themselves start to degenerate as soon as they’ve left the body. When surgeons attempted it a few years ago, the newly-transplanted eye wasn’t able to see. But researchers believe they might have a solution: a devi",
       "summary": [
         "It’s not easy to transplant a whole human eye. The surgery is difficult. And the eyes themselves start to degenerate as soon as they’ve left the body. When surgeons attempted it a few years ago, the newly-transplanted eye wasn’t able to see. But researchers believe they might have a solution: a devi"
@@ -360,7 +360,7 @@
       "mustRead": false,
       "headline": "Amazon updated 2023’s Fire HD 10 tablet with 4GB of RAM",
       "source": "The Verge",
-      "time": "5h",
+      "time": "6h",
       "peek": "The Fire HD 8 that launched in 2024 was the last new addition to Amazon's budget-minded tablet lineup, but the company has quietly updated the Fire HD 10 that debuted the year before. In 2023 it was offered with multiple storage configurations that each came with 3GB of RAM, but the 32GB version now",
       "summary": [
         "The Fire HD 8 that launched in 2024 was the last new addition to Amazon's budget-minded tablet lineup, but the company has quietly updated the Fire HD 10 that debuted the year before. In 2023 it was offered with multiple storage configurations that each came with 3GB of RAM, but the 32GB version now"
@@ -382,7 +382,7 @@
       "mustRead": false,
       "headline": "Three things to learn from PZ Cussons’ profit run - Business News Nigeria",
       "source": "Consumer goods",
-      "time": "5h",
+      "time": "6h",
       "peek": "Three things to learn from PZ Cussons’ profit run Business News Nigeria",
       "summary": [
         "Three things to learn from PZ Cussons’ profit run Business News Nigeria"
