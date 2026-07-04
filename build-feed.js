@@ -136,6 +136,7 @@ async function claude(prompt,max,model){
 async function main(){
   let OP=DEFAULT_OPERATOR;
   try{OP=Object.assign({},DEFAULT_OPERATOR,JSON.parse(await readFile('operator.json','utf8')));console.log('operator.json loaded');}catch(e){console.log('using default operator profile');}
+  let PREV=null;try{PREV=JSON.parse(await readFile('feed.json','utf8'));}catch(e){}
   const gn=q=>`https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=en&gl=US&ceid=US:en`;
 
   /* WORLDS: geographic markets + user-created tabs — each becomes its own sweep */
@@ -229,12 +230,14 @@ async function main(){
       const row=csv.trim().split('\n')[1];if(!row)continue;const close=row.split(',')[6];
       if(close&&close!=='N/D')monitor.markets.push({l:q.l,v:(+close).toLocaleString(undefined,{maximumFractionDigits:2})});
     }catch(e){}}
-  async function wb(code,ind){try{const j=await fetchX(`https://api.worldbank.org/v2/country/${code}/indicator/${ind}?format=json&mrnev=1`,12000,true);const row=j?.[1]?.[0];return row&&row.value!=null?{value:row.value,year:row.date}:null;}catch{return null;}}
+  async function wb(code,ind){for(let t=0;t<2;t++){try{const j=await fetchX(`https://api.worldbank.org/v2/country/${code}/indicator/${ind}?format=json&mrnev=1`,12000,true);const row=j?.[1]?.[0];if(row&&row.value!=null)return {value:row.value,year:row.date};}catch(e){}}return null;}
   for(const loc of [{scope:'Nigeria',code:'NGA',flag:'\uD83C\uDDF3\uD83C\uDDEC'},{scope:'Global',code:'WLD',flag:'\uD83C\uDF0D'}]){
     const gdp=await wb(loc.code,'NY.GDP.MKTP.KD.ZG');const inf=await wb(loc.code,'FP.CPI.TOTL.ZG');const m=[];
     if(gdp)m.push({l:`GDP growth (${gdp.year})`,v:gdp.value.toFixed(1)+'%',dir:gdp.value>=0?'up':'down'});
     if(inf)m.push({l:`Inflation (${inf.year})`,v:inf.value.toFixed(1)+'%'});
     if(m.length)monitor.economy.push({scope:loc.scope,flag:loc.flag,metrics:m});}
+  for(const sc of ['Nigeria','Global']){if(!monitor.economy.some(e=>e.scope===sc)){const prev=PREV&&PREV.monitor&&(PREV.monitor.economy||[]).find(e=>e.scope===sc);if(prev)monitor.economy.push(prev);}}
+  if(!monitor.markets.length&&PREV&&PREV.monitor&&Array.isArray(PREV.monitor.markets)&&PREV.monitor.markets.length)monitor.markets=PREV.monitor.markets;
   monitor.events=items.filter(x=>x.layer==='power').slice(0,8).map(x=>({title:x.title,url:x.url,tag:x.category}));
 
   /* 4. CURATE + ENRICH: AI picks must-reads for All AND for every world */
@@ -261,10 +264,21 @@ async function main(){
       for(const w of WORLDS){if(!feed.some(f=>f.must.includes(w))){feed.filter(f=>f.worlds.includes(w)).slice(0,2).forEach(f=>f.must.push(w));}}
     }catch(e){errs.push('curate:'+e.message);feed=fallbackMusts(feed);}
     try{
+      const missing=feed.map((f,idx)=>({f,idx})).filter(x=>(x.f.mustRead||((x.f.must||[]).length))&&!x.f.why).slice(0,16);
+      if(missing.length){
+        const ml=missing.map(x=>`[${x.idx}] ${x.f.headline} — ${x.f.source}${x.f.peek?' :: '+x.f.peek.slice(0,140):''}`).join('\n');
+        const m=await claude(`${profile}\nEnrich these must-read items for the operator. Return JSON ONLY:\n{"items":[{"i":0,"peek":"<1 tight sentence>","summary":["<2-3 short key points>"],"why":"<1-2 sentences why this matters to THIS operator>","simple":"<1 plain sentence>","spectrum":{"left":30,"center":50,"right":20}}]}\nITEMS:\n${ml}`,4200);
+        for(const e2 of (m.items||[])){const f=feed[e2.i];if(!f)continue;
+          if(e2.peek)f.peek=e2.peek;if(e2.summary&&e2.summary.length)f.summary=e2.summary;
+          f.why=e2.why||f.why;f.simple=e2.simple||f.simple;f.spectrum=e2.spectrum||f.spectrum;}
+      }
+    }catch(e){errs.push('fill:'+e.message);}
+    try{
       const b=await claude(`You are chief analyst writing the morning synthesis for a builder-CEO. ${profile}\n\nITEMS:\n${items.slice(0,80).map((it,i)=>`[${i}] {${it.layer}} ${it.title} — ${it.source}`).join('\n')}\n\nReturn JSON ONLY:\n{"analysis":{"overview":"<4-5 sentence executive read connecting today's biggest forces to this operator's position — sophisticated, direct, zero fluff>","themes":[{"name":"<theme>","weight":7,"dir":"up"}],"risks":["<2-3 concrete>"],"opportunities":["<2-3 concrete>"],"selfRead":"<if items mention the operator or their companies: 1-2 sentences on their public presence today and what to do about it; else an empty string>"},"clusters":[{"title":"<theme>","bullets":["<3-4 lines>"],"why":"<1 sentence>","highlights":[0],"sources":[{"name":"<source>","url":""}]}],"signals":[{"text":"<1 line>","tag":"<tag>","dir":"up","url":""}],"progress":[{"tag":"Opportunity","title":"<short>","body":"<1 sentence>","url":""}]}\n5-7 weighted themes. 3-5 clusters. 4 signals. 3 progress.`,4000,ANALYSIS_MODEL);
       briefPart=b;
     }catch(e){errs.push('analysis:'+e.message);}
-    ENRICH=errs.length===0?'on':(errs.length===1?'partial ('+errs[0]+')':'failed: '+errs.join('; '));
+    const hardFail=errs.some(x=>x.startsWith('curate'))&&errs.some(x=>x.startsWith('analysis'));
+    ENRICH=errs.length===0?'on':(hardFail?'failed: ':'partial: ')+errs.join('; ');
   }
   monitor.signals=(briefPart&&briefPart.signals)||[];monitor.progress=(briefPart&&briefPart.progress)||[];
 
