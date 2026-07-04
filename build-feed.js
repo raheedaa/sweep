@@ -137,6 +137,7 @@ async function main(){
   let OP=DEFAULT_OPERATOR;
   try{OP=Object.assign({},DEFAULT_OPERATOR,JSON.parse(await readFile('operator.json','utf8')));console.log('operator.json loaded');}catch(e){console.log('using default operator profile');}
   let PREV=null;try{PREV=JSON.parse(await readFile('feed.json','utf8'));}catch(e){}
+  let GROUND=[];try{GROUND=JSON.parse(await readFile('ground.json','utf8'));if(!Array.isArray(GROUND))GROUND=[];console.log('ground.json loaded:',GROUND.length,'items');}catch(e){}
   const gn=q=>`https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=en&gl=US&ceid=US:en`;
 
   /* WORLDS: geographic markets + user-created tabs — each becomes its own sweep */
@@ -197,6 +198,12 @@ async function main(){
       raw.push({title:'Odds: '+ev.title,url:'https://polymarket.com/event/'+(ev.slug||''),source:'Polymarket',layer:'ground',category:'Prediction markets',date:new Date().toISOString(),snippet:`$${Math.round((+ev.volume24hr||0)).toLocaleString()} traded in 24h — what money believes`,w:null});}
     console.log('  ok  Polymarket');}catch(e){console.log('  --  Polymarket: '+e.message);}
 
+  /* 1f. GROUND.JSON — deep research from the last30days agent */
+  for(const g of GROUND){if(!g||!g.headline)continue;
+    raw.push({title:String(g.headline).trim(),url:cleanUrl(g.url||''),source:g.source||'last30days',layer:'ground',
+      category:g.category||'Deep research',date:g.date||new Date().toISOString(),
+      snippet:(g.peek||g.summary||'').toString().slice(0,260),w:null,k:null});}
+
   /* 2. CLEAN, DEDUPE, TAG WORLDS — keep the full corpus */
   const su=new Set(),st=new Set();let items=[];
   for(const it of raw){if(!it.title||it.title.length<12)continue;if(su.has(it.url))continue;const nt=normTitle(it.title);if(st.has(nt))continue;su.add(it.url);st.add(nt);items.push(it);}
@@ -220,13 +227,15 @@ async function main(){
 
   /* 3. MONITOR (deterministic) */
   const monitor={markets:[],economy:[],events:[],signals:[],progress:[]};
-  try{const j=await fetchX('https://open.er-api.com/v6/latest/USD',12000,true);const R=j.rates||{};
+  let fxj=null;for(let t=0;t<2&&!fxj;t++){try{fxj=await fetchX('https://open.er-api.com/v6/latest/USD',12000,true);}catch(e){}}
+  try{const j=fxj||{};const R=j.rates||{};if(!fxj)throw new Error('fx unavailable');
     if(R.NGN)monitor.markets.push({l:'USD / NGN',v:Math.round(R.NGN).toLocaleString()});
     if(R.GBP)monitor.markets.push({l:'GBP / USD',v:(1/R.GBP).toFixed(3)});
     if(R.EUR)monitor.markets.push({l:'EUR / USD',v:(1/R.EUR).toFixed(3)});
     console.log('  ok  FX');}catch(e){console.log('  --  FX: '+e.message);}
   for(const q of [{s:'^spx',l:'S&P 500'},{s:'^ukx',l:'FTSE 100'},{s:'xauusd',l:'Gold $'},{s:'cl.f',l:'WTI oil $'}]){
-    try{const csv=await fetchX(`https://stooq.com/q/l/?s=${q.s}&f=sd2t2ohlcv&h&e=csv`,10000);
+    let csv=null;for(let t=0;t<2&&!csv;t++){try{csv=await fetchX(`https://stooq.com/q/l/?s=${q.s}&f=sd2t2ohlcv&h&e=csv`,10000);}catch(e){}}
+    try{if(!csv)continue;
       const row=csv.trim().split('\n')[1];if(!row)continue;const close=row.split(',')[6];
       if(close&&close!=='N/D')monitor.markets.push({l:q.l,v:(+close).toLocaleString(undefined,{maximumFractionDigits:2})});
     }catch(e){}}
