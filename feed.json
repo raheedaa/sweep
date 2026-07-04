@@ -1,50 +1,22 @@
 {
-  "updatedAt": "2026-07-03T23:33:43.747Z",
+  "updatedAt": "2026-07-04T11:11:58.864Z",
   "_enrichment": "on",
   "feed": [
     {
       "id": "s0",
-      "category": "Nigerian Macroeconomy",
+      "category": "Technology & Manufacturing",
       "mustRead": false,
-      "headline": "EBRD targets $1.5bn Nigeria investment as reform momentum draws capital",
-      "source": "BusinessDay NG",
-      "time": "1h",
-      "peek": "European Bank for Reconstruction and Development signals major capital inflow confidence in Nigeria's reform trajectory.",
+      "headline": "As auto costs rise, will the US miss the golden age of electric vehicles?",
+      "source": "Guardian Business",
+      "time": "now",
+      "peek": "Rising costs and Chinese competition threaten US EV market dominance despite new ventures like Bezos-backed Slate Auto.",
       "summary": [
-        "EBRD aiming for $1.5bn investment in Nigeria",
-        "Reflects confidence in ongoing economic reforms",
-        "Part of broader international capital attraction to Nigerian market"
+        "US EV industry faces vulnerability from cheap Chinese competitors and shifting political ideology",
+        "New Detroit startup Slate Auto, backed by Jeff Bezos, enters market with novel offerings",
+        "Cost pressures threaten to derail American leadership in electric vehicle adoption"
       ],
-      "why": "Direct signal of foreign institutional confidence in Nigeria's macroeconomic direction, affecting investment climate and currency stability relevant to Raheeda's business operations.",
-      "simple": "A big European bank wants to invest a lot of money in Nigeria because things are getting better there.",
-      "spectrum": {
-        "left": 0,
-        "center": 100,
-        "right": 0
-      },
-      "sources": [
-        {
-          "name": "BusinessDay NG",
-          "url": "https://businessday.ng/uncategorized/article/ebrd-targets-1-5bn-nigeria-investment-as-reform-momentum-draws-capital/",
-          "lean": "center"
-        }
-      ]
-    },
-    {
-      "id": "s1",
-      "category": "Global Economy",
-      "mustRead": false,
-      "headline": "South Africa tightens crackdown on undocumented migrants, Cabinet steps up border security",
-      "source": "BusinessDay NG",
-      "time": "1h",
-      "peek": "South Africa implementing stricter migration enforcement with expanded workplace inspections and accelerated border controls.",
-      "summary": [
-        "South Africa Cabinet reaffirming hard-line migration policy",
-        "Broader workplace inspections and faster border controls announced",
-        "Impacts regional labor mobility and business operations"
-      ],
-      "why": "Regional policy shift affecting supply chains, labor availability, and cross-border business operations for companies operating in Southern Africa.",
-      "simple": "South Africa is making it much harder for people without proper papers to enter or work there.",
+      "why": "Critical for understanding competitive threats to manufacturing innovation and global market positioning—directly relevant to Eleganza's supply chain strategy and tech-forward manufacturing.",
+      "simple": "American car makers are struggling to compete with cheaper electric cars from China.",
       "spectrum": {
         "left": 20,
         "center": 60,
@@ -52,111 +24,139 @@
       },
       "sources": [
         {
-          "name": "BusinessDay NG",
-          "url": "https://businessday.ng/africa/article/south-africa-tightens-crackdown-on-undocumented-migrants-cabinet-steps-up-border-security/",
+          "name": "Guardian Business",
+          "url": "https://www.theguardian.com/us-news/2026/jul/04/electric-cars-vehicles-united-states",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "category": "Macroeconomy & Policy",
+      "mustRead": false,
+      "headline": "Boris Johnson wasted my levelling up idea. Here's how Burnham and his 'good growth' plan can do better",
+      "source": "Guardian Business",
+      "time": "now",
+      "peek": "UK regional inequality persists; new 'good growth' framework emphasizes devolved power and prosperity-sharing across postcodes.",
+      "summary": [
+        "Original 'levelling up' agenda failed to deliver meaningful regional redistribution",
+        "Burnham's 'good growth' model prioritizes actual policy delivery and power devolution",
+        "Focus on shared prosperity across all regions remains central priority regardless of political leadership"
+      ],
+      "why": "Insights into macro policy effectiveness and regional economic development models applicable to understanding emerging market dynamics and wealth distribution strategies.",
+      "simple": "The UK is trying again to make poorer regions richer by sharing power and resources fairly.",
+      "spectrum": {
+        "left": 40,
+        "center": 50,
+        "right": 10
+      },
+      "sources": [
+        {
+          "name": "Guardian Business",
+          "url": "https://www.theguardian.com/commentisfree/2026/jul/04/boris-johnson-my-levelling-up-idea-burnham-good-growth",
           "lean": "center"
         }
       ]
     },
     {
       "id": "s2",
-      "category": "Consumer Goods & Manufacturing",
-      "mustRead": true,
-      "headline": "Lagos, UNDP move to position fashion, leather MSMEs for African, global markets",
-      "source": "BusinessDay NG",
-      "time": "1h",
-      "peek": "Lagos State and UNDP launching initiative to scale fashion and leather MSMEs for continental and international export markets.",
+      "category": "Global Affairs",
+      "mustRead": false,
+      "headline": "Pope urges Europe to do more for migrants while visiting gateway island",
+      "source": "BBC World",
+      "time": "now",
+      "peek": "Pontiff pays tribute to migrants lost at sea during Lampedusa visit, calling for stronger European action.",
       "summary": [
-        "Two-day Fashion, Leather and Creative Enterprise program launched",
-        "Focus on MSME capacity-building for African and global market access",
-        "Lagos State government partnering with UN development agency"
+        "Pope Francis visits Italian island of Lampedusa, a major migration gateway",
+        "Emphasis on commemorating migrants who have died at sea",
+        "Call for increased European commitment to migration challenges"
       ],
-      "why": "Direct opportunity for Eleganza supply chain development, artisan partnerships, and market expansion across Africa; aligns with premium positioning of Revelle brand.",
-      "simple": "Lagos is helping small fashion and leather makers get ready to sell their stuff all over Africa and the world.",
+      "why": "Contextual awareness of global humanitarian trends and European policy direction; peripheral to core interests but relevant for understanding macro-environment.",
+      "simple": "The Pope is asking Europe to help more migrants and remember those who died trying to reach safety.",
       "spectrum": {
-        "left": 0,
-        "center": 100,
-        "right": 0
+        "left": 30,
+        "center": 60,
+        "right": 10
       },
       "sources": [
         {
-          "name": "BusinessDay NG",
-          "url": "https://businessday.ng/news/article/lagos-undp-move-to-position-fashion-leather-msmes-for-african-global-markets/",
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c5yz83n7q5no?at_medium=RSS&at_campaign=rss",
           "lean": "center"
         }
       ]
     },
     {
       "id": "s3",
-      "category": "Innovation & Opportunity",
-      "mustRead": false,
-      "headline": "Meet Geraldine Ekor, MiVA's trailblazer with a perfect 5.0 CGPA",
-      "source": "BusinessDay NG",
-      "time": "2h",
-      "peek": "Profile of exceptional achiever in manufacturing/vocational education space.",
+      "category": "Technology & Cryptocurrency",
+      "mustRead": true,
+      "headline": "Nearly a Million Investors Lost a Total of $3.8 Billion on Trump Crypto Coin",
+      "source": "NYT Business",
+      "time": "1h",
+      "peek": "Retail investors in Trump memecoin suffered significant losses while sophisticated traders outperformed, exposing retail vulnerability in crypto markets.",
       "summary": [
-        "Perfect 5.0 CGPA achievement story in MiVA program",
-        "Represents determination and consistency in skill development",
-        "Inspiration for talent pipeline in manufacturing sector"
+        "Nearly 1 million retail investors collectively lost $3.8 billion on Trump memecoin",
+        "Data shows sharp performance divide between retail and sophisticated traders",
+        "Highlights systemic retail investor disadvantage in speculative crypto markets"
       ],
-      "why": "Highlights emerging talent in Nigerian manufacturing and vocational sectors; relevant for Eleganza's human capital strategy and industry talent scouting.",
-      "simple": "A really smart student got perfect grades in manufacturing training—that's the kind of talent companies need.",
+      "why": "Critical for private wealth management strategy and understanding market manipulation risks; demonstrates technology-enabled financial inequality patterns relevant to wealth preservation.",
+      "simple": "Most people who bought a Trump coin lost money while rich traders made money.",
       "spectrum": {
-        "left": 0,
-        "center": 100,
-        "right": 0
+        "left": 10,
+        "center": 70,
+        "right": 20
       },
       "sources": [
         {
-          "name": "BusinessDay NG",
-          "url": "https://businessday.ng/education/article/meet-geraldine-ekor-mivas-trailblazer-with-a-perfect-5-0-cgpa/",
+          "name": "NYT Business",
+          "url": "https://www.nytimes.com/2026/07/04/us/politics/nearly-a-million-investors-lost-a-total-of-3-8-billion-on-trump-crypto-coin.html",
           "lean": "center"
         }
       ]
     },
     {
       "id": "s4",
-      "category": "Nigerian Macroeconomy",
+      "category": "Nigerian Macroeconomy & Finance",
       "mustRead": false,
-      "headline": "Dollar to Naira Exchange Rate Today, July 3, 2026: Nigerian Naira depreciates across FX markets",
-      "source": "Daily Post Nigeria",
-      "time": "2h",
-      "peek": "Nigerian Naira experiencing depreciation pressure across foreign exchange markets.",
+      "headline": "IMF: Tokenization will reshape financial markets, not replace institutions",
+      "source": "Nairametrics",
+      "time": "1h",
+      "peek": "IMF warns tokenization will transform financial infrastructure fundamentally while preserving institutional frameworks.",
       "summary": [
-        "Naira depreciation reported across FX markets",
-        "Currency pressure continues in Nigerian economy",
-        "Impacts import costs and pricing strategies"
+        "Tokenization positioned to reshape financial market infrastructure (FMI) globally",
+        "IMF clarifies that blockchain technology complements rather than eliminates traditional institutions",
+        "Signals gradual institutional adaptation to decentralized financial mechanisms"
       ],
-      "why": "Critical for Eleganza's import-dependent supply chain and Revelle's pricing in global premium markets; directly affects profitability and cash flow.",
-      "simple": "Nigerian money is worth less compared to dollars, which makes buying things from outside Nigeria more expensive.",
+      "why": "Essential for understanding Nigerian financial system evolution and private wealth management strategies; signals institutional readiness for technology-integrated markets.",
+      "simple": "Digital tokens will change how money moves around but banks and regulators won't disappear.",
       "spectrum": {
-        "left": 0,
-        "center": 100,
-        "right": 0
+        "left": 20,
+        "center": 70,
+        "right": 10
       },
       "sources": [
         {
-          "name": "Nigeria economy",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMjV1TUpGVm1vWlBONHc1YzhCbnpPclJUMGtqZ05VR0JtV2xoN1E0bEpsQkRIZ2NsU0F0ZUEtcFZOc3Y0N2xpaGNuT3RreGxURzh5Y3hkak1PZGdwdTdtNWxRbV9icE8yMnlzY05Lc3dzSTlYNVk2M0NuN0ctNGVRLVFTdDQyMEV3c0FmRGliYkdoWW1pQTJLT3NoMUFSUHFjZlk2eUFmSUNZd0FOZDhYSnVFTjIzelRSc1JiVVpEb0UwVGc?oc=5",
+          "name": "Nairametrics",
+          "url": "https://nairametrics.com/2026/07/04/imf-tokenization-will-reshape-financial-markets-not-replace-institutions/",
           "lean": "center"
         }
       ]
     },
     {
       "id": "s5",
-      "category": "Global Economy",
+      "category": "Lifestyle & Wellness",
       "mustRead": false,
-      "headline": "Anguished families left to identify Venezuela quake victims at makeshift morgue",
-      "source": "BBC World",
-      "time": "3h",
-      "peek": "Venezuelan earthquake overwhelms local services, forcing makeshift morgue operations for victim identification.",
+      "headline": "Your Weekly Horoscope – 'Free Will Astrology' by Rob Brezsny",
+      "source": "Good News Network",
+      "time": "1h",
+      "peek": "Weekly astrological insights from syndicated columnist Rob Brezsny to motivate thinking and mood.",
       "summary": [
-        "Major earthquake in Venezuela",
-        "Local disaster response capacity exceeded",
-        "Bodies processed in temporary facilities"
+        "Rob Brezsny's syndicated weekly astrology column featured in over 100 publications",
+        "Author of 'Astrology Is Real: Revelations from My Life as an Oracle'",
+        "Designed to inspire reflection and elevate perspective"
       ],
-      "why": "Global economic impact limited; included for situational awareness of regional stability and supply chain risks.",
-      "simple": "A big earthquake happened in Venezuela and the hospitals can't handle all the people hurt.",
+      "why": "Tangential to core interests; minimal relevance to Raheeda's strategic focus areas.",
+      "simple": "A horoscope column that appears in lots of newspapers.",
       "spectrum": {
         "left": 0,
         "center": 100,
@@ -164,83 +164,27 @@
       },
       "sources": [
         {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/c20y2p9qqqko?at_medium=RSS&at_campaign=rss",
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/horoscope-from-rob-brezsnys-free-will-astrology-7-04-2026/",
           "lean": "center"
         }
       ]
     },
     {
       "id": "s6",
-      "category": "Global Economy",
-      "mustRead": false,
-      "headline": "Security staff strikes averted at Aberdeen Airport",
-      "source": "BBC Business",
-      "time": "3h",
-      "peek": "Baggage screening staff strike scheduled for Monday averted through negotiations.",
-      "summary": [
-        "Unite union strike threat averted at Aberdeen Airport",
-        "Baggage screening staff labor dispute resolved",
-        "Would have caused significant airport delays"
-      ],
-      "why": "Tangential relevance to global logistics and supply chain stability; demonstrates labor market pressures in developed markets.",
-      "simple": "Workers at a British airport were going to stop working but they made a deal instead.",
-      "spectrum": {
-        "left": 0,
-        "center": 100,
-        "right": 0
-      },
-      "sources": [
-        {
-          "name": "BBC Business",
-          "url": "https://www.bbc.co.uk/news/articles/c39y3expgk3o?at_medium=RSS&at_campaign=rss",
-          "lean": "center"
-        }
-      ]
-    },
-    {
-      "id": "s7",
-      "category": "Premium Design & Branding",
-      "mustRead": true,
-      "headline": "Brick Award 2026 winners create 'a sense of wonder and beauty'",
-      "source": "Dezeen",
-      "time": "4h",
-      "peek": "Brick Award 2026 celebrates eclectic global architecture winners including Vietnamese temple, Mexican tequila factory, and Belgian housing.",
-      "summary": [
-        "Six international winners announced for Brick Award 2026",
-        "Projects span temples, factories, residential infill, and student work",
-        "Demonstrates global design excellence and material innovation"
-      ],
-      "why": "Directly relevant to Revelle's premium design positioning and creative inspiration; showcases international design trends in materials and branding through architecture.",
-      "simple": "A famous design award gave prizes to six amazing buildings from around the world that look really beautiful.",
-      "spectrum": {
-        "left": 0,
-        "center": 100,
-        "right": 0
-      },
-      "sources": [
-        {
-          "name": "Dezeen",
-          "url": "https://www.dezeen.com/2026/07/03/brick-award-26/",
-          "lean": "center"
-        }
-      ]
-    },
-    {
-      "id": "s8",
       "category": "Nigerian Macroeconomy",
       "mustRead": false,
-      "headline": "Four killed, farmers fled as armed men attack Benue communities",
+      "headline": "Nine of world's top 10 passports belong to Europe, index shows",
       "source": "BusinessDay NG",
-      "time": "4h",
-      "peek": "Armed attacks in Benue State result in fatalities and displacement of farming communities.",
+      "time": "1h",
+      "peek": "Sweden leads Global Passport Index with Europe dominating top 10, excluding Singapore in second place.",
       "summary": [
-        "Armed attack on Anyiase and Ikyoawen communities in Kwande LGA",
-        "Four deaths reported, farmers displaced",
-        "Regional security concern affecting agricultural productivity"
+        "Sweden ranks first in latest Global Passport Index",
+        "Europe holds nine of ten top positions globally",
+        "Singapore is sole non-European entry in top 10"
       ],
-      "why": "Reflects ongoing security challenges affecting agricultural supply chains and rural economy stability in Nigeria.",
-      "simple": "Armed people attacked farming villages in Nigeria and people got hurt.",
+      "why": "Relevant to private wealth and family business mobility considerations; impacts relocation and asset protection strategies for high-net-worth individuals.",
+      "simple": "European passports are the most powerful for traveling around the world.",
       "spectrum": {
         "left": 0,
         "center": 100,
@@ -249,110 +193,82 @@
       "sources": [
         {
           "name": "BusinessDay NG",
-          "url": "https://businessday.ng/uncategorized/article/four-killed-farmers-fled-as-armed-men-attack-benue-communities/",
+          "url": "https://businessday.ng/bd-weekender/article/nine-of-worlds-top-10-passports-belong-to-europe-index-shows/",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "category": "Global Economy & Finance",
+      "mustRead": true,
+      "headline": "'Trump accounts': Wall Street-backed investment funds for children to go live",
+      "source": "Guardian Business",
+      "time": "1h",
+      "peek": "New savings vehicles named after US president for children born 2025-2028 launch Saturday, offering alternative wealth preservation mechanism.",
+      "summary": [
+        "Republican-authorized 'Trump accounts' launched as children's savings vehicles",
+        "Targets affluent parents seeking tax-advantaged wealth accumulation for 2025-2028 cohort",
+        "Represents Wall Street push for novel savings mechanisms aligned with administration priorities"
+      ],
+      "why": "Directly relevant to private wealth management and family business succession planning; signals emerging financial products for affluent families.",
+      "simple": "Rich Americans can now save money in special accounts for babies born after 2025.",
+      "spectrum": {
+        "left": 10,
+        "center": 40,
+        "right": 50
+      },
+      "sources": [
+        {
+          "name": "Guardian Business",
+          "url": "https://www.theguardian.com/us-news/2026/jul/04/trump-accounts-savings",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "category": "Nigerian Security & Governance",
+      "mustRead": false,
+      "headline": "Former Benue SSG shot dead by kidnappers",
+      "source": "BusinessDay NG",
+      "time": "1h",
+      "peek": "David Salifu, former Benue State Secretary to Government, killed by kidnappers; signals North-Central security crisis.",
+      "summary": [
+        "High-profile assassination of former state government official",
+        "Reflects persistent insecurity in North-Central Nigeria",
+        "Urgent need for highway and regional security infrastructure improvements"
+      ],
+      "why": "Nigerian macroeconomic context; indicates systemic governance and security challenges affecting business operations and investment climate.",
+      "simple": "A top government official in Nigeria was killed, showing how dangerous the region has become.",
+      "spectrum": {
+        "left": 0,
+        "center": 100,
+        "right": 0
+      },
+      "sources": [
+        {
+          "name": "BusinessDay NG",
+          "url": "https://businessday.ng/news/article/former-benue-ssg-shot-dead-by-kidnappers/",
           "lean": "center"
         }
       ]
     },
     {
       "id": "s9",
-      "category": "Nigerian Macroeconomy",
+      "category": "Nigerian Macroeconomy & Migration",
       "mustRead": false,
-      "headline": "Oyetola seeks stronger state, private sector partnership to unlock blue economy potential",
-      "source": "Realnews Magazine",
-      "time": "4h",
-      "peek": "State leadership pursuing public-private partnerships to develop Nigeria's maritime and blue economy sectors.",
-      "summary": [
-        "Oyetola advocating for state-private sector collaboration",
-        "Blue economy sector development focus",
-        "Partnership model to unlock maritime economic potential"
-      ],
-      "why": "Signals emerging sector opportunities in maritime and blue economy; relevant for long-term diversification strategies and new market entry possibilities.",
-      "simple": "A Nigerian leader wants businesses and government to work together to make money from the ocean and sea resources.",
-      "spectrum": {
-        "left": 0,
-        "center": 100,
-        "right": 0
-      },
-      "sources": [
-        {
-          "name": "Nigeria economy",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZXVCUVVmam9hQnhNY0tXWWVuT0x4cUhrWVdOVmh0d2U5dVdyV3d5RFJsQ3k0UEVMQTZUTGpPZmZMYW1FYk5pYmVYNXhZYjEwcWV3MVlLeXJ4dHZMZUhSc3dIMnRidEU5cE9zaFlyNDFKeEVVSnNnSXdxelUtNkZOSzlDSGlwZVlTcFNfX0Jfc19zdXl4QU5mZlBFalhXWE9LV0U5YXBzME9oS09Gcm02aVZHZjJvVHZoZEE?oc=5",
-          "lean": "center"
-        }
-      ]
-    },
-    {
-      "id": "s10",
-      "category": "Global Economy",
-      "mustRead": false,
-      "headline": "David S. Doty, Judge Who Helped Shape the Modern N.F.L., Dies at 96",
-      "source": "NYT Business",
-      "time": "4h",
-      "peek": "Influential judge who presided over 1993 N.F.L. free agency agreement and salary cap framework dies.",
-      "summary": [
-        "Judge David S. Doty shaped modern NFL economic structure",
-        "Oversaw 1993 agreement establishing free agency and salary cap",
-        "Managed league labor disputes for decades"
-      ],
-      "why": "Limited relevance; historical note on sports business governance and labor relations in major leagues.",
-      "simple": "A very important judge who made big decisions about how sports teams pay their players passed away.",
-      "spectrum": {
-        "left": 0,
-        "center": 100,
-        "right": 0
-      },
-      "sources": [
-        {
-          "name": "NYT Business",
-          "url": "https://www.nytimes.com/2026/07/03/sports/football/david-s-doty-dead.html",
-          "lean": "center"
-        }
-      ]
-    },
-    {
-      "id": "s11",
-      "category": "Global Economy",
-      "mustRead": false,
-      "headline": "Iran begins public mourning for Ayatollah killed in February",
-      "source": "BBC World",
-      "time": "4h",
-      "peek": "Iran holding state funeral events for Ayatollah with body lying in state at Grand Mosalla in Tehran.",
-      "summary": [
-        "Public mourning period for deceased Ayatollah begins",
-        "Multi-day funeral events scheduled in Tehran",
-        "Body lying in state at Grand Mosalla"
-      ],
-      "why": "Geopolitical awareness; limited direct business impact unless operating in Iranian markets.",
-      "simple": "Iran is having a big funeral ceremony for an important religious leader.",
-      "spectrum": {
-        "left": 0,
-        "center": 100,
-        "right": 0
-      },
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cx2k4k7jqeno?at_medium=RSS&at_campaign=rss",
-          "lean": "center"
-        }
-      ]
-    },
-    {
-      "id": "s12",
-      "category": "Technology & Innovation",
-      "mustRead": true,
-      "headline": "Qoray Mobility & Energies formally introduces its founding executive team",
+      "headline": "Japa: 10 countries making it easier for Nigerians to relocate in 2026",
       "source": "Nairametrics",
-      "time": "5h",
-      "peek": "Nigerian clean energy and sustainable mobility company announces founding leadership team driving Africa's green transition.",
+      "time": "1h",
+      "peek": "Ten nations announced 2026 immigration reforms facilitating Nigerian travel, work, relocation, and long-term residency.",
       "summary": [
-        "Qoray Mobility & Energies launches leadership team",
-        "Focus on clean energy and sustainable mobility across Nigeria",
-        "Positions company as driver of African sustainable future"
+        "Multiple countries easing visa and immigration pathways for Nigerian citizens",
+        "Reforms cover travel, work authorization, and permanent residency options",
+        "Reflects global labor mobility trends and talent competition strategies"
       ],
-      "why": "Emerging opportunity in Nigeria's energy and sustainability sector; relevant for technology partnerships, innovation trends, and ESG-aligned business models.",
-      "simple": "A new Nigerian company focused on clean energy and electric cars just announced who's leading it.",
+      "why": "Contextual for understanding capital and talent flight patterns; relevant to family business succession and wealth diversification considerations.",
+      "simple": "Ten countries are making it easier for Nigerians to move there and find work.",
       "spectrum": {
         "left": 0,
         "center": 100,
@@ -361,26 +277,26 @@
       "sources": [
         {
           "name": "Nairametrics",
-          "url": "https://nairametrics.com/2026/07/03/qoray-mobility-energies-formally-introduces-its-founding-executive-team/",
+          "url": "https://nairametrics.com/2026/07/04/japa-10-countries-making-it-easier-for-nigerians-to-relocate-in-2026-2/",
           "lean": "center"
         }
       ]
     },
     {
-      "id": "s13",
-      "category": "Nigerian Macroeconomy",
+      "id": "s10",
+      "category": "Nigerian Governance",
       "mustRead": false,
-      "headline": "NECLive & Frontyard Group Release New Report on the State of Nigeria's Creative Economy",
-      "source": "BellaNaija",
-      "time": "5h",
-      "peek": "Comprehensive report released on Nigerian creative economy status and trends.",
+      "headline": "Buni receives International recognition for Good Governance, impactful leadership",
+      "source": "BusinessDay NG",
+      "time": "1h",
+      "peek": "Yobe State Governor Mai Mala Buni honored by Africa Leadership Organisation for governance and leadership.",
       "summary": [
-        "NECLive and Frontyard Group publish creative economy research",
-        "Covers state of Nigeria's creative sector",
-        "Provides market insights and trend analysis"
+        "Governor Buni recognized internationally by Africa Leadership Organisation (ALO)",
+        "Award acknowledges good governance and leadership impact",
+        "Reflects regional institutional recognition of administrative performance"
       ],
-      "why": "Direct relevance to Revelle's premium branding and Eleganza's manufacturing intersection with creative industries; informs market strategy and sector positioning.",
-      "simple": "A new report came out about Nigeria's fashion, music, art, and design business scene.",
+      "why": "Nigerian macroeconomic context; signals governance quality variations across states, relevant for regional business strategy.",
+      "simple": "A Nigerian governor won an award for being a good leader.",
       "spectrum": {
         "left": 0,
         "center": 100,
@@ -388,87 +304,172 @@
       },
       "sources": [
         {
-          "name": "Nigeria economy",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWkVaTWNlc0dLWTRXa2NTb0FnOGphWUw1ZF9hSU80Nnd1ZFktSXJKRXJyS1RjRl81cXI3enhkZkdoaVFzcnZseHhzU2JpcWUzd3o1azdOdjE3TFdkY2wwVGRZT0pBenp4dGpCQ0ZUdFBqbU4xTUxnVF8tUkpyamVSaGZ0ZjExM09WVjhCUkFBa1VkOWxKM1h4eGd6UEJycldV?oc=5",
+          "name": "BusinessDay NG",
+          "url": "https://businessday.ng/news/article/buni-receives-international-recognition-for-good-governance-impactful-leadership/",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "category": "Global Affairs",
+      "mustRead": false,
+      "headline": "Large crowds gather in Tehran on first day of Ayatollah Khamenei's funeral",
+      "source": "BBC World",
+      "time": "1h",
+      "peek": "Ali Khamenei's body lies in state in Tehran's Grand Mosalla until Monday before traveling Iran and Iraq.",
+      "summary": [
+        "Massive public turnout for Iran's supreme leader's funeral proceedings",
+        "Body remains in Tehran until Monday before multi-nation journey",
+        "Reflects significant geopolitical moment in Middle Eastern context"
+      ],
+      "why": "Macro-environmental awareness; potential implications for global energy markets and regional stability with peripheral relevance to business operations.",
+      "simple": "Iran's most powerful leader died and thousands came to say goodbye.",
+      "spectrum": {
+        "left": 0,
+        "center": 100,
+        "right": 0
+      },
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c0ky2zen1kgo?at_medium=RSS&at_campaign=rss",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "category": "Nigerian Consumer Goods & Manufacturing",
+      "mustRead": true,
+      "headline": "Fire razes popular Bode market in Ibadan, destroys goods worth millions, as traders count losses",
+      "source": "BusinessDay NG",
+      "time": "2h",
+      "peek": "Early morning fire destroyed significant inventory at Bode Market in Ibadan, eliminating millions in goods and disrupting consumer goods supply.",
+      "summary": [
+        "Major fire destroyed Bode Market sections in Oyo State's commercial hub",
+        "Goods worth millions of naira lost in early morning incident",
+        "Significant supply disruption for consumer goods merchants and retailers"
+      ],
+      "why": "Direct impact on Eleganza's consumer goods supply chain ecosystem; reflects infrastructure vulnerability and operational risk in Nigeria's distribution networks.",
+      "simple": "A big fire destroyed a popular market in Nigeria where traders sell things.",
+      "spectrum": {
+        "left": 0,
+        "center": 100,
+        "right": 0
+      },
+      "sources": [
+        {
+          "name": "BusinessDay NG",
+          "url": "https://businessday.ng/news/article/fire-razes-popular-bode-market-in-ibadan-destroys-goods-worth-millions-as-traders-count-losses/",
+          "lean": "center"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "category": "Nigerian Governance & Public Finance",
+      "mustRead": false,
+      "headline": "Zulum releases N5.81bn to clear gratuity backlog for retirees, deceased workers",
+      "source": "BusinessDay NG",
+      "time": "2h",
+      "peek": "Borno State Governor Zulum distributes N5.81 billion to address gratuity arrears and improve employee welfare provisions.",
+      "summary": [
+        "N5.81 billion released to clear gratuity backlog for retirees and deceased workers' beneficiaries",
+        "Initiative demonstrates fiscal commitment to public sector employee welfare",
+        "Signals improved governance attention to labor and retirement security"
+      ],
+      "why": "Nigerian macroeconomic indicator of state fiscal capacity and social stability; reflects governance quality affecting business confidence.",
+      "simple": "A Nigerian governor paid money that was owed to retired workers and their families.",
+      "spectrum": {
+        "left": 0,
+        "center": 100,
+        "right": 0
+      },
+      "sources": [
+        {
+          "name": "BusinessDay NG",
+          "url": "https://businessday.ng/news/article/zulum-releases-n5-81bn-to-clear-gratuity-backlog-for-retirees-deceased-workers/",
           "lean": "center"
         }
       ]
     }
   ],
   "brief": {
-    "date": "Friday 3 July",
+    "date": "Saturday 4 July",
     "greeting": "Good morning, Raheeda",
     "clusters": [
       {
-        "title": "Capital Flows & Macroeconomic Signals",
+        "title": "Manufacturing & Supply Chain Vulnerabilities",
         "bullets": [
-          "EBRD targeting $1.5bn Nigeria investment signals international confidence in reform momentum and currency stability outlook",
-          "Naira depreciation pressure across FX markets increases import costs and affects Eleganza supply chain pricing",
-          "Combination reflects mixed signals: positive investment inflow vs. currency headwinds requiring hedging strategies"
+          "US EV market faces cost pressures and Chinese competition threatening sector leadership despite innovation (Slate Auto)",
+          "Nigerian consumer goods infrastructure exposed to catastrophic risk—Bode Market fire destroyed millions in inventory, disrupting critical distribution hub",
+          "Tech-enabled manufacturing faces dual pressures: global competition and domestic infrastructure fragility"
         ],
-        "why": "Direct impact on financing costs, operational margins, and long-term business planning for both Eleganza and Revelle.",
+        "why": "Direct operational threats to Eleganza's supply chain resilience and competitive positioning require urgent strategic response.",
         "highlights": [
           0,
-          4
-        ],
-        "sources": [
-          {
-            "name": "BusinessDay NG",
-            "url": ""
-          },
-          {
-            "name": "Daily Post Nigeria",
-            "url": ""
-          }
-        ]
-      },
-      {
-        "title": "Creative Economy & Design Excellence",
-        "bullets": [
-          "Brick Award 2026 showcases global design trends emphasizing material innovation and aesthetic excellence—inspiration for Revelle premium positioning",
-          "NECLive report on Nigerian creative economy provides sector data for market strategy and competitive positioning",
-          "Fashion/leather MSME initiative in Lagos creates artisan partnership and supply chain opportunities for Eleganza sourcing"
-        ],
-        "why": "Convergence of premium design inspiration, creative sector growth, and manufacturing supply chain development across Raheeda's portfolio.",
-        "highlights": [
-          2,
-          7,
-          13
-        ],
-        "sources": [
-          {
-            "name": "Dezeen",
-            "url": ""
-          },
-          {
-            "name": "BusinessDay NG",
-            "url": ""
-          },
-          {
-            "name": "BellaNaija",
-            "url": ""
-          }
-        ]
-      },
-      {
-        "title": "Emerging Opportunities in Green & Blue Economy",
-        "bullets": [
-          "Qoray Mobility & Energies launch signals growing clean energy and sustainable mobility sector with leadership structure now in place",
-          "Blue economy development initiative in coastal states creates new sector diversification opportunities for private investment",
-          "Sustainability focus aligns with global ESG trends affecting consumer goods branding and manufacturing practices"
-        ],
-        "why": "Future-facing opportunities for innovation partnerships, ESG-aligned product development, and new market entry in high-growth sectors.",
-        "highlights": [
-          9,
           12
         ],
         "sources": [
+          {
+            "name": "Guardian Business",
+            "url": ""
+          },
+          {
+            "name": "BusinessDay NG",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "title": "Private Wealth & Family Business Evolution",
+        "bullets": [
+          "New 'Trump accounts' create novel wealth accumulation vehicles for affluent families targeting 2025-2028 cohort",
+          "Crypto market volatility exposes retail investor vulnerability—$3.8B lost on Trump memecoin while sophisticated traders profited, signaling systemic inequality",
+          "Tokenization reshapes financial infrastructure while preserving institutional frameworks; IMF confirms complementary rather than disruptive trajectory"
+        ],
+        "why": "Emerging financial products and market dynamics require updated wealth preservation and succession strategies for high-net-worth families.",
+        "highlights": [
+          3,
+          4,
+          7
+        ],
+        "sources": [
+          {
+            "name": "NYT Business",
+            "url": ""
+          },
           {
             "name": "Nairametrics",
             "url": ""
           },
           {
-            "name": "Realnews Magazine",
+            "name": "Guardian Business",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "title": "Nigerian Macroeconomic & Governance Landscape",
+        "bullets": [
+          "Regional security crisis escalates—assassination of former Benue SSG signals deteriorating North-Central stability and highway infrastructure vulnerability",
+          "Talent and capital flight accelerating—10 countries easing 2026 immigration pathways for Nigerians; passport strength disparity (Europe dominates top 10)",
+          "Fiscal stability indicators mixed: Borno State gratuity clearance signals sectoral governance improvement; broader security challenges threaten business confidence"
+        ],
+        "why": "Complex risk-reward environment in Nigeria requires sophisticated navigation of security, governance quality, and capital mobility considerations.",
+        "highlights": [
+          8,
+          9,
+          13
+        ],
+        "sources": [
+          {
+            "name": "BusinessDay NG",
+            "url": ""
+          },
+          {
+            "name": "Nairametrics",
             "url": ""
           }
         ]
@@ -476,23 +477,36 @@
     ]
   },
   "monitor": {
-    "economy": [],
+    "economy": [
+      {
+        "scope": "Nigeria",
+        "flag": "🇳🇬",
+        "metrics": [
+          {
+            "l": "Inflation (2025)",
+            "v": "23.0%",
+            "chg": "",
+            "dir": ""
+          }
+        ]
+      }
+    ],
     "signals": [
       {
-        "text": "EBRD $1.5bn Nigeria target signals international institutional confidence in reform trajectory despite naira depreciation.",
-        "tag": "Capital Inflow",
+        "text": "US EV market vulnerable to Chinese competition as costs rise despite innovation—strategic implications for manufacturing competitiveness.",
+        "tag": "Manufacturing Risk",
         "dir": "up",
         "url": ""
       },
       {
-        "text": "Fashion/leather MSME initiative in Lagos creates direct artisan partnership and premium supply chain opportunities.",
-        "tag": "Supply Chain Opportunity",
+        "text": "Nigerian infrastructure fragility exposed: Bode Market fire destruction threatens consumer goods supply chain continuity.",
+        "tag": "Operational Risk",
         "dir": "up",
         "url": ""
       },
       {
-        "text": "Qoray Mobility & Energies launch marks consolidation of Nigeria's clean energy sector with formal leadership structure.",
-        "tag": "Sector Formation",
+        "text": "Retail crypto investors lose $3.8B collectively to Trump memecoin while sophisticated traders profit—systemic wealth inequality signal.",
+        "tag": "Market Inequality",
         "dir": "up",
         "url": ""
       }
@@ -500,20 +514,20 @@
     "progress": [
       {
         "tag": "Opportunity",
-        "title": "Lagos Fashion/Leather MSME Program",
-        "body": "UNDP partnership positioning local artisans for African and global market access; immediate sourcing and partnership potential for Eleganza.",
+        "title": "Tokenization Market Infrastructure",
+        "body": "IMF confirmation of tokenization reshaping financial markets (not replacing institutions) creates new fintech integration opportunities for Eleganza and private wealth management.",
         "url": ""
       },
       {
         "tag": "Opportunity",
-        "title": "Qoray Clean Energy Ecosystem",
-        "body": "Founding team announced for sustainable mobility company; explore technology partnerships and operational efficiency innovations.",
+        "title": "Supply Chain Resilience Investment",
+        "body": "Bode Market fire demonstrates urgent need for distributed inventory management and insurance solutions in Nigerian consumer goods sector.",
         "url": ""
       },
       {
-        "tag": "Challenge",
-        "title": "Naira Currency Pressure",
-        "body": "Ongoing depreciation requires review of import hedging strategies and pricing models for Eleganza supply chain and Revelle positioning.",
+        "tag": "Opportunity",
+        "title": "Affluent Family Financial Products",
+        "body": "Trump accounts launch signals emerging demand for alternative wealth vehicles; opportunity to develop premium, design-led financial product offerings.",
         "url": ""
       }
     ]
