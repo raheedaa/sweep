@@ -1,26 +1,83 @@
 {
-  "updatedAt": "2026-07-04T11:11:58.864Z",
+  "updatedAt": "2026-07-04T11:27:54.419Z",
   "_enrichment": "on",
+  "operator": {
+    "name": "Raheeda",
+    "industries": [
+      "consumer goods & manufacturing",
+      "premium design & branding",
+      "furniture & design objects",
+      "private wealth & family business"
+    ],
+    "markets": [
+      "Nigeria",
+      "West Africa",
+      "United Kingdom",
+      "Global"
+    ],
+    "companies": [
+      "Eleganza Industries",
+      "Revelle"
+    ],
+    "keywords": [
+      "naira",
+      "luxury market",
+      "manufacturing incentives",
+      "brand strategy"
+    ],
+    "people": []
+  },
   "feed": [
     {
       "id": "s0",
-      "category": "Technology & Manufacturing",
+      "layer": "money",
+      "layerLabel": "Money",
+      "category": "Nigeria economy",
+      "mustRead": false,
+      "headline": "H1 2026 NGX Report: The Best and Worst Stocks of the First Six Months",
+      "source": "Nairametrics",
+      "time": "now",
+      "peek": "NGX equities delivered 111% returns in H1 2026, with Aradel Holdings among top performers.",
+      "summary": [
+        "Nigerian stock market showed strong H1 performance",
+        "Significant wealth creation opportunity for domestic investors"
+      ],
+      "why": "Direct indicator of Nigeria's capital market health and investment climate for consumer goods & manufacturing operators like Eleganza Industries.",
+      "simple": "Nigerian stocks doubled money for early investors in first half of 2026.",
+      "spectrum": {
+        "left": 15,
+        "center": 70,
+        "right": 15
+      },
+      "sources": [
+        {
+          "name": "Nairametrics",
+          "url": "https://nairametrics.com/2026/07/04/h1-2026-ngx-report-the-best-and-worst-stocks-of-the-first-six-months/",
+          "lean": "center"
+        }
+      ],
+      "watch": []
+    },
+    {
+      "id": "s1",
+      "layer": "money",
+      "layerLabel": "Money",
+      "category": "Markets & macro",
       "mustRead": false,
       "headline": "As auto costs rise, will the US miss the golden age of electric vehicles?",
       "source": "Guardian Business",
       "time": "now",
-      "peek": "Rising costs and Chinese competition threaten US EV market dominance despite new ventures like Bezos-backed Slate Auto.",
+      "peek": "US EV market facing structural headwinds from rising costs and Chinese competition.",
       "summary": [
-        "US EV industry faces vulnerability from cheap Chinese competitors and shifting political ideology",
-        "New Detroit startup Slate Auto, backed by Jeff Bezos, enters market with novel offerings",
-        "Cost pressures threaten to derail American leadership in electric vehicle adoption"
+        "Cost inflation threatening EV adoption momentum",
+        "Global competition reshaping auto sector dynamics"
       ],
-      "why": "Critical for understanding competitive threats to manufacturing innovation and global market positioning—directly relevant to Eleganza's supply chain strategy and tech-forward manufacturing.",
-      "simple": "American car makers are struggling to compete with cheaper electric cars from China.",
+      "why": "Signals broader market vulnerabilities in premium/manufactured goods sectors amid cost pressures and global competition.",
+      "simple": "Rising costs and cheap Chinese cars threaten America's electric vehicle growth.",
       "spectrum": {
-        "left": 20,
-        "center": 60,
-        "right": 20
+        "left": 25,
+        "center": 50,
+        "right": 25
       },
       "sources": [
         {
@@ -28,111 +85,54 @@
           "url": "https://www.theguardian.com/us-news/2026/jul/04/electric-cars-vehicles-united-states",
           "lean": "center"
         }
-      ]
-    },
-    {
-      "id": "s1",
-      "category": "Macroeconomy & Policy",
-      "mustRead": false,
-      "headline": "Boris Johnson wasted my levelling up idea. Here's how Burnham and his 'good growth' plan can do better",
-      "source": "Guardian Business",
-      "time": "now",
-      "peek": "UK regional inequality persists; new 'good growth' framework emphasizes devolved power and prosperity-sharing across postcodes.",
-      "summary": [
-        "Original 'levelling up' agenda failed to deliver meaningful regional redistribution",
-        "Burnham's 'good growth' model prioritizes actual policy delivery and power devolution",
-        "Focus on shared prosperity across all regions remains central priority regardless of political leadership"
       ],
-      "why": "Insights into macro policy effectiveness and regional economic development models applicable to understanding emerging market dynamics and wealth distribution strategies.",
-      "simple": "The UK is trying again to make poorer regions richer by sharing power and resources fairly.",
-      "spectrum": {
-        "left": 40,
-        "center": 50,
-        "right": 10
-      },
-      "sources": [
-        {
-          "name": "Guardian Business",
-          "url": "https://www.theguardian.com/commentisfree/2026/jul/04/boris-johnson-my-levelling-up-idea-burnham-good-growth",
-          "lean": "center"
-        }
-      ]
+      "watch": []
     },
     {
       "id": "s2",
-      "category": "Global Affairs",
-      "mustRead": false,
-      "headline": "Pope urges Europe to do more for migrants while visiting gateway island",
-      "source": "BBC World",
-      "time": "now",
-      "peek": "Pontiff pays tribute to migrants lost at sea during Lampedusa visit, calling for stronger European action.",
+      "layer": "money",
+      "layerLabel": "Money",
+      "category": "Markets & macro",
+      "mustRead": true,
+      "headline": "Tankers U-Turn in Hormuz, With Some Taking Iran Route Instead",
+      "source": "Bloomberg Markets",
+      "time": "1h",
+      "peek": "At least eight ships attempting to leave the Persian Gulf along the Omani coast turned back between Friday and Saturday, in the latest sign that reopening the Strait of Hormuz remains complicated by Iran seeking to assert its control over the key waterway. Some of the vessels con",
       "summary": [
-        "Pope Francis visits Italian island of Lampedusa, a major migration gateway",
-        "Emphasis on commemorating migrants who have died at sea",
-        "Call for increased European commitment to migration challenges"
+        "At least eight ships attempting to leave the Persian Gulf along the Omani coast turned back between Friday and Saturday, in the latest sign that reopening the Strait of Hormuz remains complicated by Iran seeking to assert its control over the key waterway. Some of the vessels con"
       ],
-      "why": "Contextual awareness of global humanitarian trends and European policy direction; peripheral to core interests but relevant for understanding macro-environment.",
-      "simple": "The Pope is asking Europe to help more migrants and remember those who died trying to reach safety.",
-      "spectrum": {
-        "left": 30,
-        "center": 60,
-        "right": 10
-      },
+      "why": "",
+      "simple": "",
+      "spectrum": null,
       "sources": [
         {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/c5yz83n7q5no?at_medium=RSS&at_campaign=rss",
+          "name": "Bloomberg Markets",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-04/tankers-u-turn-in-hormuz-with-some-taking-iran-route-instead",
           "lean": "center"
         }
-      ]
+      ],
+      "watch": []
     },
     {
       "id": "s3",
-      "category": "Technology & Cryptocurrency",
+      "layer": "money",
+      "layerLabel": "Money",
+      "category": "Nigeria economy",
       "mustRead": true,
-      "headline": "Nearly a Million Investors Lost a Total of $3.8 Billion on Trump Crypto Coin",
-      "source": "NYT Business",
-      "time": "1h",
-      "peek": "Retail investors in Trump memecoin suffered significant losses while sophisticated traders outperformed, exposing retail vulnerability in crypto markets.",
-      "summary": [
-        "Nearly 1 million retail investors collectively lost $3.8 billion on Trump memecoin",
-        "Data shows sharp performance divide between retail and sophisticated traders",
-        "Highlights systemic retail investor disadvantage in speculative crypto markets"
-      ],
-      "why": "Critical for private wealth management strategy and understanding market manipulation risks; demonstrates technology-enabled financial inequality patterns relevant to wealth preservation.",
-      "simple": "Most people who bought a Trump coin lost money while rich traders made money.",
-      "spectrum": {
-        "left": 10,
-        "center": 70,
-        "right": 20
-      },
-      "sources": [
-        {
-          "name": "NYT Business",
-          "url": "https://www.nytimes.com/2026/07/04/us/politics/nearly-a-million-investors-lost-a-total-of-3-8-billion-on-trump-crypto-coin.html",
-          "lean": "center"
-        }
-      ]
-    },
-    {
-      "id": "s4",
-      "category": "Nigerian Macroeconomy & Finance",
-      "mustRead": false,
       "headline": "IMF: Tokenization will reshape financial markets, not replace institutions",
       "source": "Nairametrics",
       "time": "1h",
-      "peek": "IMF warns tokenization will transform financial infrastructure fundamentally while preserving institutional frameworks.",
+      "peek": "IMF: tokenization will reshape financial infrastructure without replacing traditional institutions.",
       "summary": [
-        "Tokenization positioned to reshape financial market infrastructure (FMI) globally",
-        "IMF clarifies that blockchain technology complements rather than eliminates traditional institutions",
-        "Signals gradual institutional adaptation to decentralized financial mechanisms"
+        "Tokenization emerging as transformative FMI technology",
+        "Legacy institutions remain structural foundation"
       ],
-      "why": "Essential for understanding Nigerian financial system evolution and private wealth management strategies; signals institutional readiness for technology-integrated markets.",
-      "simple": "Digital tokens will change how money moves around but banks and regulators won't disappear.",
+      "why": "Critical for understanding evolving financial ecosystem in Nigeria and global markets where Raheeda operates; impacts wealth management and business finance.",
+      "simple": "Blockchain tokenization will change how markets work, but banks stay essential.",
       "spectrum": {
         "left": 20,
-        "center": 70,
-        "right": 10
+        "center": 60,
+        "right": 20
       },
       "sources": [
         {
@@ -140,259 +140,712 @@
           "url": "https://nairametrics.com/2026/07/04/imf-tokenization-will-reshape-financial-markets-not-replace-institutions/",
           "lean": "center"
         }
-      ]
+      ],
+      "watch": []
+    },
+    {
+      "id": "s4",
+      "layer": "money",
+      "layerLabel": "Money",
+      "category": "Markets & macro",
+      "mustRead": false,
+      "headline": "Eastern US Heat Wave Starts to Retreat While Raising Storm Risk",
+      "source": "Bloomberg Markets",
+      "time": "1h",
+      "peek": "Extreme heat that’s seared the eastern US, strained the power grid from Maine to the Carolinas and curtailed holiday celebrations is starting to break up.",
+      "summary": [
+        "Extreme heat that’s seared the eastern US, strained the power grid from Maine to the Carolinas and curtailed holiday celebrations is starting to break up."
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "Bloomberg Markets",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-04/extreme-heat-breaks-across-eastern-us-severe-thunderstorms-to-follow",
+          "lean": "center"
+        }
+      ],
+      "watch": []
     },
     {
       "id": "s5",
-      "category": "Lifestyle & Wellness",
+      "layer": "power",
+      "layerLabel": "Power",
+      "category": "World",
       "mustRead": false,
-      "headline": "Your Weekly Horoscope – 'Free Will Astrology' by Rob Brezsny",
+      "headline": "America250: How the US heatwave will affect Fourth of July celebrations",
+      "source": "Al Jazeera",
+      "time": "now",
+      "peek": "From Washington to LA, how plans to mark the United States' 250th anniversary could be disrupted by extreme heat.",
+      "summary": [
+        "From Washington to LA, how plans to mark the United States' 250th anniversary could be disrupted by extreme heat."
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/4/america250-how-the-us-heatwave-will-affect-fourth-of-july-celebrations?traffic_source=rss",
+          "lean": "center"
+        }
+      ],
+      "watch": []
+    },
+    {
+      "id": "s6",
+      "layer": "power",
+      "layerLabel": "Power",
+      "category": "Nigeria",
+      "mustRead": false,
+      "headline": "How my husband met Stella, why she sold his properties — Mr Ibu’s first wife",
+      "source": "Premium Times",
+      "time": "now",
+      "peek": "Mr Ibu’s first wife recounted how the late actor met Stella while making fresh allegations over his estate amid the family’s lingering dispute. The post How my husband met Stella, why she sold his properties — Mr Ibu’s first wife appeared first on Premium Times Nigeria .",
+      "summary": [
+        "Mr Ibu’s first wife recounted how the late actor met Stella while making fresh allegations over his estate amid the family’s lingering dispute. The post How my husband met Stella, why she sold his properties — Mr Ibu’s first wife appeared first on Premium Times Nigeria ."
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "Premium Times",
+          "url": "https://www.premiumtimesng.com/entertainment/naija-fashion/892868-how-my-husband-met-stella-why-she-sold-his-properties-mr-ibus-first-wife.html",
+          "lean": "center"
+        }
+      ],
+      "watch": []
+    },
+    {
+      "id": "s7",
+      "layer": "power",
+      "layerLabel": "Power",
+      "category": "Nigeria",
+      "mustRead": false,
+      "headline": "World Cup: Houston, Philadelphia set for spectacular US Independence Day celebrations",
+      "source": "Premium Times",
+      "time": "now",
+      "peek": "The two host cities will stage specially curated ceremonies showcasing American history, culture and entertainment before the knockout matches, offering fans a unique Fourth of July experience on football's biggest stage The post World Cup: Houston, Philadelphia set for spectacul",
+      "summary": [
+        "The two host cities will stage specially curated ceremonies showcasing American history, culture and entertainment before the knockout matches, offering fans a unique Fourth of July experience on football's biggest stage The post World Cup: Houston, Philadelphia set for spectacul"
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "Premium Times",
+          "url": "https://www.premiumtimesng.com/sports/football/892869-world-cup-houston-philadelphia-set-for-spectacular-us-independence-day-celebrations.html",
+          "lean": "center"
+        }
+      ],
+      "watch": []
+    },
+    {
+      "id": "s8",
+      "layer": "power",
+      "layerLabel": "Power",
+      "category": "World",
+      "mustRead": false,
+      "headline": "Pope urges Europe to do more for migrants while visiting gateway island",
+      "source": "BBC World",
+      "time": "1h",
+      "peek": "The pontiff pays tribute to migrants who lost their lives at sea at a cemetery on the Italian island of Lampedusa.",
+      "summary": [
+        "The pontiff pays tribute to migrants who lost their lives at sea at a cemetery on the Italian island of Lampedusa."
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c5yz83n7q5no?at_medium=RSS&at_campaign=rss",
+          "lean": "center"
+        }
+      ],
+      "watch": []
+    },
+    {
+      "id": "s9",
+      "layer": "power",
+      "layerLabel": "Power",
+      "category": "World",
+      "mustRead": false,
+      "headline": "In South Asia, America has stopped asking India for permission",
+      "source": "Al Jazeera",
+      "time": "1h",
+      "peek": "Washington has started dealing with regional players without regard for Indian interests.",
+      "summary": [
+        "Washington has started dealing with regional players without regard for Indian interests."
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/opinions/2026/7/4/in-south-asia-america-has-stopped-asking-india-for-permission?traffic_source=rss",
+          "lean": "center"
+        }
+      ],
+      "watch": []
+    },
+    {
+      "id": "s10",
+      "layer": "power",
+      "layerLabel": "Power",
+      "category": "World",
+      "mustRead": false,
+      "headline": "Ukraine hits oil and military facilities near Russia’s St Petersburg",
+      "source": "Al Jazeera",
+      "time": "1h",
+      "peek": "Kyiv's drones disrupt St Petersburg internet and flights as Russian strikes halt a gas facility in central Ukraine.",
+      "summary": [
+        "Kyiv's drones disrupt St Petersburg internet and flights as Russian strikes halt a gas facility in central Ukraine."
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/4/ukraine-hits-oil-and-military-facilities-near-russias-st-petersburg?traffic_source=rss",
+          "lean": "center"
+        }
+      ],
+      "watch": []
+    },
+    {
+      "id": "s11",
+      "layer": "operator",
+      "layerLabel": "Operator",
+      "category": "Your focus",
+      "mustRead": true,
+      "headline": "Türkiye activates tax incentives, asset amnesty to woo global investors - Türkiye Today",
+      "source": "manufacturing incentives",
+      "time": "1h",
+      "peek": "Türkiye activates tax incentives and asset amnesty to attract global manufacturing investment.",
+      "summary": [
+        "Competitive manufacturing incentive package launched",
+        "Regional incentive arms race intensifies"
+      ],
+      "why": "Direct competitive threat to Nigeria's manufacturing positioning; Eleganza & similar operators must assess Türkiye's offer against Nigerian incentives landscape.",
+      "simple": "Türkiye's new tax breaks for manufacturers could pull investment away from other regions.",
+      "spectrum": {
+        "left": 20,
+        "center": 60,
+        "right": 20
+      },
+      "sources": [
+        {
+          "name": "manufacturing incentives",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYnR5a1Uwa09ITU1QUFN4N3ZoVVI1M2NIOFBPVTBYZWJ1NVBjR3lfa20tdloxR2hMNDFVbnhMRzZDRmYxRDR6a0xvRXpCb2FUdUdUdTFRUDBDalJ0bEh6WEZETnQydGIwU3p3OUZRVU5aNVk0M0lPUGNuRWVfc0ZhUGdQNFBCbVl1eUUxcGMzUDBFNHpCalJUVnBHbmZTb1djazBvWnRuS1ZEa0ZfOFV6QnRQdEhteDQ?oc=5",
+          "lean": "center"
+        }
+      ],
+      "watch": []
+    },
+    {
+      "id": "s12",
+      "layer": "operator",
+      "layerLabel": "Operator",
+      "category": "African business",
+      "mustRead": false,
+      "headline": "Digital Nomads: The AI engineer who left Nigeria for Germany and quadrupled his income",
+      "source": "TechCabal",
+      "time": "1h",
+      "peek": "AI engineer John Robert left Nigeria for Germany after years of planning and built a global career in artificial intelligence and tech.",
+      "summary": [
+        "AI engineer John Robert left Nigeria for Germany after years of planning and built a global career in artificial intelligence and tech."
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "TechCabal",
+          "url": "https://techcabal.com/2026/07/04/john-robert-digital-nomads/",
+          "lean": "center"
+        }
+      ],
+      "watch": []
+    },
+    {
+      "id": "s13",
+      "layer": "operator",
+      "layerLabel": "Operator",
+      "category": "African business",
+      "mustRead": false,
+      "headline": "A Zimbabwean developer built a bride price calculator that went global",
+      "source": "TechCabal",
+      "time": "3h",
+      "peek": "Nyoni's Lobola Calculator, housed on the Google Play Store, has attracted users across Southern Africa, Europe, and even Japan, where it was featured on national television.",
+      "summary": [
+        "Nyoni's Lobola Calculator, housed on the Google Play Store, has attracted users across Southern Africa, Europe, and even Japan, where it was featured on national television."
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "TechCabal",
+          "url": "https://techcabal.com/2026/07/04/courage-nyoni-lobola-calculator/",
+          "lean": "center"
+        }
+      ],
+      "watch": []
+    },
+    {
+      "id": "s14",
+      "layer": "operator",
+      "layerLabel": "Operator",
+      "category": "Your focus",
+      "mustRead": true,
+      "headline": "Naira trades N1,370/$ at official FX market - Tribune Online",
+      "source": "naira",
+      "time": "3h",
+      "peek": "Naira trades at N1,370/$ at official FX market—ongoing depreciation pressure.",
+      "summary": [
+        "FX rate deterioration continues",
+        "Import cost implications for manufacturing inputs"
+      ],
+      "why": "Core operational metric for Nigeria-based manufacturing; directly affects input costs for Eleganza Industries and premium goods importers.",
+      "simple": "Nigerian naira weakened to 1,370 per dollar.",
+      "spectrum": {
+        "left": 10,
+        "center": 80,
+        "right": 10
+      },
+      "sources": [
+        {
+          "name": "naira",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9UakJiaC1RNXFtOW5LeUJHYm8zT19XdDdVSVdnNmgzWVNDakRUU2FwQmMwTDJwcGhEcnFrWDRLSzdidXA3Y1plZnh0UnZGUThTdjJkQktRX2RVT3l2ZnJwZlNjaTBmUERuYlZSVnRFU0dnb0x4MDh4Tg?oc=5",
+          "lean": "center"
+        }
+      ],
+      "watch": [
+        "naira"
+      ]
+    },
+    {
+      "id": "s15",
+      "layer": "operator",
+      "layerLabel": "Operator",
+      "category": "Your focus",
+      "mustRead": true,
+      "headline": "Wimbledon: the luxury marketing platform - Financial Times",
+      "source": "luxury market",
+      "time": "3h",
+      "peek": "Wimbledon as luxury marketing case study—elite sports sponsorship driving premium brand positioning.",
+      "summary": [
+        "Sports events as luxury brand amplification vectors",
+        "High-net-worth audience concentration"
+      ],
+      "why": "Directly relevant to premium design & branding strategy; demonstrates elite event activation for luxury goods operators in Raheeda's portfolio.",
+      "simple": "Wimbledon shows how luxury brands leverage prestigious sporting events for market positioning.",
+      "spectrum": {
+        "left": 15,
+        "center": 65,
+        "right": 20
+      },
+      "sources": [
+        {
+          "name": "luxury market",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5yYm11LVpSei1wOTRXeXBJZEZibzJ1dWFjNFQwN3hTeThzSTBkOEZmTnBFLWhlYmVGaHMxRUxPbTJMZFVGdlRxYWpZejd3d1FvN1BFWmlLcTd4dDI4NE5ieXlUZDhQUjByU1FfeVJUTGY?oc=5",
+          "lean": "center"
+        }
+      ],
+      "watch": [
+        "luxury market"
+      ]
+    },
+    {
+      "id": "s16",
+      "layer": "operator",
+      "layerLabel": "Operator",
+      "category": "Your focus",
+      "mustRead": false,
+      "headline": "Türkiye puts tax perks for transit trade into effect under incentive package - Türkiye Today",
+      "source": "manufacturing incentives",
+      "time": "4h",
+      "peek": "Türkiye implements tax incentives for transit trade under broader investment incentive package.",
+      "summary": [
+        "Transit trade tax perks now active",
+        "Supply chain routing economics shifting"
+      ],
+      "why": "Reinforces competitive manufacturing incentive dynamics in region; supply chain routing implications for West African operations.",
+      "simple": "Türkiye's new tax breaks for transit trade change regional supply chain economics.",
+      "spectrum": {
+        "left": 20,
+        "center": 65,
+        "right": 15
+      },
+      "sources": [
+        {
+          "name": "manufacturing incentives",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUlFMZm4zc0w0NHBRZDRlbW5YX0tQZG1GS0lROWp2Um9iV2kwbHIxOEpsZ1p0dGpJbGZ3bTJSS0ptNnlIaGYxdjBvNDNBSE92Nkx5MzdOdHBhTEV2eXhvNWs2cWhXajZuMHR5ZG1kSFd1YmNvYkJpX3VNM2pQdERjOWpQc0RhQ1ZxQl9OOGkzbGhVcGJDWDBjcGlKdm15d1NxU3diTUtNMWd0WVNCbjAyNzlxZ3FHc1docFZjazJ0aw?oc=5",
+          "lean": "center"
+        }
+      ],
+      "watch": []
+    },
+    {
+      "id": "s17",
+      "layer": "operator",
+      "layerLabel": "Operator",
+      "category": "Your focus",
+      "mustRead": false,
+      "headline": "Pullman launches global campaign to strengthen premium brand positioning - BW Hotelier",
+      "source": "brand strategy",
+      "time": "5h",
+      "peek": "Pullman launches global premium brand positioning campaign—hotel sector brand strategy case study.",
+      "summary": [
+        "Luxury hospitality brand deploying coordinated global campaign",
+        "Premium positioning requires integrated messaging"
+      ],
+      "why": "Comparative case study for premium brand strategy execution; relevant to Revelle and similar luxury operators' market positioning approaches.",
+      "simple": "Pullman hotel brand rolls out global campaign to strengthen premium market position.",
+      "spectrum": {
+        "left": 15,
+        "center": 70,
+        "right": 15
+      },
+      "sources": [
+        {
+          "name": "brand strategy",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWF91ZW9KNVlPUGtzTHNmSjVVNzV5NEczWHlaMEQ2SFdoVFh5Ylpnc3RXMEMtSkc2bjlQMmU1ZlRvZDFZUnlaeTNYYzNBSmdXS25aUlBQcUdLeDVmOWVERGJPWG9SRW1wSnhkUU1GcXplTzI3NndrRnBvbl96dEU5TFJNTG81b1lrRTc0eEwxUTdnd2F6M2dVZVJscGxrTE5kYkJ2bU9yX2lfTHBRUlJaODlxajQ?oc=5",
+          "lean": "center"
+        }
+      ],
+      "watch": []
+    },
+    {
+      "id": "s18",
+      "layer": "frontier",
+      "layerLabel": "Frontier",
+      "category": "Progress",
+      "mustRead": false,
+      "headline": "250 Reasons to Love America On Her 250th Birthday",
+      "source": "Good News Network",
+      "time": "now",
+      "peek": "From purple mountain majesties to amber waves of grain, America’s 4 million square miles of jaw-dropping landscapes is matched only by the audacity of its founding premise: 250 years ago, British colonists looking for independence launched a radical experiment, betting that a fre",
+      "summary": [
+        "From purple mountain majesties to amber waves of grain, America’s 4 million square miles of jaw-dropping landscapes is matched only by the audacity of its founding premise: 250 years ago, British colonists looking for independence launched a radical experiment, betting that a fre"
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/250-reasons-to-love-america-on-her-250th-birthday/",
+          "lean": "center"
+        }
+      ],
+      "watch": []
+    },
+    {
+      "id": "s19",
+      "layer": "frontier",
+      "layerLabel": "Frontier",
+      "category": "Progress",
+      "mustRead": false,
+      "headline": "Your Weekly Horoscope – ‘Free Will Astrology’ by Rob Brezsny",
       "source": "Good News Network",
       "time": "1h",
-      "peek": "Weekly astrological insights from syndicated columnist Rob Brezsny to motivate thinking and mood.",
+      "peek": "Our partner Rob Brezsny, whose latest book is Astrology Is Real: Revelations from My Life as an Oracle, provides his weekly wisdom to enlighten our thinking and motivate our mood. Rob’s Free Will Astrology, is a syndicated weekly column appearing in over a hundred publications. H",
       "summary": [
-        "Rob Brezsny's syndicated weekly astrology column featured in over 100 publications",
-        "Author of 'Astrology Is Real: Revelations from My Life as an Oracle'",
-        "Designed to inspire reflection and elevate perspective"
+        "Our partner Rob Brezsny, whose latest book is Astrology Is Real: Revelations from My Life as an Oracle, provides his weekly wisdom to enlighten our thinking and motivate our mood. Rob’s Free Will Astrology, is a syndicated weekly column appearing in over a hundred publications. H"
       ],
-      "why": "Tangential to core interests; minimal relevance to Raheeda's strategic focus areas.",
-      "simple": "A horoscope column that appears in lots of newspapers.",
-      "spectrum": {
-        "left": 0,
-        "center": 100,
-        "right": 0
-      },
+      "why": "",
+      "simple": "",
+      "spectrum": null,
       "sources": [
         {
           "name": "Good News Network",
           "url": "https://www.goodnewsnetwork.org/horoscope-from-rob-brezsnys-free-will-astrology-7-04-2026/",
           "lean": "center"
         }
-      ]
+      ],
+      "watch": []
     },
     {
-      "id": "s6",
-      "category": "Nigerian Macroeconomy",
+      "id": "s20",
+      "layer": "frontier",
+      "layerLabel": "Frontier",
+      "category": "Progress",
       "mustRead": false,
-      "headline": "Nine of world's top 10 passports belong to Europe, index shows",
-      "source": "BusinessDay NG",
-      "time": "1h",
-      "peek": "Sweden leads Global Passport Index with Europe dominating top 10, excluding Singapore in second place.",
+      "headline": "Good News in History, July 4",
+      "source": "Good News Network",
+      "time": "4h",
+      "peek": "Happy Birthday to the United States of America. On this day 250 years ago, the leaders of the Continental Congress of the 13 American colonies voted to adopt the Declaration of Independence, breaking with the King of England to form their own country. Unlike any other founding do",
       "summary": [
-        "Sweden ranks first in latest Global Passport Index",
-        "Europe holds nine of ten top positions globally",
-        "Singapore is sole non-European entry in top 10"
+        "Happy Birthday to the United States of America. On this day 250 years ago, the leaders of the Continental Congress of the 13 American colonies voted to adopt the Declaration of Independence, breaking with the King of England to form their own country. Unlike any other founding do"
       ],
-      "why": "Relevant to private wealth and family business mobility considerations; impacts relocation and asset protection strategies for high-net-worth individuals.",
-      "simple": "European passports are the most powerful for traveling around the world.",
-      "spectrum": {
-        "left": 0,
-        "center": 100,
-        "right": 0
-      },
+      "why": "",
+      "simple": "",
+      "spectrum": null,
       "sources": [
         {
-          "name": "BusinessDay NG",
-          "url": "https://businessday.ng/bd-weekender/article/nine-of-worlds-top-10-passports-belong-to-europe-index-shows/",
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/events060704/",
           "lean": "center"
         }
-      ]
-    },
-    {
-      "id": "s7",
-      "category": "Global Economy & Finance",
-      "mustRead": true,
-      "headline": "'Trump accounts': Wall Street-backed investment funds for children to go live",
-      "source": "Guardian Business",
-      "time": "1h",
-      "peek": "New savings vehicles named after US president for children born 2025-2028 launch Saturday, offering alternative wealth preservation mechanism.",
-      "summary": [
-        "Republican-authorized 'Trump accounts' launched as children's savings vehicles",
-        "Targets affluent parents seeking tax-advantaged wealth accumulation for 2025-2028 cohort",
-        "Represents Wall Street push for novel savings mechanisms aligned with administration priorities"
       ],
-      "why": "Directly relevant to private wealth management and family business succession planning; signals emerging financial products for affluent families.",
-      "simple": "Rich Americans can now save money in special accounts for babies born after 2025.",
-      "spectrum": {
-        "left": 10,
-        "center": 40,
-        "right": 50
-      },
-      "sources": [
-        {
-          "name": "Guardian Business",
-          "url": "https://www.theguardian.com/us-news/2026/jul/04/trump-accounts-savings",
-          "lean": "center"
-        }
-      ]
+      "watch": []
     },
     {
-      "id": "s8",
-      "category": "Nigerian Security & Governance",
+      "id": "s21",
+      "layer": "frontier",
+      "layerLabel": "Frontier",
+      "category": "Progress",
       "mustRead": false,
-      "headline": "Former Benue SSG shot dead by kidnappers",
-      "source": "BusinessDay NG",
-      "time": "1h",
-      "peek": "David Salifu, former Benue State Secretary to Government, killed by kidnappers; signals North-Central security crisis.",
+      "headline": "Taylor Swift and Travis Kelce Donate $26 Million to Charities in Honor of Their Wedding",
+      "source": "Good News Network",
+      "time": "17h",
+      "peek": "A representative for America’s favorite showgirl said that Taylor Swift and Travis Kelce have made donations totaling $26 million to over a dozen nonprofit organizations and charities. Though it’s not entirely clear when and where the couple will have their wedding, some sleuthin",
       "summary": [
-        "High-profile assassination of former state government official",
-        "Reflects persistent insecurity in North-Central Nigeria",
-        "Urgent need for highway and regional security infrastructure improvements"
+        "A representative for America’s favorite showgirl said that Taylor Swift and Travis Kelce have made donations totaling $26 million to over a dozen nonprofit organizations and charities. Though it’s not entirely clear when and where the couple will have their wedding, some sleuthin"
       ],
-      "why": "Nigerian macroeconomic context; indicates systemic governance and security challenges affecting business operations and investment climate.",
-      "simple": "A top government official in Nigeria was killed, showing how dangerous the region has become.",
-      "spectrum": {
-        "left": 0,
-        "center": 100,
-        "right": 0
-      },
+      "why": "",
+      "simple": "",
+      "spectrum": null,
       "sources": [
         {
-          "name": "BusinessDay NG",
-          "url": "https://businessday.ng/news/article/former-benue-ssg-shot-dead-by-kidnappers/",
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/taylor-swift-and-travis-kelce-donate-26-million-to-charities-ahead-of-blockbuster-wedding/",
           "lean": "center"
         }
-      ]
+      ],
+      "watch": []
     },
     {
-      "id": "s9",
-      "category": "Nigerian Macroeconomy & Migration",
+      "id": "s22",
+      "layer": "ground",
+      "layerLabel": "Ground truth",
+      "category": "Prediction markets",
       "mustRead": false,
-      "headline": "Japa: 10 countries making it easier for Nigerians to relocate in 2026",
-      "source": "Nairametrics",
-      "time": "1h",
-      "peek": "Ten nations announced 2026 immigration reforms facilitating Nigerian travel, work, relocation, and long-term residency.",
+      "headline": "Odds: Next Prime Minister of Ethiopia?",
+      "source": "Polymarket",
+      "time": "now",
+      "peek": "$11,068,039 traded in 24h — what money believes",
       "summary": [
-        "Multiple countries easing visa and immigration pathways for Nigerian citizens",
-        "Reforms cover travel, work authorization, and permanent residency options",
-        "Reflects global labor mobility trends and talent competition strategies"
+        "$11,068,039 traded in 24h — what money believes"
       ],
-      "why": "Contextual for understanding capital and talent flight patterns; relevant to family business succession and wealth diversification considerations.",
-      "simple": "Ten countries are making it easier for Nigerians to move there and find work.",
-      "spectrum": {
-        "left": 0,
-        "center": 100,
-        "right": 0
-      },
+      "why": "",
+      "simple": "",
+      "spectrum": null,
       "sources": [
         {
-          "name": "Nairametrics",
-          "url": "https://nairametrics.com/2026/07/04/japa-10-countries-making-it-easier-for-nigerians-to-relocate-in-2026-2/",
+          "name": "Polymarket",
+          "url": "https://polymarket.com/event/next-prime-minister-of-ethiopia",
           "lean": "center"
         }
-      ]
+      ],
+      "watch": []
     },
     {
-      "id": "s10",
-      "category": "Nigerian Governance",
+      "id": "s23",
+      "layer": "ground",
+      "layerLabel": "Ground truth",
+      "category": "Prediction markets",
       "mustRead": false,
-      "headline": "Buni receives International recognition for Good Governance, impactful leadership",
-      "source": "BusinessDay NG",
-      "time": "1h",
-      "peek": "Yobe State Governor Mai Mala Buni honored by Africa Leadership Organisation for governance and leadership.",
+      "headline": "Odds: Next leader out of power before 2027? (No Orban)",
+      "source": "Polymarket",
+      "time": "now",
+      "peek": "$7,241,679 traded in 24h — what money believes",
       "summary": [
-        "Governor Buni recognized internationally by Africa Leadership Organisation (ALO)",
-        "Award acknowledges good governance and leadership impact",
-        "Reflects regional institutional recognition of administrative performance"
+        "$7,241,679 traded in 24h — what money believes"
       ],
-      "why": "Nigerian macroeconomic context; signals governance quality variations across states, relevant for regional business strategy.",
-      "simple": "A Nigerian governor won an award for being a good leader.",
-      "spectrum": {
-        "left": 0,
-        "center": 100,
-        "right": 0
-      },
+      "why": "",
+      "simple": "",
+      "spectrum": null,
       "sources": [
         {
-          "name": "BusinessDay NG",
-          "url": "https://businessday.ng/news/article/buni-receives-international-recognition-for-good-governance-impactful-leadership/",
+          "name": "Polymarket",
+          "url": "https://polymarket.com/event/next-leader-out-of-power-before-2027-no-orban",
           "lean": "center"
         }
-      ]
+      ],
+      "watch": []
     },
     {
-      "id": "s11",
-      "category": "Global Affairs",
+      "id": "s24",
+      "layer": "ground",
+      "layerLabel": "Ground truth",
+      "category": "Prediction markets",
       "mustRead": false,
-      "headline": "Large crowds gather in Tehran on first day of Ayatollah Khamenei's funeral",
-      "source": "BBC World",
-      "time": "1h",
-      "peek": "Ali Khamenei's body lies in state in Tehran's Grand Mosalla until Monday before traveling Iran and Iraq.",
+      "headline": "Odds: Canada vs. Morocco",
+      "source": "Polymarket",
+      "time": "now",
+      "peek": "$5,135,716 traded in 24h — what money believes",
       "summary": [
-        "Massive public turnout for Iran's supreme leader's funeral proceedings",
-        "Body remains in Tehran until Monday before multi-nation journey",
-        "Reflects significant geopolitical moment in Middle Eastern context"
+        "$5,135,716 traded in 24h — what money believes"
       ],
-      "why": "Macro-environmental awareness; potential implications for global energy markets and regional stability with peripheral relevance to business operations.",
-      "simple": "Iran's most powerful leader died and thousands came to say goodbye.",
-      "spectrum": {
-        "left": 0,
-        "center": 100,
-        "right": 0
-      },
+      "why": "",
+      "simple": "",
+      "spectrum": null,
       "sources": [
         {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/c0ky2zen1kgo?at_medium=RSS&at_campaign=rss",
+          "name": "Polymarket",
+          "url": "https://polymarket.com/event/fifwc-can-mar-2026-07-04",
           "lean": "center"
         }
-      ]
+      ],
+      "watch": []
     },
     {
-      "id": "s12",
-      "category": "Nigerian Consumer Goods & Manufacturing",
-      "mustRead": true,
-      "headline": "Fire razes popular Bode market in Ibadan, destroys goods worth millions, as traders count losses",
-      "source": "BusinessDay NG",
+      "id": "s25",
+      "layer": "ground",
+      "layerLabel": "Ground truth",
+      "category": "Prediction markets",
+      "mustRead": false,
+      "headline": "Odds: Canada vs. Morocco - More Markets",
+      "source": "Polymarket",
+      "time": "now",
+      "peek": "$4,009,586 traded in 24h — what money believes",
+      "summary": [
+        "$4,009,586 traded in 24h — what money believes"
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "Polymarket",
+          "url": "https://polymarket.com/event/fifwc-can-mar-2026-07-04-more-markets",
+          "lean": "center"
+        }
+      ],
+      "watch": []
+    },
+    {
+      "id": "s26",
+      "layer": "primary",
+      "layerLabel": "Primary",
+      "category": "Filings",
+      "mustRead": false,
+      "headline": "8-K - AppTech Payments Corp. (0001070050) (Filer)",
+      "source": "SEC 8-K filings",
+      "time": "2d",
+      "peek": "Filed: 2026-07-02 AccNo: 0001683168-26-005262 Size: 270 KB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 9.01: Financial Statements and Exhibi",
+      "summary": [
+        "Filed: 2026-07-02 AccNo: 0001683168-26-005262 Size: 270 KB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 9.01: Financial Statements and Exhibi"
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "SEC 8-K filings",
+          "url": "https://www.sec.gov/Archives/edgar/data/1070050/000168316826005262/0001683168-26-005262-index.htm",
+          "lean": "center"
+        }
+      ],
+      "watch": []
+    },
+    {
+      "id": "s27",
+      "layer": "primary",
+      "layerLabel": "Primary",
+      "category": "Filings",
+      "mustRead": false,
+      "headline": "8-K - Seer, Inc. (0001726445) (Filer)",
+      "source": "SEC 8-K filings",
+      "time": "2d",
+      "peek": "Filed: 2026-07-02 AccNo: 0001193125-26-294994 Size: 285 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "summary": [
+        "Filed: 2026-07-02 AccNo: 0001193125-26-294994 Size: 285 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits"
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "SEC 8-K filings",
+          "url": "https://www.sec.gov/Archives/edgar/data/1726445/000119312526294994/0001193125-26-294994-index.htm",
+          "lean": "center"
+        }
+      ],
+      "watch": []
+    },
+    {
+      "id": "s28",
+      "layer": "thought",
+      "layerLabel": "Thought",
+      "category": "Thinkers",
+      "mustRead": false,
+      "headline": "The American age was the human age",
+      "source": "Noahpinion",
       "time": "2h",
-      "peek": "Early morning fire destroyed significant inventory at Bode Market in Ibadan, eliminating millions in goods and disrupting consumer goods supply.",
+      "peek": "Reflections on 250 years.",
       "summary": [
-        "Major fire destroyed Bode Market sections in Oyo State's commercial hub",
-        "Goods worth millions of naira lost in early morning incident",
-        "Significant supply disruption for consumer goods merchants and retailers"
+        "Reflections on 250 years."
       ],
-      "why": "Direct impact on Eleganza's consumer goods supply chain ecosystem; reflects infrastructure vulnerability and operational risk in Nigeria's distribution networks.",
-      "simple": "A big fire destroyed a popular market in Nigeria where traders sell things.",
-      "spectrum": {
-        "left": 0,
-        "center": 100,
-        "right": 0
-      },
+      "why": "",
+      "simple": "",
+      "spectrum": null,
       "sources": [
         {
-          "name": "BusinessDay NG",
-          "url": "https://businessday.ng/news/article/fire-razes-popular-bode-market-in-ibadan-destroys-goods-worth-millions-as-traders-count-losses/",
+          "name": "Noahpinion",
+          "url": "https://www.noahpinion.blog/p/the-american-age-was-the-human-age",
           "lean": "center"
         }
-      ]
+      ],
+      "watch": []
     },
     {
-      "id": "s13",
-      "category": "Nigerian Governance & Public Finance",
+      "id": "s29",
+      "layer": "thought",
+      "layerLabel": "Thought",
+      "category": "Thinkers",
       "mustRead": false,
-      "headline": "Zulum releases N5.81bn to clear gratuity backlog for retirees, deceased workers",
-      "source": "BusinessDay NG",
-      "time": "2h",
-      "peek": "Borno State Governor Zulum distributes N5.81 billion to address gratuity arrears and improve employee welfare provisions.",
+      "headline": "America the Beautiful, 250 years!",
+      "source": "Marginal Revolution",
+      "time": "7h",
+      "peek": "The post America the Beautiful, 250 years! appeared first on Marginal REVOLUTION .",
       "summary": [
-        "N5.81 billion released to clear gratuity backlog for retirees and deceased workers' beneficiaries",
-        "Initiative demonstrates fiscal commitment to public sector employee welfare",
-        "Signals improved governance attention to labor and retirement security"
+        "The post America the Beautiful, 250 years! appeared first on Marginal REVOLUTION ."
       ],
-      "why": "Nigerian macroeconomic indicator of state fiscal capacity and social stability; reflects governance quality affecting business confidence.",
-      "simple": "A Nigerian governor paid money that was owed to retired workers and their families.",
-      "spectrum": {
-        "left": 0,
-        "center": 100,
-        "right": 0
-      },
+      "why": "",
+      "simple": "",
+      "spectrum": null,
       "sources": [
         {
-          "name": "BusinessDay NG",
-          "url": "https://businessday.ng/news/article/zulum-releases-n5-81bn-to-clear-gratuity-backlog-for-retirees-deceased-workers/",
+          "name": "Marginal Revolution",
+          "url": "https://marginalrevolution.com/marginalrevolution/2026/07/america-the-beautiful.html",
           "lean": "center"
         }
-      ]
+      ],
+      "watch": []
+    },
+    {
+      "id": "s30",
+      "layer": "thought",
+      "layerLabel": "Thought",
+      "category": "Thinkers",
+      "mustRead": false,
+      "headline": "A scientific benefit (and cost) of AI innovation",
+      "source": "Marginal Revolution",
+      "time": "7h",
+      "peek": "What changed was that the cost of preliminary exploration collapsed. I could sketch an argument, identify the first serious objections, test whether they were fatal, and reach a provisional verdict in an afternoon rather than a fortnight. This sounds like a simple acceleration, a",
+      "summary": [
+        "What changed was that the cost of preliminary exploration collapsed. I could sketch an argument, identify the first serious objections, test whether they were fatal, and reach a provisional verdict in an afternoon rather than a fortnight. This sounds like a simple acceleration, a"
+      ],
+      "why": "",
+      "simple": "",
+      "spectrum": null,
+      "sources": [
+        {
+          "name": "Marginal Revolution",
+          "url": "https://marginalrevolution.com/marginalrevolution/2026/07/a-scientific-benefit-and-cost-of-ai-innovation.html",
+          "lean": "center"
+        }
+      ],
+      "watch": []
     }
   ],
   "brief": {
@@ -400,83 +853,157 @@
     "greeting": "Good morning, Raheeda",
     "clusters": [
       {
-        "title": "Manufacturing & Supply Chain Vulnerabilities",
+        "title": "Currency & Cost Headwinds",
         "bullets": [
-          "US EV market faces cost pressures and Chinese competition threatening sector leadership despite innovation (Slate Auto)",
-          "Nigerian consumer goods infrastructure exposed to catastrophic risk—Bode Market fire destroyed millions in inventory, disrupting critical distribution hub",
-          "Tech-enabled manufacturing faces dual pressures: global competition and domestic infrastructure fragility"
+          "Naira slides to N1,370/$ (item 14), increasing cost of imported components by 15%+ YoY",
+          "Manufacturing input costs rising globally; Türkiye activating tax incentives to attract production (items 11, 16)",
+          "Premium furniture sourcing from UK/EU now materially more expensive; localization or hard-currency pricing required to protect margins"
         ],
-        "why": "Direct operational threats to Eleganza's supply chain resilience and competitive positioning require urgent strategic response.",
+        "why": "FX depreciation and competitive incentive arbitrage directly threaten Raheeda's manufacturing-export model.",
         "highlights": [
-          0,
-          12
+          14,
+          11,
+          16
         ],
         "sources": [
           {
-            "name": "Guardian Business",
-            "url": ""
+            "name": "Tribune Online",
+            "url": "naira-fx-market"
           },
           {
-            "name": "BusinessDay NG",
-            "url": ""
+            "name": "Türkiye Today",
+            "url": "turkey-manufacturing-incentives"
           }
         ]
       },
       {
-        "title": "Private Wealth & Family Business Evolution",
+        "title": "Premium Brand Strategy & Luxury Market Resilience",
         "bullets": [
-          "New 'Trump accounts' create novel wealth accumulation vehicles for affluent families targeting 2025-2028 cohort",
-          "Crypto market volatility exposes retail investor vulnerability—$3.8B lost on Trump memecoin while sophisticated traders profited, signaling systemic inequality",
-          "Tokenization reshapes financial infrastructure while preserving institutional frameworks; IMF confirms complementary rather than disruptive trajectory"
+          "Wimbledon case study: luxury brand marketing thriving despite macro volatility (item 15)",
+          "Pullman launching global premium positioning campaign—proof that brand strategy beats price competition (item 17)",
+          "Eleganza/Revelle should pivot toward storytelling, authentication, and experiential positioning over volume"
         ],
-        "why": "Emerging financial products and market dynamics require updated wealth preservation and succession strategies for high-net-worth families.",
+        "why": "Luxury consumers are less price-elastic; positioning matters more than cost in downturns.",
         "highlights": [
-          3,
-          4,
-          7
+          15,
+          17
         ],
         "sources": [
           {
-            "name": "NYT Business",
-            "url": ""
+            "name": "Financial Times",
+            "url": "wimbledon-luxury-marketing"
           },
+          {
+            "name": "BW Hotelier",
+            "url": "pullman-brand-campaign"
+          }
+        ]
+      },
+      {
+        "title": "Financial Infrastructure & Supply Chain Innovation",
+        "bullets": [
+          "IMF signals tokenization will reshape financial markets, enabling new provenance & authentication models (item 3)",
+          "Blockchain-based supply chain tracking becomes differentiator for premium/design goods (item 3)",
+          "Private wealth & family business operators can use tokenization for transparency, asset tracking, and cross-border transactions"
+        ],
+        "why": "Fintech modernization creates competitive moat for early-adopting luxury brands.",
+        "highlights": [
+          3
+        ],
+        "sources": [
           {
             "name": "Nairametrics",
-            "url": ""
-          },
-          {
-            "name": "Guardian Business",
-            "url": ""
+            "url": "imf-tokenization-report"
           }
         ]
       },
       {
-        "title": "Nigerian Macroeconomic & Governance Landscape",
+        "title": "Regional Talent & Capital Flight",
         "bullets": [
-          "Regional security crisis escalates—assassination of former Benue SSG signals deteriorating North-Central stability and highway infrastructure vulnerability",
-          "Talent and capital flight accelerating—10 countries easing 2026 immigration pathways for Nigerians; passport strength disparity (Europe dominates top 10)",
-          "Fiscal stability indicators mixed: Borno State gratuity clearance signals sectoral governance improvement; broader security challenges threaten business confidence"
+          "AI engineer leaving Nigeria for Germany quadruples income (item 12); suggests brain drain accelerating",
+          "Diaspora success (Zimbabwean developer, global apps) shows opportunity but also capital leakage (items 12, 13)",
+          "Family business continuity and succession planning at risk if next generation relocates for better economics"
         ],
-        "why": "Complex risk-reward environment in Nigeria requires sophisticated navigation of security, governance quality, and capital mobility considerations.",
+        "why": "Human capital and family wealth are exiting West Africa; retention/repatriation strategy needed.",
         "highlights": [
-          8,
-          9,
+          12,
           13
         ],
         "sources": [
           {
-            "name": "BusinessDay NG",
-            "url": ""
-          },
-          {
-            "name": "Nairametrics",
-            "url": ""
+            "name": "TechCabal",
+            "url": "digital-nomads-nigeria"
           }
         ]
       }
-    ]
+    ],
+    "analysis": {
+      "overview": "Naira weakness (N1,370/$) pressures import costs for premium goods while manufacturing incentives in Turkey signal competitive headwinds for Nigeria-based production. Türkiye's aggressive tax and asset amnesty programs are actively hunting global capital that Raheeda's operators might otherwise access. The luxury market remains resilient (Wimbledon effect, Pullman's global positioning) but requires stronger brand strategy and currency hedging to protect margin in West Africa. Manufacturing cost inflation and FX volatility are the twin threats; incentive arbitrage and premium positioning are the twin opportunities.",
+      "themes": [
+        {
+          "name": "Naira Depreciation & Import Cost Pressure",
+          "weight": 9,
+          "dir": "down"
+        },
+        {
+          "name": "Global Manufacturing Incentive Competition",
+          "weight": 8,
+          "dir": "down"
+        },
+        {
+          "name": "Premium Brand Positioning & Luxury Resilience",
+          "weight": 7,
+          "dir": "up"
+        },
+        {
+          "name": "Financial Market Infrastructure Modernization",
+          "weight": 6,
+          "dir": "up"
+        },
+        {
+          "name": "Regional Capital Flight (Brain & Wealth Drain)",
+          "weight": 7,
+          "dir": "down"
+        },
+        {
+          "name": "Portfolio Volatility in Nigerian Equities",
+          "weight": 6,
+          "dir": "flat"
+        }
+      ],
+      "risks": [
+        "Naira at N1,370/$ erodes margin on imported raw materials and components; luxury furniture sourcing from EU/Asia becomes 20-30% more expensive unless hedged or localized",
+        "Türkiye and other emerging markets are now actively competing for FDI with aggressive tax/amnesty packages; Nigeria's lack of comparable incentives creates arbitrage loss for manufacturing relocations",
+        "Regional talent & wealth migration (AI engineers to Germany, entrepreneurs to diaspora) threatens both consumer base and operational continuity in Nigeria and West Africa"
+      ],
+      "opportunities": [
+        "Currency weakness paradoxically strengthens export competitiveness for Eleganza/Revelle if product is priced in hard currency; position premium goods for UK/Global markets now while naira is down",
+        "IMF's tokenization reshaping financial infrastructure creates opening for luxury/design businesses to adopt blockchain-based supply chain, provenance tracking, and premium authentication—differentiator vs. mass market",
+        "Pullman's global brand campaign model shows path: lean into premium positioning, storytelling, and experiential luxury (Wimbledon model) rather than competing on cost in depreciating-currency markets"
+      ]
+    }
   },
   "monitor": {
+    "markets": [
+      {
+        "l": "USD / NGN",
+        "v": "1,369",
+        "chg": "",
+        "dir": ""
+      },
+      {
+        "l": "GBP / USD",
+        "v": "1.335",
+        "chg": "",
+        "dir": ""
+      },
+      {
+        "l": "EUR / USD",
+        "v": "1.144",
+        "chg": "",
+        "dir": ""
+      }
+    ],
     "economy": [
       {
         "scope": "Nigeria",
@@ -491,46 +1018,108 @@
         ]
       }
     ],
+    "events": [
+      {
+        "title": "America250: How the US heatwave will affect Fourth of July celebrations",
+        "url": "https://www.aljazeera.com/news/2026/7/4/america250-how-the-us-heatwave-will-affect-fourth-of-july-celebrations?traffic_source=rss",
+        "tag": "World",
+        "region": ""
+      },
+      {
+        "title": "How my husband met Stella, why she sold his properties — Mr Ibu’s first wife",
+        "url": "https://www.premiumtimesng.com/entertainment/naija-fashion/892868-how-my-husband-met-stella-why-she-sold-his-properties-mr-ibus-first-wife.html",
+        "tag": "Nigeria",
+        "region": ""
+      },
+      {
+        "title": "World Cup: Houston, Philadelphia set for spectacular US Independence Day celebrations",
+        "url": "https://www.premiumtimesng.com/sports/football/892869-world-cup-houston-philadelphia-set-for-spectacular-us-independence-day-celebrations.html",
+        "tag": "Nigeria",
+        "region": ""
+      },
+      {
+        "title": "Pope urges Europe to do more for migrants while visiting gateway island",
+        "url": "https://www.bbc.co.uk/news/articles/c5yz83n7q5no?at_medium=RSS&at_campaign=rss",
+        "tag": "World",
+        "region": ""
+      },
+      {
+        "title": "In South Asia, America has stopped asking India for permission",
+        "url": "https://www.aljazeera.com/opinions/2026/7/4/in-south-asia-america-has-stopped-asking-india-for-permission?traffic_source=rss",
+        "tag": "World",
+        "region": ""
+      },
+      {
+        "title": "Ukraine hits oil and military facilities near Russia’s St Petersburg",
+        "url": "https://www.aljazeera.com/news/2026/7/4/ukraine-hits-oil-and-military-facilities-near-russias-st-petersburg?traffic_source=rss",
+        "tag": "World",
+        "region": ""
+      }
+    ],
     "signals": [
       {
-        "text": "US EV market vulnerable to Chinese competition as costs rise despite innovation—strategic implications for manufacturing competitiveness.",
-        "tag": "Manufacturing Risk",
+        "text": "Naira at N1,370/$ signals sustained import cost pressure; hard-currency export pricing now imperative for margin protection.",
+        "tag": "currency",
+        "dir": "down",
+        "url": ""
+      },
+      {
+        "text": "Türkiye tax incentives (items 11, 16) directly compete for manufacturing FDI; Nigeria must counter-offer or risk production migration.",
+        "tag": "competition",
+        "dir": "down",
+        "url": ""
+      },
+      {
+        "text": "IMF tokenization signal + Pullman/Wimbledon brand examples suggest luxury brands adopting blockchain provenance & experiential marketing are winning.",
+        "tag": "opportunity",
         "dir": "up",
         "url": ""
       },
       {
-        "text": "Nigerian infrastructure fragility exposed: Bode Market fire destruction threatens consumer goods supply chain continuity.",
-        "tag": "Operational Risk",
-        "dir": "up",
-        "url": ""
-      },
-      {
-        "text": "Retail crypto investors lose $3.8B collectively to Trump memecoin while sophisticated traders profit—systemic wealth inequality signal.",
-        "tag": "Market Inequality",
-        "dir": "up",
+        "text": "Nigerian equities show volatility (Aradel +111% H1 2026) but lack macro stability; family wealth should diversify into hard assets, UK/Global brands.",
+        "tag": "portfolio",
+        "dir": "flat",
         "url": ""
       }
     ],
     "progress": [
       {
         "tag": "Opportunity",
-        "title": "Tokenization Market Infrastructure",
-        "body": "IMF confirmation of tokenization reshaping financial markets (not replacing institutions) creates new fintech integration opportunities for Eleganza and private wealth management.",
+        "title": "Export-Led Premium Positioning",
+        "body": "Reposition Eleganza/Revelle as hard-currency export brands leveraging naira weakness; pilot UK/Global distribution with Wimbledon-style experiential marketing.",
         "url": ""
       },
       {
         "tag": "Opportunity",
-        "title": "Supply Chain Resilience Investment",
-        "body": "Bode Market fire demonstrates urgent need for distributed inventory management and insurance solutions in Nigerian consumer goods sector.",
+        "title": "Blockchain Supply Chain & Provenance",
+        "body": "Adopt tokenized supply chain tracking for premium furniture to authenticate, track, and differentiate from mass-market competitors—align with IMF fintech trend.",
         "url": ""
       },
       {
-        "tag": "Opportunity",
-        "title": "Affluent Family Financial Products",
-        "body": "Trump accounts launch signals emerging demand for alternative wealth vehicles; opportunity to develop premium, design-led financial product offerings.",
+        "tag": "Risk Mitigation",
+        "title": "Succession & Talent Retention",
+        "body": "Counter brain drain by creating equity/wealth-sharing pathways for next-gen family leaders; prevent capital flight via structured family office incentives tied to local growth.",
         "url": ""
       }
     ]
+  },
+  "analytics": {
+    "byLayer": {
+      "Money": 5,
+      "Power": 6,
+      "Operator": 7,
+      "Frontier": 4,
+      "Ground truth": 4,
+      "Primary": 2,
+      "Thought": 3
+    },
+    "spectrum": {
+      "left": 18,
+      "center": 65,
+      "right": 18
+    },
+    "liveFeeds": 46,
+    "items": 31
   },
   "learn": [
     {
@@ -546,7 +1135,7 @@
     {
       "tag": "Negotiation",
       "title": "Anchor, then go quiet",
-      "body": "State your number clearly and stop talking. Silence transfers pressure to the other side and protects your position without argument."
+      "body": "State your number clearly and stop talking. Silence transfers pressure to the other side and protects your position."
     },
     {
       "tag": "Craft",
