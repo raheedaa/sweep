@@ -1,0 +1,146 @@
+[
+    {
+          "headline": "Naira extends appreciation to ~N1,380/$ ahead of CBN rate decision",
+          "url": "https://dailypost.ng/2026/07/20/dollar-to-naira-exchange-rate-today-july-20-2026-nigerian-naira-extends-appreciation-ahead-of-cbns-interest-rate-decision/",
+          "source": "Daily Post Nigeria",
+          "category": "Nigeria macro & naira",
+          "date": "2026-07-20T09:00:00.000Z",
+          "peek": "Naira firmed to N1,380.10/$ at the official window while the parallel market held at N1,425/$, steadying ahead of the July MPC."
+    },
+    {
+          "headline": "Nigeria inflation edges down to 15.91% in June 2026",
+          "url": "https://moneyafrica.substack.com/p/inflation-edges-down-to-1591-in-june",
+          "source": "Money Africa",
+          "category": "Nigeria macro & naira",
+          "date": "2026-07-16T08:00:00.000Z",
+          "peek": "Headline inflation cooled to 15.91% on lower logistics and fuel costs, though food inflation quickened to 17.52% from 16.96% in May."
+    },
+    {
+          "headline": "CBN holds benchmark rate at 26.5% as Middle East tensions cloud outlook",
+          "url": "https://naija247news.com/cbn-holds-benchmark-rate-at-26-5-as-middle-east-tensions-complicate-nigerias-inflation-outlook/",
+          "source": "Naija247news",
+          "category": "Nigeria macro & naira",
+          "date": "2026-07-22T14:00:00.000Z",
+          "peek": "The MPC left the MPR at 26.5% at its 306th meeting, citing geopolitical risk and imported-inflation threat despite easing headline prints."
+    },
+    {
+          "headline": "External reserves rise to $51.92bn, easing FX pressure",
+          "url": "https://allafrica.com/stories/202507220309.html",
+          "source": "AllAfrica",
+          "category": "Nigeria macro & naira",
+          "date": "2026-07-22T10:00:00.000Z",
+          "peek": "Reserves climbed to $51.92bn as of July 16 on CBN reforms, providing a buffer for currency stability and import cover."
+    },
+    {
+          "headline": "Creators debate 'the surprising rise of the naira' — what's driving it",
+          "url": "https://www.youtube.com/watch?v=7KWiScK7_l4",
+          "source": "YouTube",
+          "category": "Nigeria macro & naira",
+          "date": "2026-07-14T08:00:00.000Z",
+          "peek": "Nigerian finance channels dissect the naira's unexpected comeback and whether FX reforms make it durable — high-engagement explainer content."
+    },
+    {
+          "headline": "Quiet-luxury backlash: the 'anti-beige' movement gathers pace",
+          "url": "https://livelovesara.com/2026/07/backlash-summer-capsule-wardrobe-quiet-luxury-reject/",
+          "source": "LiveLoveSara",
+          "category": "Premium & quiet-luxury branding",
+          "date": "2026-07-10T08:00:00.000Z",
+          "peek": "As every brand adopts the same muted palette, consumers push back toward faded fabrics, vintage and visible repairs over 'perfect beige'."
+    },
+    {
+          "headline": "High-end brands are removing logos in 2026",
+          "url": "https://www.influencers-time.com/quiet-luxury-why-high-end-brands-are-removing-logos-in-2026/",
+          "source": "Influencers Time",
+          "category": "Premium & quiet-luxury branding",
+          "date": "2026-06-28T08:00:00.000Z",
+          "peek": "Luxury branding shifts from loud recognition to subtle distinction, where restraint itself signals craftsmanship and cultural relevance."
+    },
+    {
+          "headline": "Creators call it: 'Why quiet luxury is DEAD and what's coming next'",
+          "url": "https://www.youtube.com/watch?v=mBYbfirhVzM",
+          "source": "YouTube",
+          "category": "Premium & quiet-luxury branding",
+          "date": "2026-07-06T08:00:00.000Z",
+          "peek": "Fashion creators argue the aesthetic has saturated into a 'status trap', signalling where premium positioning moves after quiet luxury."
+    },
+    {
+          "headline": "'Your quiet-luxury look is obsolete' — the 2026 status-trap critique",
+          "url": "https://www.youtube.com/watch?v=jzdYaeaAEkM",
+          "source": "YouTube",
+          "category": "Premium & quiet-luxury branding",
+          "date": "2026-07-01T08:00:00.000Z",
+          "peek": "A widely-shared take on how conspicuous restraint became its own uniform — useful signal on where discerning buyers head next."
+    },
+    {
+          "headline": "Show HN: I left Figma to build a diffusion-based UI design tool",
+          "url": "https://news.ycombinator.com/item?id=48995754",
+          "source": "Hacker News",
+          "category": "On-device & AI design tools",
+          "date": "2026-07-11T08:00:00.000Z",
+          "peek": "Founder thread on designing a full web app in a Figma-like canvas then handing off to an agent — active builder discussion on AI-native design."
+    },
+    {
+          "headline": "OpenPencil — AI-native, open-source Figma alternative",
+          "url": "https://news.ycombinator.com/item?id=47215736",
+          "source": "Hacker News",
+          "category": "On-device & AI design tools",
+          "date": "2026-07-03T08:00:00.000Z",
+          "peek": "Open-source, self-hostable design editor where AI works on real editable vector primitives — signal on the local/open design-tool shift."
+    },
+    {
+          "headline": "MOVD: training-free on-device text-to-video diffusion (WACV 2026)",
+          "url": "https://github.com/eai-lab/MOVD",
+          "source": "GitHub",
+          "category": "On-device & AI design tools",
+          "date": "2026-07-07T08:00:00.000Z",
+          "peek": "Runs diffusion video generation on smartphone-grade hardware with no retraining/compression — the frontier of truly on-device creative AI."
+    },
+    {
+          "headline": "NanoFLUX: distillation-driven FLUX compression for mobile devices",
+          "url": "https://arxiv.org/pdf/2602.06879",
+          "source": "arXiv",
+          "category": "On-device & AI design tools",
+          "date": "2026-06-29T08:00:00.000Z",
+          "peek": "First framework to comprehensively compress large text-to-image models for on-device deployment — practical local image-gen for designers."
+    },
+    {
+          "headline": "Figma AI in 2026: Agent, Make and Weave go multi-model",
+          "url": "https://www.banani.co/blog/figma-ai-features-review",
+          "source": "Banani",
+          "category": "On-device & AI design tools",
+          "date": "2026-07-05T08:00:00.000Z",
+          "peek": "Figma Make lets designers pick Claude, Gemini or GPT; Weave chains multiple generative models on a node-based canvas."
+    },
+    {
+          "headline": "Furniture & home-furnishings market hits $1.0tn in 2026",
+          "url": "https://www.barchart.com/story/news/37164774/furniture-and-home-furnishing-market-to-reach-usd-143-trillion-by-2031-driven-by-urban-living-ecommerce-expansion-and-lifestyle-changes",
+          "source": "Barchart",
+          "category": "Furniture & design market",
+          "date": "2026-07-12T08:00:00.000Z",
+          "peek": "The category stands at ~$1.0tn in 2026, projected to $1.43tn by 2031 (7.39% CAGR), with online growing at a 12% clip."
+    },
+    {
+          "headline": "High Point Market signals a turn from minimalism to warmth and craft",
+          "url": "https://www.houzz.com/magazine/8-furniture-trends-to-look-out-for-in-2026-stsetivw-vs~183652982",
+          "source": "Houzz",
+          "category": "Furniture & design market",
+          "date": "2026-07-01T08:00:00.000Z",
+          "peek": "Showrooms confirm a shift to earthy tones, curved silhouettes, burl veneer, inlay and traditional craftsmanship over cool minimal interiors."
+    },
+    {
+          "headline": "Furniture makers bet on modularity, customization and digital buying",
+          "url": "https://www.vividworks.com/blog/furniture-trends-2026",
+          "source": "VividWorks",
+          "category": "Furniture & design market",
+          "date": "2026-06-26T08:00:00.000Z",
+          "peek": "Across B2B and B2C the focus is modular, customizable, sustainable product plus immersive online configurators as e-commerce accelerates."
+    },
+    {
+          "headline": "Designers on YouTube: 2026 is 'the era of honest quality' in furniture",
+          "url": "https://www.youtube.com/watch?v=ytFI7z3XQzw",
+          "source": "YouTube",
+          "category": "Furniture & design market",
+          "date": "2026-07-08T08:00:00.000Z",
+          "peek": "Popular furniture-review channels emphasise craftsmanship and durable materials over trend-chasing — demand signal for premium makers."
+    }
+]
